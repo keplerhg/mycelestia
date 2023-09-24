@@ -1,0 +1,7785 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Chris Laurel
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: celestia 1.7.0\n"
+"Report-Msgid-Bugs-To: team@celestiaproject.space\n"
+"POT-Creation-Date: 2023-09-15 14:52+0300\n"
+"PO-Revision-Date: 2018-05-28 20:47+0300\n"
+"Last-Translator: Alexell <alexell@alexell.ru>\n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/celengine/astro.cpp:645
+msgid "DST"
+msgstr "Nyári idő"
+
+#: ../src/celengine/astro.cpp:645
+msgid "STD"
+msgstr "Téli idő"
+
+#: ../src/celengine/dateformatter.cpp:87 ../src/celestia/win32/winmain.cpp:3356
+#: ../src/celutil/fsutils.cpp:41
+msgid "LANGUAGE"
+msgstr "hu"
+
+#.
+#. // Put AbsMag = avgAbsMag for Add-ons without AbsMag entry
+#. for (int i = 0; i < nDSOs; ++i)
+#. {
+#. if(DSOs[i]->getAbsoluteMagnitude() == DSO_DEFAULT_ABS_MAGNITUDE)
+#. DSOs[i]->setAbsoluteMagnitude((float)avgAbsMag);
+#. }
+#.
+#: ../src/celengine/dsodb.cpp:332
+#, fuzzy
+msgid "Loaded {} deep space objects\n"
+msgstr "Mélyég objektumok"
+
+#: ../src/celengine/galaxy.cpp:94
+#, c-format
+msgid "Galaxy (Hubble type: %s)"
+msgstr "Galaxis (Hubble type: %s)"
+
+#: ../src/celengine/globular.cpp:67
+#, c-format, qt-format
+msgid "Globular (core radius: %4.2f', King concentration: %4.2f)"
+msgstr "Gömbhalmaz (mag sugara: %4.2f', King koncentráció: %4.2f)"
+
+#: ../src/celengine/meshmanager.cpp:451
+#, fuzzy
+msgid "Loading model: {}\n"
+msgstr "Modell betöltése: "
+
+#: ../src/celengine/meshmanager.cpp:466
+msgid "Unknown model format '{}'\n"
+msgstr ""
+
+#: ../src/celengine/meshmanager.cpp:472
+#, fuzzy
+msgid "Error loading model '{}'\n"
+msgstr "Hiba a modell betöltésekor '"
+
+#. Display some statics for the model
+#: ../src/celengine/meshmanager.cpp:493
+msgid ""
+"   Model statistics: {} vertices, {} primitives, {} materials ({} unique)\n"
+msgstr ""
+
+#: ../src/celengine/modelgeometry.cpp:186
+msgid "Mesh index {} is higher than VBO count {}!"
+msgstr ""
+
+#: ../src/celengine/nebula.cpp:34
+msgid "Nebula"
+msgstr "Nebula"
+
+#: ../src/celengine/opencluster.cpp:37
+msgid "Open cluster"
+msgstr "Nyílt galaxishalmazok"
+
+#: ../src/celengine/solarsys.cpp:96
+#, fuzzy
+msgid "Error in .ssc file (line {}): {}\n"
+msgstr "Hiba az .ssc fájlban (sor"
+
+#: ../src/celengine/solarsys.cpp:836
+msgid "Incorrect GeomAlbedo value: {}\n"
+msgstr ""
+
+#: ../src/celengine/solarsys.cpp:845
+msgid "Incorrect Reflectivity value: {}\n"
+msgstr ""
+
+#: ../src/celengine/solarsys.cpp:853
+msgid "Incorrect BondAlbedo value: {}\n"
+msgstr ""
+
+#: ../src/celengine/solarsys.cpp:899
+msgid "Atmosphere must be an associative array.\n"
+msgstr ""
+
+#: ../src/celengine/solarsys.cpp:981
+msgid "Rings must be an associative array.\n"
+msgstr ""
+
+#: ../src/celengine/solarsys.cpp:1231 ../src/celengine/solarsys.cpp:1295
+#, c-format
+msgid "parent body '%s' of '%s' not found.\n"
+msgstr ""
+
+#: ../src/celengine/solarsys.cpp:1241
+#, fuzzy, c-format
+msgid "warning duplicate definition of %s %s\n"
+msgstr "Vigyázat,duplikált definíció "
+
+#: ../src/celengine/solarsys.cpp:1273
+msgid "bad alternate surface"
+msgstr "hibás alternatív felületek"
+
+#: ../src/celengine/solarsys.cpp:1290
+msgid "bad location"
+msgstr "Hibás hely"
+
+#: ../src/celengine/stardb.cpp:344
+#, fuzzy
+msgid "Error in .stc file (line {}): {}\n"
+msgstr "Hiba az .stc fájlban (sor"
+
+#: ../src/celengine/stardb.cpp:760
+#, fuzzy
+msgid "Bad spectral type in star database, star #{}\n"
+msgstr "Rossz spektráltípus a csillag adatbázisban "
+
+#: ../src/celengine/stardb.cpp:781
+#, fuzzy
+msgid "{} stars in binary database\n"
+msgstr "csillagok a bináris adatbázisban\n"
+
+#: ../src/celengine/stardb.cpp:1071
+msgid "Bad header for cross index\n"
+msgstr "Bad header for cross index\n"
+
+#: ../src/celengine/stardb.cpp:1079
+msgid "Bad version for cross index\n"
+msgstr "Rossz keresztindex verzió\n"
+
+#: ../src/celengine/stardb.cpp:1096
+#, fuzzy
+msgid "Loading cross index failed\n"
+msgstr "Hiba a rekord keresztindex betöltésekor"
+
+#: ../src/celengine/stardb.cpp:1107
+#, fuzzy
+msgid "Loading cross index failed - unexpected EOF\n"
+msgstr "Hiba a rekord keresztindex betöltésekor"
+
+#: ../src/celengine/stardb.cpp:1137
+#, fuzzy
+msgid "Total star count: {}\n"
+msgstr "Csillagok száma: "
+
+#: ../src/celengine/stardb.cpp:1235
+msgid "Invalid star: missing right ascension\n"
+msgstr "Érvénytelen csillag: missing right ascension\n"
+
+#: ../src/celengine/stardb.cpp:1246
+msgid "Invalid star: missing declination.\n"
+msgstr "Érvénytelen csillag: hiányzó deklináció. \n"
+
+#: ../src/celengine/stardb.cpp:1257
+msgid "Invalid star: missing distance.\n"
+msgstr "Érvénytelen csillag: hiányzó távolság. \n"
+
+#: ../src/celengine/stardb.cpp:1299
+msgid ""
+"Invalid star: absolute (not apparent) magnitude must be specified for star "
+"near origin\n"
+msgstr ""
+"Érvénytelen csillag: az abszolút (nem a látszó fényesség) magnitúdot meg "
+"kell adni a közelli csillagnál\n"
+
+#: ../src/celengine/stardb.cpp:1306
+msgid "Invalid star: missing magnitude.\n"
+msgstr "Érvénytelen csillag: hiányzó magnitúdó.\n"
+
+#: ../src/celengine/stardb.cpp:1357
+msgid "Invalid star: bad spectral type.\n"
+msgstr "Érvénytelen csillag: hibás spektrál típus.\n"
+
+#. Spectral type is required for new stars
+#: ../src/celengine/stardb.cpp:1364
+msgid "Invalid star: missing spectral type.\n"
+msgstr "Érvénytelen csillag: hibás spektrális típus.\n"
+
+#: ../src/celengine/stardb.cpp:1515 ../src/celengine/stardb.cpp:1517
+#, fuzzy
+msgid "Barycenter {} does not exist.\n"
+msgstr "nem létező.\n"
+
+#: ../src/celengine/texture.cpp:361
+#, fuzzy
+msgid "Creating tiled texture. Width={}, max={}\n"
+msgstr "Darabolt textúra készítése. Szélesség="
+
+#: ../src/celengine/texture.cpp:367
+#, fuzzy
+msgid "Creating ordinary texture: {}x{}\n"
+msgstr "Textúra készítése:"
+
+#: ../src/celephem/samporbit.cpp:815 ../src/tools/xyzv2bin/bin2xyzv.cpp:35
+#, fuzzy
+msgid "Error reading header of {}.\n"
+msgstr "Hiba a PNG képfájlban"
+
+#: ../src/celephem/samporbit.cpp:821 ../src/tools/xyzv2bin/bin2xyzv.cpp:41
+msgid "Bad binary xyzv file {}.\n"
+msgstr ""
+
+#: ../src/celephem/samporbit.cpp:829 ../src/tools/xyzv2bin/bin2xyzv.cpp:49
+msgid "Unsupported byte order {}, expected {}.\n"
+msgstr ""
+
+#: ../src/celephem/samporbit.cpp:838 ../src/tools/xyzv2bin/bin2xyzv.cpp:58
+#, fuzzy
+msgid "Unsupported digits number {}, expected {}.\n"
+msgstr "Supported Extensions:"
+
+#: ../src/celephem/samporbit.cpp:861
+#, fuzzy
+msgid "Error opening {}.\n"
+msgstr "Hiba a megnyitáskor"
+
+#: ../src/celestia/celestiacore.cpp:154 ../src/celestia/scriptmenu.cpp:86
+#: ../src/celscript/lua/luascript.cpp:173
+msgid "Path {} doesn't exist or isn't a directory\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:290
+#, fuzzy
+msgid "Error reading favorites file {}.\n"
+msgstr "Hiba a \"favorites\" fájl olvasásakor."
+
+#: ../src/celestia/celestiacore.cpp:311
+msgid "Failed to check directory existance for favorites file {}\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:319
+msgid "Failed to create a directory for favorites file {}\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:439
+msgid "Invalid filetype"
+msgstr "Érvénytelen fájltípus"
+
+#: ../src/celestia/celestiacore.cpp:779 ../src/celestia/celestiacore.cpp:1484
+#: ../src/celestia/celestiacore.cpp:1501
+#, c-format
+msgid "Magnitude limit: %.2f"
+msgstr "Magnitudó korlát: %.2f"
+
+#: ../src/celestia/celestiacore.cpp:1152
+msgid "Markers enabled"
+msgstr "Jelölők bekapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1155
+msgid "Markers disabled"
+msgstr "Jelölők kikapcsolva"
+
+#. Ctrl+G
+#: ../src/celestia/celestiacore.cpp:1165
+msgid "Goto surface"
+msgstr "Ugrás a felszínre"
+
+#: ../src/celestia/celestiacore.cpp:1176
+msgid "Alt-azimuth mode enabled"
+msgstr "Alt-Aizmuth mód be"
+
+#: ../src/celestia/celestiacore.cpp:1179
+msgid "Alt-azimuth mode disabled"
+msgstr "Alt-Aizmuth mód ki"
+
+#: ../src/celestia/celestiacore.cpp:1235
+msgid "Star style: fuzzy points"
+msgstr "Csillagok megjelenítése: elmosódott pontok"
+
+#: ../src/celestia/celestiacore.cpp:1238
+msgid "Star style: points"
+msgstr "Csillagok megjelenítése: pontok"
+
+#: ../src/celestia/celestiacore.cpp:1241
+msgid "Star style: scaled discs"
+msgstr "Csillagok megjelenítése: méretarányos pöttyök"
+
+#: ../src/celestia/celestiacore.cpp:1254
+msgid "Comet tails enabled"
+msgstr "Üstököscsóvák bekapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1257
+msgid "Comet tails disabled"
+msgstr "Üstököscsóvák kikapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1270
+#, fuzzy
+msgid "Anti-aliasing enabled"
+msgstr "Jelölők bekapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1274
+#, fuzzy
+msgid "Anti-aliasing disabled"
+msgstr "Jelölők kikapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1283
+msgid "Auto-magnitude enabled"
+msgstr "Önműködő fényességállítás be"
+
+#: ../src/celestia/celestiacore.cpp:1288
+msgid "Auto-magnitude disabled"
+msgstr "Önműködő fényességállítás ki"
+
+#: ../src/celestia/celestiacore.cpp:1310
+#: ../src/celestia/win32/res/resource_strings.cpp:96
+#: ../src/celestia/win32/res/resource_strings.cpp:101
+#: ../src/celestia/win32/res/resource_strings.cpp:108
+#: ../src/celestia/win32/res/resource_strings.cpp:121
+#: ../src/celestia/win32/res/resource_strings.cpp:130
+#: ../src/celestia/win32/res/resource_strings.cpp:150
+#: ../src/celestia/win32/res/resource_strings.cpp:160
+#: ../src/celestia/win32/res/resource_strings.cpp:166
+#: ../src/celestia/win32/res/resource_strings.cpp:174
+#: ../src/celestia/win32/res/resource_strings.cpp:240
+msgid "Cancel"
+msgstr "Vissza"
+
+#: ../src/celestia/celestiacore.cpp:1350
+msgid "Time and script are paused"
+msgstr "Idő és szkript megállítása"
+
+#: ../src/celestia/celestiacore.cpp:1352
+msgid "Time is paused"
+msgstr "Idő megállítva"
+
+#: ../src/celestia/celestiacore.cpp:1356
+msgid "Resume"
+msgstr "Tovább"
+
+#: ../src/celestia/celestiacore.cpp:1376
+#, fuzzy
+msgid "Star color: Blackbody D65"
+msgstr "Csillag &böngésző..."
+
+#: ../src/celestia/celestiacore.cpp:1382
+#, fuzzy
+msgid "Star color: Blackbody (Solar Whitepoint)"
+msgstr "Csillag &böngésző..."
+
+#: ../src/celestia/celestiacore.cpp:1388
+#, fuzzy
+msgid "Star color: Blackbody (Vega Whitepoint)"
+msgstr "Csillag &böngésző..."
+
+#: ../src/celestia/celestiacore.cpp:1394
+#, fuzzy
+msgid "Star color: Classic"
+msgstr "Csillagok megjelenítése"
+
+#. Light travel time in years, if >= 1day
+#: ../src/celestia/celestiacore.cpp:1427
+#, fuzzy, c-format
+msgid "Light travel time:  %.4f yr"
+msgstr "Utazási idő fénysebességgel:  %.4f yr "
+
+#: ../src/celestia/celestiacore.cpp:1436
+#, c-format
+msgid "Light travel time:  %d min  %.1f s"
+msgstr "Utazás ideje fénysebességgel:  %d min  %.1f s"
+
+#: ../src/celestia/celestiacore.cpp:1441
+#, c-format
+msgid "Light travel time:  %d h  %d min  %.1f s"
+msgstr "Utazás fénysebességgel:  %d h  %d min  %.1f s"
+
+#: ../src/celestia/celestiacore.cpp:1459
+msgid "Light travel delay included"
+msgstr "Utazás fénysebességgel: bekapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1464
+msgid "Light travel delay switched off"
+msgstr "Utazás fénysebességgel: kikapcsolva"
+
+#: ../src/celestia/celestiacore.cpp:1470
+msgid "Light travel delay ignored"
+msgstr "Utazás fénysebességgel: mellőzve "
+
+#: ../src/celestia/celestiacore.cpp:1513
+msgid "Using normal surface textures."
+msgstr "Normál felületi textúrák alkalmazása."
+
+#: ../src/celestia/celestiacore.cpp:1518
+msgid "Using limit of knowledge surface textures."
+msgstr "Ismereteink határa textúrák "
+
+#: ../src/celestia/celestiacore.cpp:1579
+msgid "Follow"
+msgstr "Követ"
+
+#: ../src/celestia/celestiacore.cpp:1604
+msgid "Time: Forward"
+msgstr "Idő: Előre"
+
+#: ../src/celestia/celestiacore.cpp:1606
+msgid "Time: Backward"
+msgstr "Idő: Vissza"
+
+#: ../src/celestia/celestiacore.cpp:1618 ../src/celestia/celestiacore.cpp:1633
+#, fuzzy, c-format
+msgid "Time rate: %.6g"
+msgstr "Idő múlása: "
+
+#: ../src/celestia/celestiacore.cpp:1673
+#, fuzzy
+msgid "Low res textures"
+msgstr "Textúrák"
+
+#: ../src/celestia/celestiacore.cpp:1676
+#, fuzzy
+msgid "Medium res textures"
+msgstr "Textúrák"
+
+#: ../src/celestia/celestiacore.cpp:1679
+#, fuzzy
+msgid "High res textures"
+msgstr "Textúrák"
+
+#: ../src/celestia/celestiacore.cpp:1726
+msgid "Sync Orbit"
+msgstr "Pálya szinkr."
+
+#: ../src/celestia/celestiacore.cpp:1732
+msgid "Lock"
+msgstr "Rögzít"
+
+#: ../src/celestia/celestiacore.cpp:1738
+msgid "Chase"
+msgstr "Követés"
+
+#: ../src/celestia/celestiacore.cpp:1751 ../src/celestia/celestiacore.cpp:1782
+#, fuzzy, c-format
+msgid "Magnitude limit:  %.2f"
+msgstr "Magnitudó korlát: %.2f"
+
+#: ../src/celestia/celestiacore.cpp:1762 ../src/celestia/celestiacore.cpp:1793
+#, c-format
+msgid "Auto magnitude limit at 45 degrees:  %.2f"
+msgstr "Önműködő fényességállítás 45 foknál:  %.2f"
+
+#: ../src/celestia/celestiacore.cpp:1812 ../src/celestia/celestiacore.cpp:1827
+#, c-format
+msgid "Ambient light level:  %.2f"
+msgstr "Környező fények:  %.2f"
+
+#: ../src/celestia/celestiacore.cpp:1838 ../src/celestia/celestiacore.cpp:1849
+#, c-format
+msgid "Light gain"
+msgstr "Megvilágítás javulása"
+
+#: ../src/celestia/celestiacore.cpp:2183
+msgid "GL error: "
+msgstr "OpenGL hiba: "
+
+#: ../src/celestia/celestiacore.cpp:2376
+msgid "View too small to be split"
+msgstr "A felosztáshoz túl kicsi nézet"
+
+#: ../src/celestia/celestiacore.cpp:2396
+msgid "Added view"
+msgstr "Hozzáadott nézet"
+
+#: ../src/celestia/celestiacore.cpp:2563
+msgid "Mpc"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2568
+msgid "kpc"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2573
+msgid "ly"
+msgstr "fényév"
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:194
+#. i18n: ectx: property (text), widget (QRadioButton, auButton)
+#: ../src/celestia/celestiacore.cpp:2577 ../src/celestia/qt/rc.cpp:36
+#: ../src/celestia/win32/res/resource_strings.cpp:128
+msgid "au"
+msgstr "CSE"
+
+#: ../src/celestia/celestiacore.cpp:2584
+#, fuzzy
+msgid "mi"
+msgstr " m/s"
+
+#: ../src/celestia/celestiacore.cpp:2589
+msgid "ft"
+msgstr ""
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:180
+#. i18n: ectx: property (text), widget (QRadioButton, kmButton)
+#: ../src/celestia/celestiacore.cpp:2597 ../src/celestia/qt/qtinfopanel.cpp:264
+#: ../src/celestia/qt/qtinfopanel.cpp:391 ../src/celestia/qt/rc.cpp:30
+#: ../src/celestia/win32/res/resource_strings.cpp:126
+msgid "km"
+msgstr "km"
+
+#: ../src/celestia/celestiacore.cpp:2602 ../src/celestia/qt/qtinfopanel.cpp:268
+#, fuzzy
+msgid "m"
+msgstr " m/s"
+
+#: ../src/celestia/celestiacore.cpp:2625 ../src/celestia/qt/qtinfopanel.cpp:320
+#: ../src/celestia/qt/qtinfopanel.cpp:353
+#: ../src/celestia/qt/qtinfopanel.cpp:407
+#, fuzzy
+msgid "days"
+msgstr "nap"
+
+#: ../src/celestia/celestiacore.cpp:2630 ../src/celestia/qt/qtinfopanel.cpp:316
+#: ../src/celestia/qt/qtinfopanel.cpp:349
+#, fuzzy
+msgid "hours"
+msgstr "óra"
+
+#: ../src/celestia/celestiacore.cpp:2635
+#, fuzzy
+msgid "minutes"
+msgstr "perc"
+
+#: ../src/celestia/celestiacore.cpp:2640
+#, fuzzy
+msgid "seconds"
+msgstr "másodpercek"
+
+#: ../src/celestia/celestiacore.cpp:2643
+#, fuzzy
+msgid "Rotation period: {} {}\n"
+msgstr "Tengely forgási idő: "
+
+#: ../src/celestia/celestiacore.cpp:2651
+#, c-format
+msgid "Mass: %.6g lb\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2653
+#, c-format
+msgid "Mass: %.6g kg\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2656
+#, c-format
+msgid "Mass: %.2f Mj\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2658
+#, c-format
+msgid "Mass: %.2f Me\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2669
+#, fuzzy
+msgid "ly/s"
+msgstr " fényév/s"
+
+#: ../src/celestia/celestiacore.cpp:2674
+#, fuzzy
+msgid "AU/s"
+msgstr " AU/s"
+
+#: ../src/celestia/celestiacore.cpp:2686
+msgid "mi/s"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2691
+msgid "ft/s"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2699
+#, fuzzy
+msgid "km/s"
+msgstr " km/s"
+
+#: ../src/celestia/celestiacore.cpp:2704
+#, fuzzy
+msgid "m/s"
+msgstr " m/s"
+
+#: ../src/celestia/celestiacore.cpp:2707
+#, fuzzy
+msgid "Speed: {} {}\n"
+msgstr ""
+"\n"
+"Sebesség:  "
+
+#: ../src/celestia/celestiacore.cpp:2739
+#, c-format, qt-format
+msgid "Dec: %+d%s %02d' %.1f\"\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2751
+#, c-format, qt-format
+msgid "RA: %dh %02dm %.1fs\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2767
+#, fuzzy, c-format
+msgid "Apparent diameter: %s\n"
+msgstr "Látszólagos átmérő: "
+
+#: ../src/celestia/celestiacore.cpp:2780
+#, fuzzy, c-format
+msgid "Apparent magnitude: %.1f\n"
+msgstr "Látszólagos fényesség"
+
+#: ../src/celestia/celestiacore.cpp:2784
+#, fuzzy, c-format
+msgid "Absolute magnitude: %.1f\n"
+msgstr "Abszolút fényesség: "
+
+#: ../src/celestia/celestiacore.cpp:2865
+#, c-format
+msgid "%.6f%c %.6f%c %s"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:2893 ../src/celestia/celestiacore.cpp:2966
+#: ../src/celestia/celestiacore.cpp:2997 ../src/celestia/celestiacore.cpp:3075
+#, fuzzy, c-format
+msgid "Distance: %s\n"
+msgstr "Távolság: "
+
+#: ../src/celestia/celestiacore.cpp:2897
+msgid "Star system barycenter\n"
+msgstr "Csillagrendszer tömegközéppontja\n"
+
+#: ../src/celestia/celestiacore.cpp:2901
+#, c-format
+msgid "Abs (app) mag: %.2f (%.2f)\n"
+msgstr "Absz. (látszó) fényesség: %.2f (%.2f)\n"
+
+#: ../src/celestia/celestiacore.cpp:2906
+#, fuzzy
+msgid "Luminosity: {}x Sun\n"
+msgstr "Fényesség: "
+
+#: ../src/celestia/celestiacore.cpp:2912
+msgid "Neutron star"
+msgstr "Neutroncsillag"
+
+#: ../src/celestia/celestiacore.cpp:2915
+msgid "Black hole"
+msgstr "Fekete lyuk"
+
+#: ../src/celestia/celestiacore.cpp:2920
+#, fuzzy, c-format
+msgid "Class: %s\n"
+msgstr "Osztály:"
+
+#: ../src/celestia/celestiacore.cpp:2927
+#, fuzzy, c-format
+msgid "Surface temp: %s\n"
+msgstr "Felszíni hőm.: "
+
+#: ../src/celestia/celestiacore.cpp:2932
+#, fuzzy
+msgid "Radius: {} Rsun  ({})\n"
+msgstr "Sugár: "
+
+#: ../src/celestia/celestiacore.cpp:2938
+#, fuzzy
+msgid "Radius: {}\n"
+msgstr "Sugár: "
+
+#: ../src/celestia/celestiacore.cpp:2954
+msgid "Planetary companions present\n"
+msgstr "Kapcsolódó égitestek\n"
+
+#: ../src/celestia/celestiacore.cpp:2971
+#, fuzzy, c-format
+msgid "Distance from center: %s\n"
+msgstr "Távolság a középponttól:  "
+
+#: ../src/celestia/celestiacore.cpp:2974 ../src/celestia/celestiacore.cpp:3004
+#, fuzzy, c-format
+msgid "Radius: %s\n"
+msgstr "Sugár: "
+
+#: ../src/celestia/celestiacore.cpp:3042
+#, c-format
+msgid "Phase angle: %.1f%s\n"
+msgstr "Fázisszög: %.1f%s\n"
+
+#: ../src/celestia/celestiacore.cpp:3058
+#, c-format
+msgid "Density: %.2f x 1000 lb/ft^3\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:3060
+#, c-format
+msgid "Density: %.2f x 1000 kg/m^3\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:3065
+#, fuzzy, c-format
+msgid "Temperature: %s\n"
+msgstr "Hőmérséklet: "
+
+#: ../src/celestia/celestiacore.cpp:3217
+msgid "  LT"
+msgstr "  LT"
+
+#: ../src/celestia/celestiacore.cpp:3226
+#: ../src/celestia/qt/qttimetoolbar.cpp:46
+msgid "Real time"
+msgstr "Helyi idő"
+
+#: ../src/celestia/celestiacore.cpp:3228
+msgid "-Real time"
+msgstr "-Helyi idő"
+
+#: ../src/celestia/celestiacore.cpp:3232
+msgid "Time stopped"
+msgstr "Idő leállítva"
+
+#: ../src/celestia/celestiacore.cpp:3236
+#, fuzzy, c-format
+msgid "%.6g x faster"
+msgstr "gyorsabb"
+
+#: ../src/celestia/celestiacore.cpp:3240
+#, fuzzy, c-format
+msgid "%.6g x slower"
+msgstr "lassabb"
+
+#: ../src/celestia/celestiacore.cpp:3246
+msgid " (Paused)"
+msgstr "Idő megállítása"
+
+#: ../src/celestia/celestiacore.cpp:3265
+#, c-format
+msgid ""
+"FPS: %.1f, vis. stars stats: [ %zu : %zu : %zu ], vis. DSOs stats: [ %zu : "
+"%zu : %zu ]\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:3274
+#, fuzzy, c-format
+msgid "FPS: %.1f\n"
+msgstr "FPS: "
+
+#: ../src/celestia/celestiacore.cpp:3299
+#, fuzzy
+msgid "Travelling ({})\n"
+msgstr "Utazás"
+
+#: ../src/celestia/celestiacore.cpp:3302
+#, fuzzy
+msgid "Travelling\n"
+msgstr "Utazás"
+
+#: ../src/celestia/celestiacore.cpp:3311
+#, fuzzy, c-format
+msgid "Track %s\n"
+msgstr "Vontat"
+
+#: ../src/celestia/celestiacore.cpp:3327
+#, fuzzy, c-format
+msgid "Follow %s\n"
+msgstr "Követ "
+
+#: ../src/celestia/celestiacore.cpp:3331
+#, fuzzy, c-format
+msgid "Sync Orbit %s\n"
+msgstr "Pálya szinkr."
+
+#: ../src/celestia/celestiacore.cpp:3335
+#, c-format
+msgid "Lock %s -> %s\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:3341
+#, fuzzy, c-format
+msgid "Chase %s\n"
+msgstr "Üldöz"
+
+#: ../src/celestia/celestiacore.cpp:3356
+#, c-format
+msgid "FOV: %s (%.2fx)\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:3540
+#, fuzzy, c-format
+msgid "Target name: %s"
+msgstr "Cél neve: "
+
+#: ../src/celestia/celestiacore.cpp:3621
+#, c-format
+msgid "%dx%d at %.2f fps  %s"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:3624
+#, fuzzy
+msgid "Paused"
+msgstr " Szünet"
+
+#: ../src/celestia/celestiacore.cpp:3624
+#, fuzzy
+msgid "Recording"
+msgstr "Felvétel"
+
+#: ../src/celestia/celestiacore.cpp:3645
+msgid "F11 Start/Pause    F12 Stop"
+msgstr "F11 Start/Szünet    F12 Stop"
+
+#: ../src/celestia/celestiacore.cpp:3656 ../src/celestia/celestiacore.cpp:3659
+msgid "Edit Mode"
+msgstr "Edit Mode"
+
+#: ../src/celestia/celestiacore.cpp:3692
+#, fuzzy
+msgid "Skipping solar system catalog: {}\n"
+msgstr "Naprendszer katalógus betöltése:"
+
+#: ../src/celestia/celestiacore.cpp:3695
+#, fuzzy
+msgid "Loading solar system catalog: {}\n"
+msgstr "Naprendszer katalógus betöltése:"
+
+#: ../src/celestia/celestiacore.cpp:3738
+#, fuzzy
+msgid "Skipping {} catalog: {}\n"
+msgstr "Naprendszer katalógus betöltése:"
+
+#: ../src/celestia/celestiacore.cpp:3741
+#, fuzzy
+msgid "Loading {} catalog: {}\n"
+msgstr "Naprendszer katalógus betöltése:"
+
+#: ../src/celestia/celestiacore.cpp:3749
+#, fuzzy
+msgid "Error reading {} catalog file: {}\n"
+msgstr "Hiba a \"favorites\" fájl olvasásakor."
+
+#: ../src/celestia/celestiacore.cpp:3783
+msgid "Error reading configuration file."
+msgstr "Hiba a konfigurációs fájl olvasásakor."
+
+#: ../src/celestia/celestiacore.cpp:3797
+msgid "Initialization of SPICE library failed."
+msgstr "Hiba a SPICE könyvtár inicializálásakor."
+
+#: ../src/celestia/celestiacore.cpp:3840
+msgid "Cannot read star database."
+msgstr "Csillag adatbázis nem olvasható."
+
+#: ../src/celestia/celestiacore.cpp:3860
+#, fuzzy
+msgid "Error opening deepsky catalog file {}.\n"
+msgstr "Hiba a mélyég katalógus megnyitásakor"
+
+#: ../src/celestia/celestiacore.cpp:3864
+#, fuzzy
+msgid "Cannot read Deep Sky Objects database {}.\n"
+msgstr "Csillag adatbázis nem olvasható."
+
+#: ../src/celestia/celestiacore.cpp:3911
+#, fuzzy
+msgid "Error opening solar system catalog {}.\n"
+msgstr "Hiba a naprendszer katalógus megnyitásakor.\n"
+
+#: ../src/celestia/celestiacore.cpp:3953
+#, fuzzy
+msgid "Error opening constellation boundaries file {}.\n"
+msgstr "Hiba a constellation boundaries fájl megnyitásakor."
+
+#: ../src/celestia/celestiacore.cpp:4120
+msgid "Failed to initialize renderer"
+msgstr "Hiba a renderelő inicializálásánál"
+
+#: ../src/celestia/celestiacore.cpp:4136
+msgid "Error loading font; text will not be visible.\n"
+msgstr "Hiba a font betöltésekor, a szöveg nem jeleníthető meg.\n"
+
+#: ../src/celestia/celestiacore.cpp:4174
+#, fuzzy
+msgid "Error reading cross index {}\n"
+msgstr "Hiba a keresztindex olvasásakor"
+
+#: ../src/celestia/celestiacore.cpp:4176
+#, fuzzy
+msgid "Loaded cross index {}\n"
+msgstr "Cross index betöltve"
+
+#: ../src/celestia/celestiacore.cpp:4193
+msgid "Error reading star names file\n"
+msgstr "Hiba a csillagok nevét tartalmazó fájl megnyitásakor\n"
+
+#: ../src/celestia/celestiacore.cpp:4197 ../src/celestia/celestiacore.cpp:4211
+#, fuzzy
+msgid "Error opening {}\n"
+msgstr "Hiba a megnyitáskor"
+
+#: ../src/celestia/celestiacore.cpp:4217
+msgid "Error reading stars file\n"
+msgstr "Hiba a stars fájl olvasásakor\n"
+
+#: ../src/celestia/celestiacore.cpp:4241
+#, fuzzy
+msgid "Error opening star catalog {}\n"
+msgstr "Hiba a csillag katalógus megnyitásakor"
+
+#: ../src/celestia/celestiacore.cpp:4599
+msgid "Invalid URL"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:4829
+msgid "Unable to capture a frame!\n"
+msgstr ""
+
+#: ../src/celestia/celestiacore.cpp:4840
+#, fuzzy
+msgid "Unsupported image type: {}!\n"
+msgstr "Supported Extensions:"
+
+#: ../src/celestia/celestiacore.cpp:5052
+#, fuzzy
+msgid "Error opening asterisms file {}.\n"
+msgstr "Hiba az asterisms fájl megnyitásakor."
+
+#: ../src/celestia/gtk/actions.cpp:90 ../src/celestia/qt/qtappwin.cpp:742
+#: ../src/celestia/win32/winmain.cpp:163
+msgid "Lossless"
+msgstr ""
+
+#: ../src/celestia/gtk/actions.cpp:91 ../src/celestia/qt/qtappwin.cpp:743
+#: ../src/celestia/win32/winmain.cpp:164
+msgid "Lossy (H.264)"
+msgstr ""
+
+#: ../src/celestia/gtk/actions.cpp:745 ../src/celestia/qt/qtappwin.cpp:1245
+#: ../src/celestia/qt/qtappwin.cpp:1654
+#: ../src/celestia/win32/res/resource_strings.cpp:73
+msgid "About Celestia"
+msgstr "Celestia névjegye"
+
+#: ../src/celestia/gtk/actions.cpp:1107 ../src/celestia/win32/winmain.cpp:2729
+msgid "Please use a name ending in '.jpg' or '.png'."
+msgstr ""
+
+#: ../src/celestia/helper.cpp:106 ../src/celestia/helper.cpp:115
+#, fuzzy, c-format
+msgid "%s Version: %s\n"
+msgstr "Verzió:"
+
+#: ../src/celestia/helper.cpp:109
+#, fuzzy, c-format
+msgid "Vendor: %s\n"
+msgstr "Forgalmazó:"
+
+#: ../src/celestia/helper.cpp:112
+#, fuzzy, c-format
+msgid "Renderer: %s\n"
+msgstr "Megjelenítés"
+
+#: ../src/celestia/helper.cpp:118
+#, fuzzy, c-format
+msgid "Color component: %s\n"
+msgstr "Számítás"
+
+#: ../src/celestia/helper.cpp:121
+#, c-format
+msgid "Depth component: %s\n"
+msgstr ""
+
+#: ../src/celestia/helper.cpp:124
+#, fuzzy, c-format
+msgid "Max simultaneous textures: %s\n"
+msgstr "Max simultaneous textures: "
+
+#: ../src/celestia/helper.cpp:127
+#, fuzzy, c-format
+msgid "Max texture size: %s\n"
+msgstr "Max texture size: "
+
+#: ../src/celestia/helper.cpp:130
+#, fuzzy, c-format
+msgid "Point size range: %s - %s\n"
+msgstr "Point size range: "
+
+#: ../src/celestia/helper.cpp:133
+#, c-format
+msgid "Line width range: %s - %s\n"
+msgstr ""
+
+#: ../src/celestia/helper.cpp:136
+#, fuzzy, c-format
+msgid "Point size granularity: %s\n"
+msgstr "Point size range: "
+
+#: ../src/celestia/helper.cpp:139
+#, fuzzy, c-format
+msgid "Max cube map size: %s\n"
+msgstr "Max cube map size: "
+
+#: ../src/celestia/helper.cpp:142
+#, c-format
+msgid "Number of interpolators: %s\n"
+msgstr ""
+
+#: ../src/celestia/helper.cpp:145
+#, c-format
+msgid "Max anisotropy filtering: %s\n"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:207
+msgid "Auto"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:213
+msgid "Custom"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:254
+msgid "Error getting path for log filename!"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:269
+msgid ""
+"Celestia is unable to run because the data directory was not found, probably "
+"due to improper installation."
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:346
+msgid "Celestial Browser"
+msgstr "Égi objektumok"
+
+#. Info browser for a selected object
+#: ../src/celestia/qt/qtappwin.cpp:352
+#, fuzzy
+msgid "Info Browser"
+msgstr "Égi objektumok"
+
+#. Set up the browser tabs
+#: ../src/celestia/qt/qtappwin.cpp:381
+#: ../src/celestia/win32/res/resource_strings.cpp:177
+msgid "Solar System"
+msgstr "Naprendszer"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:42
+#. i18n: ectx: property (text), widget (QCheckBox, starsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:279
+#. i18n: ectx: property (text), widget (QCheckBox, starOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:499
+#. i18n: ectx: property (text), widget (QCheckBox, starLabelsCheck)
+#: ../src/celestia/qt/qtappwin.cpp:382
+#: ../src/celestia/qt/qtcelestiaactions.cpp:93
+#: ../src/celestia/qt/qtcelestiaactions.cpp:120 ../src/celestia/qt/rc.cpp:72
+#: ../src/celestia/qt/rc.cpp:154 ../src/celestia/qt/rc.cpp:221
+#: ../src/celestia/win32/res/resource_strings.cpp:217
+msgid "Stars"
+msgstr "Csillagok"
+
+#: ../src/celestia/qt/qtappwin.cpp:383
+#, fuzzy
+msgid "Deep Sky Objects"
+msgstr "Mélyég objektumok"
+
+#: ../src/celestia/qt/qtappwin.cpp:390 ../src/celestia/qt/qteventfinder.cpp:412
+#: ../src/celestia/qt/qteventfinder.cpp:422
+#, fuzzy
+msgid "Event Finder"
+msgstr "Fogyatkozás-kereső"
+
+#. addDockWidget(Qt::DockWidgetArea, eventFinder);
+#. Create the time toolbar
+#. i18n: file: ../src/celestia/qt/preferences.ui:1034
+#. i18n: ectx: attribute (title), widget (QWidget, timeTab)
+#: ../src/celestia/qt/qtappwin.cpp:399 ../src/celestia/qt/rc.cpp:351
+msgid "Time"
+msgstr "Idő"
+
+#. Create the guides toolbar
+#. i18n: file: ../src/celestia/qt/preferences.ui:228
+#. i18n: ectx: attribute (title), widget (QWidget, guidesTab)
+#: ../src/celestia/qt/qtappwin.cpp:406 ../src/celestia/qt/rc.cpp:139
+#, fuzzy
+msgid "Guides"
+msgstr "Idegenvezetés"
+
+#: ../src/celestia/qt/qtappwin.cpp:458
+#, fuzzy
+msgid "Full screen"
+msgstr "Tejles képernyő"
+
+#: ../src/celestia/qt/qtappwin.cpp:463
+msgid "ALT+Enter"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:463
+msgid "ALT+Return"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:621
+#, fuzzy
+msgid "Error opening bookmarks file"
+msgstr "Hiba az asterisms fájl megnyitásakor."
+
+#: ../src/celestia/qt/qtappwin.cpp:641
+#, fuzzy
+msgid "Error Saving Bookmarks"
+msgstr "Könyvjelzők"
+
+#: ../src/celestia/qt/qtappwin.cpp:682
+#, fuzzy
+msgid "Save Image"
+msgstr "Mentés másként:"
+
+#: ../src/celestia/qt/qtappwin.cpp:684
+#, fuzzy
+msgid "Images (*.png *.jpg)"
+msgstr "nem PNG fájl.\n"
+
+#: ../src/celestia/qt/qtappwin.cpp:711 ../src/celestia/qt/qtappwin.cpp:723
+msgid "Capture Video"
+msgstr "Video felvétele"
+
+#: ../src/celestia/qt/qtappwin.cpp:713
+#, fuzzy
+msgid "Matroska Video (*.mkv)"
+msgstr "Video felvétele"
+
+#: ../src/celestia/qt/qtappwin.cpp:728
+#, fuzzy
+msgid "Resolution:"
+msgstr "Felbontás:"
+
+#: ../src/celestia/qt/qtappwin.cpp:731
+#, qt-format
+msgid "%1 x %2"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:734
+#: ../src/celestia/win32/res/resource_strings.cpp:155
+msgid "Frame rate:"
+msgstr "Képkocka/másodperc: "
+
+#: ../src/celestia/qt/qtappwin.cpp:740
+msgid "Video codec:"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:747
+#: ../src/celestia/win32/res/resource_strings.cpp:157
+msgid "Bitrate:"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:794
+msgid "Captured screen shot to clipboard"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:806 ../src/celestia/sdl/sdlmain.cpp:596
+#: ../src/celestia/win32/winmain.cpp:3919
+msgid "Copied URL"
+msgstr "URL másolása"
+
+#: ../src/celestia/qt/qtappwin.cpp:817 ../src/celestia/sdl/sdlmain.cpp:608
+#, fuzzy
+msgid "Pasting URL"
+msgstr "URL betöltése:"
+
+#: ../src/celestia/qt/qtappwin.cpp:955
+#, fuzzy
+msgid "Open Script"
+msgstr "&Szkript megnyitása..."
+
+#: ../src/celestia/qt/qtappwin.cpp:958
+msgid "Celestia Scripts (*.celx *.cel)"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:960
+msgid "Celestia Scripts (*.cel)"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1134
+#, fuzzy
+msgid "New bookmark"
+msgstr "Új könyvjelzőmappa létrehozása ebben a menüben"
+
+#: ../src/celestia/qt/qtappwin.cpp:1195
+msgid "<html><h1>Celestia "
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1231
+#, fuzzy
+msgid "Unknown compiler"
+msgstr "Ismeretlen hiba a szkript megnyitásakor"
+
+#: ../src/celestia/qt/qtappwin.cpp:1235 ../src/celestia/qt/qtappwin.cpp:1240
+#, fuzzy
+msgid "supported"
+msgstr "Supported Extensions:"
+
+#: ../src/celestia/qt/qtappwin.cpp:1237 ../src/celestia/qt/qtappwin.cpp:1242
+#, fuzzy
+msgid "not supported"
+msgstr "Supported Extensions:"
+
+#: ../src/celestia/qt/qtappwin.cpp:1265
+#, fuzzy, qt-format
+msgid "<b>%1 version:</b> %2"
+msgstr "<b>Kiterjesztések nélküli OpenGL 1.1</b>"
+
+#: ../src/celestia/qt/qtappwin.cpp:1271
+#, fuzzy, qt-format
+msgid "<b>Vendor:</b> %1"
+msgstr "<b>Kiterjesztések nélküli OpenGL 1.1</b>"
+
+#: ../src/celestia/qt/qtappwin.cpp:1277
+#, fuzzy, qt-format
+msgid "<b>Renderer:</b> %1"
+msgstr "<b>Kiterjesztések nélküli OpenGL 1.1</b>"
+
+#: ../src/celestia/qt/qtappwin.cpp:1284
+#, fuzzy, qt-format
+msgid "<b>%1 Version:</b> %2"
+msgstr "GLSL verzió:"
+
+#: ../src/celestia/qt/qtappwin.cpp:1291
+#, fuzzy, qt-format
+msgid "<b>Max simultaneous textures:</b> %1"
+msgstr "Max simultaneous textures: "
+
+#: ../src/celestia/qt/qtappwin.cpp:1297
+#, fuzzy, qt-format
+msgid "<b>Maximum texture size:</b> %1"
+msgstr "Max texture size: "
+
+#: ../src/celestia/qt/qtappwin.cpp:1303
+#, fuzzy, qt-format
+msgid "<b>Point size range:</b> %1 - %2"
+msgstr "Point size range: "
+
+#: ../src/celestia/qt/qtappwin.cpp:1309
+#, fuzzy, qt-format
+msgid "<b>Point size granularity:</b> %1"
+msgstr "Point size range: "
+
+#: ../src/celestia/qt/qtappwin.cpp:1315
+#, fuzzy, qt-format
+msgid "<b>Max cube map size:</b> %1"
+msgstr "Max cube map size: "
+
+#: ../src/celestia/qt/qtappwin.cpp:1321
+#, fuzzy, qt-format
+msgid "<b>Number of interpolators:</b> %1"
+msgstr "Egyenlítői"
+
+#: ../src/celestia/qt/qtappwin.cpp:1327
+#, qt-format
+msgid "<b>Max anisotropy filtering:</b> %1"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1337
+#, fuzzy
+msgid "<b>Supported extensions:</b><br>\n"
+msgstr "Supported Extensions:"
+
+#: ../src/celestia/qt/qtappwin.cpp:1351
+#, fuzzy
+msgid "Renderer Info"
+msgstr "Megjelenítés"
+
+#. ***** File menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1378
+#: ../src/celestia/win32/res/resource_strings.cpp:1
+msgid "&File"
+msgstr "&Fájl"
+
+#: ../src/celestia/qt/qtappwin.cpp:1381
+#, fuzzy
+msgid "&Grab image"
+msgstr "Kép elmentése"
+
+#: ../src/celestia/qt/qtappwin.cpp:1382
+#, fuzzy
+msgid "F10"
+msgstr "Képernyő-fényképezés...\tF10"
+
+#: ../src/celestia/qt/qtappwin.cpp:1387
+#, fuzzy
+msgid "Capture &video"
+msgstr "Video felvétele"
+
+#: ../src/celestia/qt/qtappwin.cpp:1391
+#, fuzzy
+msgid "Shift+F10"
+msgstr "&Mozgókép felvétele...\tShift+F10"
+
+#: ../src/celestia/qt/qtappwin.cpp:1395
+#, fuzzy
+msgid "&Copy image"
+msgstr "URL másolása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1396
+#, fuzzy
+msgid "Ctrl+Shift+C"
+msgstr "Alt+C"
+
+#: ../src/celestia/qt/qtappwin.cpp:1402
+#: ../src/celestia/win32/res/resource_strings.cpp:2
+msgid "&Open Script..."
+msgstr "&Szkript megnyitása..."
+
+#: ../src/celestia/qt/qtappwin.cpp:1413
+#: ../src/celestia/win32/res/resource_strings.cpp:5
+#: ../src/celestia/win32/res/resource_strings.cpp:67
+msgid "Run &Demo"
+msgstr "&Demo futtatása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1421
+#, fuzzy
+msgid "&Preferences..."
+msgstr "Celestia beállítások"
+
+#: ../src/celestia/qt/qtappwin.cpp:1425
+#: ../src/celestia/win32/res/resource_strings.cpp:8
+msgid "E&xit"
+msgstr "Kilépés"
+
+#: ../src/celestia/qt/qtappwin.cpp:1426
+#, fuzzy
+msgid "Ctrl+Q"
+msgstr "Élsimítás (Antialiasing)\tCtrl+X"
+
+#. ***** Navigation menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1431
+#: ../src/celestia/win32/res/resource_strings.cpp:9
+msgid "&Navigation"
+msgstr "&Navigáció"
+
+#: ../src/celestia/qt/qtappwin.cpp:1433
+#, fuzzy
+msgid "Select Sun"
+msgstr "Kiválaszt"
+
+#: ../src/celestia/qt/qtappwin.cpp:1437
+#, fuzzy
+msgid "Center Selection"
+msgstr "Kijelölt égitest középre\tC"
+
+#: ../src/celestia/qt/qtappwin.cpp:1441
+#, fuzzy
+msgid "Goto Selection"
+msgstr ""
+"\n"
+"Kijelölés: "
+
+#: ../src/celestia/qt/qtappwin.cpp:1445
+#: ../src/celestia/win32/res/resource_strings.cpp:13
+msgid "Goto Object..."
+msgstr "Ugrás a kijelölt égitesthez..."
+
+#: ../src/celestia/qt/qtappwin.cpp:1449
+msgid "Copy URL / console text"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1454
+msgid "Paste URL / console text"
+msgstr ""
+
+#. ***** Time menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1460
+#: ../src/celestia/win32/res/resource_strings.cpp:22
+msgid "&Time"
+msgstr "Idő "
+
+#: ../src/celestia/qt/qtappwin.cpp:1462
+#, fuzzy
+msgid "Set &time"
+msgstr "Idő beállítása..."
+
+#. ***** Display menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1470
+#, fuzzy
+msgid "&Display"
+msgstr "Megjelenítés"
+
+#: ../src/celestia/qt/qtappwin.cpp:1476
+#, fuzzy
+msgid "Dee&p Sky Objects"
+msgstr "Égitestek"
+
+#: ../src/celestia/qt/qtappwin.cpp:1482
+#, fuzzy
+msgid "&Shadows"
+msgstr "Gyűrűárnyékok"
+
+#: ../src/celestia/qt/qtappwin.cpp:1493
+#: ../src/celestia/win32/res/resource_strings.cpp:38
+msgid "Star St&yle"
+msgstr "Csillagok megjelenítése"
+
+#: ../src/celestia/qt/qtappwin.cpp:1500
+#, fuzzy
+msgid "Texture &Resolution"
+msgstr "&Textúra felbontás"
+
+#: ../src/celestia/qt/qtappwin.cpp:1505
+#, fuzzy
+msgid "&FPS control"
+msgstr "Gyorsbillentyűk"
+
+#. ***** Bookmark menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1522
+#: ../src/celestia/win32/res/resource_strings.cpp:63
+#, fuzzy
+msgid "&Bookmarks"
+msgstr "Könyvjelzők"
+
+#. ***** View menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1525
+#: ../src/celestia/win32/res/resource_strings.cpp:56
+msgid "&View"
+msgstr "Nézet"
+
+#. ***** MultiView menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1528
+#, fuzzy
+msgid "&MultiView"
+msgstr "Több Nézet"
+
+#: ../src/celestia/qt/qtappwin.cpp:1531
+#, fuzzy
+msgid "Split view vertically"
+msgstr "Nézet vízszintes felosztása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1532
+#, fuzzy
+msgid "Ctrl+U"
+msgstr "Nézet függőleges felosztása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1537
+#, fuzzy
+msgid "Split view horizontally"
+msgstr "Nézet függőleges felosztása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1538
+#, fuzzy
+msgid "Ctrl+R"
+msgstr "Nézet vízszintes felosztása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1543
+#, fuzzy
+msgid "Cycle views"
+msgstr "Következő nézet"
+
+#: ../src/celestia/qt/qtappwin.cpp:1544
+msgid "Tab"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1549
+#, fuzzy
+msgid "Single view"
+msgstr "Egyablakos nézet"
+
+#: ../src/celestia/qt/qtappwin.cpp:1550
+#, fuzzy
+msgid "Ctrl+D"
+msgstr "Egyablako&s nézet"
+
+#: ../src/celestia/qt/qtappwin.cpp:1555
+#, fuzzy
+msgid "Delete view"
+msgstr "Nézet törlése"
+
+#: ../src/celestia/qt/qtappwin.cpp:1556
+#: ../src/celestia/win32/res/resource_strings.cpp:163
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../src/celestia/qt/qtappwin.cpp:1562
+#, fuzzy
+msgid "Frames visible"
+msgstr "Keret mutatása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1583
+#, fuzzy
+msgid "Active frame visible"
+msgstr "Aktív nézet kerete látható"
+
+#: ../src/celestia/qt/qtappwin.cpp:1599
+#, fuzzy
+msgid "Synchronize time"
+msgstr "Idő szinkronizálása"
+
+#. ***** Help Menu *****
+#: ../src/celestia/qt/qtappwin.cpp:1640
+#: ../src/celestia/win32/res/resource_strings.cpp:66
+msgid "&Help"
+msgstr "Súgó"
+
+#: ../src/celestia/qt/qtappwin.cpp:1642
+#, fuzzy
+msgid "Celestia Guide"
+msgstr "Celestia"
+
+#: ../src/celestia/qt/qtappwin.cpp:1645
+#, fuzzy
+msgid "Celestia Wiki"
+msgstr "Celestia"
+
+#: ../src/celestia/qt/qtappwin.cpp:1650
+#, fuzzy
+msgid "OpenGL Info"
+msgstr "OpenGL adatok"
+
+#: ../src/celestia/qt/qtappwin.cpp:1671
+#, fuzzy
+msgid "Add Bookmark..."
+msgstr "Könyvjelzők hozzáadása"
+
+#: ../src/celestia/qt/qtappwin.cpp:1675
+#, fuzzy
+msgid "Organize Bookmarks..."
+msgstr "Könyvjelzők rendezése..."
+
+#: ../src/celestia/qt/qtappwin.cpp:1720
+msgid "Set custom FPS"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1721
+msgid "FPS value"
+msgstr ""
+
+#: ../src/celestia/qt/qtappwin.cpp:1745
+#, fuzzy, qt-format
+msgid ""
+"Loading data files: %1\n"
+"\n"
+msgstr "Betöltés"
+
+#: ../src/celestia/qt/qtappwin.cpp:1757
+#: ../src/celestia/win32/res/resource_strings.cpp:3
+msgid "Scripts"
+msgstr "Szkriptek"
+
+#: ../src/celestia/qt/qtbookmark.cpp:436
+msgid "Title"
+msgstr ""
+
+#: ../src/celestia/qt/qtbookmark.cpp:438
+#, fuzzy
+msgid "Description"
+msgstr "Időtartam"
+
+#: ../src/celestia/qt/qtbookmark.cpp:623
+#, fuzzy
+msgid "Bookmarks Menu"
+msgstr "Könyvjelzők"
+
+#: ../src/celestia/qt/qtbookmark.cpp:624
+msgid "Add bookmarks to this folder to see them in the bookmarks menu."
+msgstr ""
+
+#: ../src/celestia/qt/qtbookmark.cpp:629
+#, fuzzy
+msgid "Bookmarks Toolbar"
+msgstr "Fő eszköztár"
+
+#: ../src/celestia/qt/qtbookmark.cpp:630
+msgid "Add bookmarks to this folder to see them in the bookmarks toolbar."
+msgstr ""
+
+#: ../src/celestia/qt/qtbookmark.cpp:644
+#, fuzzy
+msgid "Error reading bookmarks file"
+msgstr "Hiba a \"favorites\" fájl olvasásakor."
+
+#: ../src/celestia/qt/qtbookmark.cpp:761
+msgid "Bookmarks"
+msgstr "Könyvjelzők"
+
+#: ../src/celestia/qt/qtbookmark.cpp:850
+#, fuzzy
+msgid "Current simulation time"
+msgstr "Szimuláció idő beállítása"
+
+#: ../src/celestia/qt/qtbookmark.cpp:851
+#, fuzzy
+msgid "Simulation time at activation"
+msgstr "Szimuláció idő beállítása"
+
+#: ../src/celestia/qt/qtbookmark.cpp:852
+#, fuzzy
+msgid "System time at activation"
+msgstr "Idő"
+
+#. i18n: file: ../src/celestia/qt/newbookmarkfolder.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, newBookmarkFolderDialog)
+#. i18n: file: ../src/celestia/qt/organizebookmarks.ui:24
+#. i18n: ectx: property (text), widget (QPushButton, newFolderButton)
+#: ../src/celestia/qt/qtbookmark.cpp:897 ../src/celestia/qt/rc.cpp:39
+#: ../src/celestia/qt/rc.cpp:54
+#, fuzzy
+msgid "New Folder"
+msgstr "Új mappa..."
+
+#. Create the render flags actions
+#: ../src/celestia/qt/qtcelestiaactions.cpp:36
+msgid "Eq"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:37
+#, fuzzy
+msgid "Equatorial coordinate grid"
+msgstr "Égi háló mutatása"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:41
+msgid "Ga"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:42
+#, fuzzy
+msgid "Galactic coordinate grid"
+msgstr "Galaktikus"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:46
+msgid "Ec"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:47
+#, fuzzy
+msgid "Ecliptic coordinate grid"
+msgstr "Ekliptikus"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:51
+msgid "Hz"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:52
+#, fuzzy
+msgid "Horizontal coordinate grid"
+msgstr "Nézet függőleges felosztása"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:56
+msgid "Ecl"
+msgstr ""
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:461
+#. i18n: ectx: property (text), widget (QCheckBox, eclipticLineCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:57 ../src/celestia/qt/rc.cpp:212
+#, fuzzy
+msgid "Ecliptic line"
+msgstr "Ekliptikus vonal"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:61
+#, fuzzy
+msgid "M"
+msgstr " m/s"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:454
+#. i18n: ectx: property (text), widget (QCheckBox, markersCheck)
+#. Controls for marking selected objects
+#: ../src/celestia/qt/qtcelestiaactions.cpp:62
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:590
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:517
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:807
+#: ../src/celestia/qt/rc.cpp:209
+#: ../src/celestia/win32/res/resource_strings.cpp:209
+msgid "Markers"
+msgstr "Jelölők"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:66
+#, fuzzy
+msgid "C"
+msgstr "Kijelölt égitest középre\tC"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:405
+#. i18n: ectx: property (title), widget (QGroupBox, constellationsGroupBox)
+#. i18n: file: ../src/celestia/qt/preferences.ui:583
+#. i18n: ectx: property (text), widget (QCheckBox, constellationLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:67
+#: ../src/celestia/qt/qtcelestiaactions.cpp:133 ../src/celestia/qt/rc.cpp:194
+#: ../src/celestia/qt/rc.cpp:258
+#: ../src/celestia/win32/res/resource_strings.cpp:229
+msgid "Constellations"
+msgstr "Csillagképek"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:71
+#, fuzzy
+msgid "B"
+msgstr "<b>NVIDIA combiners, vertex program nélkül</b>"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:72
+#, fuzzy
+msgid "Constellation boundaries"
+msgstr "Csillagképek határai"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:76
+#, fuzzy
+msgid "O"
+msgstr "OK"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:236
+#. i18n: ectx: property (title), widget (QGroupBox, orbitsGroupBox)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:77 ../src/celestia/qt/rc.cpp:142
+#: ../src/celestia/win32/res/resource_strings.cpp:206
+msgid "Orbits"
+msgstr "Pályák"
+
+#. Skip sorting if we are dealing with the planets in our own Solar System.
+#. i18n: file: ../src/celestia/qt/preferences.ui:49
+#. i18n: ectx: property (text), widget (QCheckBox, planetsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:286
+#. i18n: ectx: property (text), widget (QCheckBox, planetOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:506
+#. i18n: ectx: property (text), widget (QCheckBox, planetLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:94
+#: ../src/celestia/qt/qtcelestiaactions.cpp:121
+#: ../src/celestia/qt/qtselectionpopup.cpp:412
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:101 ../src/celestia/qt/rc.cpp:75
+#: ../src/celestia/qt/rc.cpp:157 ../src/celestia/qt/rc.cpp:224
+#: ../src/celestia/win32/res/resource_strings.cpp:218
+#: ../src/celestia/win32/winmain.cpp:1539
+#: ../src/celestia/win32/winmain.cpp:1577
+#: ../src/celestia/win32/winmain.cpp:1697
+msgid "Planets"
+msgstr "Bolygók"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:95
+#: ../src/celestia/qt/qtcelestiaactions.cpp:122
+#: ../src/celestia/win32/res/resource_strings.cpp:219
+msgid "Dwarf Planets"
+msgstr "Törpe bolygók"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:63
+#. i18n: ectx: property (text), widget (QCheckBox, moonsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:300
+#. i18n: ectx: property (text), widget (QCheckBox, moonOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:520
+#. i18n: ectx: property (text), widget (QCheckBox, moonLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:96
+#: ../src/celestia/qt/qtcelestiaactions.cpp:123
+#: ../src/celestia/qt/qtselectionpopup.cpp:418
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:103 ../src/celestia/qt/rc.cpp:81
+#: ../src/celestia/qt/rc.cpp:163 ../src/celestia/qt/rc.cpp:230
+#: ../src/celestia/win32/res/resource_strings.cpp:220
+#: ../src/celestia/win32/winmain.cpp:1535
+msgid "Moons"
+msgstr "Holdak"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:97
+#: ../src/celestia/qt/qtcelestiaactions.cpp:124
+#: ../src/celestia/win32/res/resource_strings.cpp:221
+msgid "Minor Moons"
+msgstr "Kis holdak"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:77
+#. i18n: ectx: property (text), widget (QCheckBox, asteroidsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:314
+#. i18n: ectx: property (text), widget (QCheckBox, asteroidOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:534
+#. i18n: ectx: property (text), widget (QCheckBox, asteroidLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:98
+#: ../src/celestia/qt/qtcelestiaactions.cpp:125
+#: ../src/celestia/qt/qtselectionpopup.cpp:424
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:775 ../src/celestia/qt/rc.cpp:87
+#: ../src/celestia/qt/rc.cpp:169 ../src/celestia/qt/rc.cpp:236
+#: ../src/celestia/win32/res/resource_strings.cpp:222
+#: ../src/celestia/win32/winmain.cpp:1529
+msgid "Asteroids"
+msgstr "Kisbolygók"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:84
+#. i18n: ectx: property (text), widget (QCheckBox, cometsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:321
+#. i18n: ectx: property (text), widget (QCheckBox, cometOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:541
+#. i18n: ectx: property (text), widget (QCheckBox, cometLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:99
+#: ../src/celestia/qt/qtcelestiaactions.cpp:126
+#: ../src/celestia/qt/qtselectionpopup.cpp:427
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:783 ../src/celestia/qt/rc.cpp:90
+#: ../src/celestia/qt/rc.cpp:172 ../src/celestia/qt/rc.cpp:239
+#: ../src/celestia/win32/res/resource_strings.cpp:223
+#: ../src/celestia/win32/winmain.cpp:1531
+msgid "Comets"
+msgstr "Üstökösök"
+
+#. TRANSLATORS: translate this as plural
+#. i18n: TRANSLATORS: translate this as plural
+#. i18n: file: ../src/celestia/qt/preferences.ui:91
+#. i18n: ectx: property (text), widget (QCheckBox, spacecraftsCheck)
+#. i18n: TRANSLATORS: translate this as plural
+#. i18n: file: ../src/celestia/qt/preferences.ui:328
+#. i18n: ectx: property (text), widget (QCheckBox, spacecraftOrbitsCheck)
+#. i18n: TRANSLATORS: translate this as plural
+#. i18n: file: ../src/celestia/qt/preferences.ui:548
+#. i18n: ectx: property (text), widget (QCheckBox, spacecraftLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:100
+#: ../src/celestia/qt/qtcelestiaactions.cpp:127
+#: ../src/celestia/qt/qtselectionpopup.cpp:430
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:105
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:779 ../src/celestia/qt/rc.cpp:94
+#: ../src/celestia/qt/rc.cpp:176 ../src/celestia/qt/rc.cpp:243
+#: ../src/celestia/win32/res/resource_strings.cpp:224
+#: ../src/celestia/win32/winmain.cpp:1544
+#, fuzzy
+msgctxt "plural"
+msgid "Spacecraft"
+msgstr "Űrhajók"
+
+#. Label actions
+#: ../src/celestia/qt/qtcelestiaactions.cpp:116
+#, fuzzy
+msgid "L"
+msgstr "10x Gyorsabb\tL"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:487
+#. i18n: ectx: attribute (title), widget (QWidget, labelsTab)
+#. i18n: file: ../src/celestia/qt/preferences.ui:493
+#. i18n: ectx: property (title), widget (QGroupBox, labelsGroupBox)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:117 ../src/celestia/qt/rc.cpp:215
+#: ../src/celestia/qt/rc.cpp:218
+#: ../src/celestia/win32/res/resource_strings.cpp:232
+msgid "Labels"
+msgstr "Címkék"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:98
+#. i18n: ectx: property (text), widget (QCheckBox, galaxiesCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:555
+#. i18n: ectx: property (text), widget (QCheckBox, galaxyLabelsCheck)
+#. Buttons to select filtering criterion for dsos
+#: ../src/celestia/qt/qtcelestiaactions.cpp:128
+#: ../src/celestia/qt/qtcelestiaactions.cpp:152
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:478 ../src/celestia/qt/rc.cpp:97
+#: ../src/celestia/qt/rc.cpp:246
+#: ../src/celestia/win32/res/resource_strings.cpp:225
+msgid "Galaxies"
+msgstr "Galaxisok"
+
+#. galaxiesAction->setShortcut(QString("U"));
+#: ../src/celestia/qt/qtcelestiaactions.cpp:129
+#: ../src/celestia/qt/qtcelestiaactions.cpp:154
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:482
+#: ../src/celestia/win32/res/resource_strings.cpp:226
+msgid "Globulars"
+msgstr "Gömbhalmazok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:112
+#. i18n: ectx: property (text), widget (QCheckBox, openClustersCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:569
+#. i18n: ectx: property (text), widget (QCheckBox, openClusterLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:130 ../src/celestia/qt/rc.cpp:103
+#: ../src/celestia/qt/rc.cpp:252
+#, fuzzy
+msgid "Open clusters"
+msgstr "Nyílt galaxishalmazok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, nebulaeCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:562
+#. i18n: ectx: property (text), widget (QCheckBox, nebulaLabelsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:131
+#: ../src/celestia/qt/qtcelestiaactions.cpp:156
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:486 ../src/celestia/qt/rc.cpp:100
+#: ../src/celestia/qt/rc.cpp:249
+#: ../src/celestia/win32/res/resource_strings.cpp:228
+msgid "Nebulae"
+msgstr "Nebulák"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:606
+#. i18n: ectx: property (title), widget (QGroupBox, locationsGroupBox)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:132 ../src/celestia/qt/rc.cpp:261
+#: ../src/celestia/win32/res/resource_strings.cpp:137
+msgid "Locations"
+msgstr "Helyek"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:155
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:490
+#: ../src/celestia/win32/res/resource_strings.cpp:227
+msgid "Open Clusters"
+msgstr "Nyílt galaxishalmazok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, cloudsCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:163 ../src/celestia/qt/rc.cpp:115
+#: ../src/celestia/win32/res/resource_strings.cpp:198
+msgid "Clouds"
+msgstr "Felhők"
+
+#. cloudsAction->setShortcut(QString("I"));
+#: ../src/celestia/qt/qtcelestiaactions.cpp:165
+#: ../src/celestia/win32/res/resource_strings.cpp:202
+msgid "Night Side Lights"
+msgstr "Éjjeli oldal fényei"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:167
+#: ../src/celestia/win32/res/resource_strings.cpp:203
+msgid "Comet Tails"
+msgstr "Üstököscsóvák"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:148
+#. i18n: ectx: property (text), widget (QCheckBox, atmospheresCheck)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:168 ../src/celestia/qt/rc.cpp:112
+#: ../src/celestia/win32/res/resource_strings.cpp:197
+msgid "Atmospheres"
+msgstr "Légkör"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:175
+#: ../src/celestia/win32/res/resource_strings.cpp:200
+msgid "Ring Shadows"
+msgstr "Gyűrűárnyékok"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:176
+#: ../src/celestia/win32/res/resource_strings.cpp:201
+msgid "Eclipse Shadows"
+msgstr "Fogyatkozás-árnyékok"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:178
+#: ../src/celestia/win32/res/resource_strings.cpp:199
+msgid "Cloud Shadows"
+msgstr "Felhőárnyékok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:815
+#. i18n: ectx: property (text), widget (QRadioButton, lowResolutionButton)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:183 ../src/celestia/qt/rc.cpp:312
+msgid "Low"
+msgstr "Alacsony"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:822
+#. i18n: ectx: property (text), widget (QRadioButton, mediumResolutionButton)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:184 ../src/celestia/qt/rc.cpp:315
+msgid "Medium"
+msgstr "Közepes "
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:829
+#. i18n: ectx: property (text), widget (QRadioButton, highResolutionButton)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:185 ../src/celestia/qt/rc.cpp:318
+msgid "High"
+msgstr "Nagy"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:195
+#, fuzzy
+msgid "Auto Magnitude"
+msgstr "Fényesség automatikus beállítása\tCtrl+Y"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:197
+msgid "Faintest visible magnitude based on field of view"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:200
+#, fuzzy
+msgid "More Stars Visible"
+msgstr "Több látható csillag\t]"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:203
+#, fuzzy
+msgid "Fewer Stars Visible"
+msgstr "Kevesebb látható csillag\t["
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:946
+#. i18n: ectx: property (text), widget (QRadioButton, pointStarsButton)
+#: ../src/celestia/qt/qtcelestiaactions.cpp:209 ../src/celestia/qt/rc.cpp:336
+#, fuzzy
+msgid "Points"
+msgstr "&Pontok"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:210
+#, fuzzy
+msgid "Fuzzy Points"
+msgstr "Elmosódott pontok"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:211
+#, fuzzy
+msgid "Scaled Discs"
+msgstr "Méretarányos korongok"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:221
+#, fuzzy
+msgid "Light Time Delay"
+msgstr "Utazás fénysebességgel: kikapcsolva"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:412
+#, fuzzy, qt-format
+msgid "Auto magnitude limit at 45 degrees: %L1"
+msgstr "Önműködő fényességállítás 45 foknál:  %.2f"
+
+#: ../src/celestia/qt/qtcelestiaactions.cpp:419
+#, fuzzy, qt-format
+msgid "Magnitude limit: %L1"
+msgstr "Magnitudó korlát: %.2f"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:353
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:291
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:681
+#: ../src/celestia/win32/res/resource_strings.cpp:94
+#: ../src/celestia/win32/winstarbrowser.cpp:62
+msgid "Name"
+msgstr "Név"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:355
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:293
+#: ../src/celestia/win32/winstarbrowser.cpp:63
+msgid "Distance (ly)"
+msgstr "Távolság (fényév): "
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:357
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:295
+#: ../src/celestia/win32/winstarbrowser.cpp:64
+msgid "App. mag"
+msgstr "Látsz. magn."
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:359
+#: ../src/celestia/win32/winstarbrowser.cpp:65
+msgid "Abs. mag"
+msgstr "Absz. magn."
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:361
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:297
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:503
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:683
+#: ../src/celestia/win32/winstarbrowser.cpp:66
+msgid "Type"
+msgstr "Típus"
+
+#. Buttons to select filtering criterion for stars
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:546
+#, fuzzy
+msgid "Closest Stars"
+msgstr "Csillagok"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:550
+#, fuzzy
+msgid "Brightest Stars"
+msgstr "Legfényesebb"
+
+#. Additional filtering controls
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:560
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:500
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:791
+#, fuzzy
+msgid "Filter"
+msgstr "Csillagok szűrése"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:563
+msgid "With Planets"
+msgstr "Bolygókkal"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:567
+#, fuzzy
+msgid "Multiple Stars"
+msgstr "Csillagok"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:570
+#, fuzzy
+msgid "Barycenters"
+msgstr "Tömegközéppont"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:576
+#, fuzzy
+msgid "Spectral Type"
+msgstr "Rossz spektráltípus a csillag adatbázisban "
+
+#. End filtering controls
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:585
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:512
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:798
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:593
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:520
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:810
+#, fuzzy
+msgid "Mark Selected"
+msgstr "Jelöl"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:595
+#, fuzzy
+msgid "Mark stars selected in list view"
+msgstr "A listázandó csillagok maximális száma"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:598
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:525
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:815
+#, fuzzy
+msgid "Unmark Selected"
+msgstr "Jelöl"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:599
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:816
+msgid "Unmark stars selected in list view"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:603
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:530
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:820
+#, fuzzy
+msgid "Clear Markers"
+msgstr "Jelölők"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:605
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:532
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:822
+msgid "Remove all existing markers"
+msgstr ""
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:612
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:539
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:829
+#: ../src/celestia/win32/res/resource_strings.cpp:235
+msgid "None"
+msgstr "Semmi"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:613
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:540
+#: ../src/celestia/qt/qtselectionpopup.cpp:264
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:830
+msgid "Diamond"
+msgstr "Gyémánt"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:614
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:541
+#: ../src/celestia/qt/qtselectionpopup.cpp:265
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:831
+msgid "Triangle"
+msgstr "Háromszög"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:615
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:542
+#: ../src/celestia/qt/qtselectionpopup.cpp:266
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:832
+msgid "Square"
+msgstr "Négyzet"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:616
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:543
+#: ../src/celestia/qt/qtselectionpopup.cpp:268
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:833
+msgid "Plus"
+msgstr "Plusz"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:617
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:544
+#: ../src/celestia/qt/qtselectionpopup.cpp:269
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:834
+msgid "X"
+msgstr "X"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:618
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:545
+#: ../src/celestia/qt/qtselectionpopup.cpp:274
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:835
+msgid "Circle"
+msgstr "Kör"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:619
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:546
+#: ../src/celestia/qt/qtselectionpopup.cpp:270
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:836
+msgid "Left Arrow"
+msgstr "Balra nyíl"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:620
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:547
+#: ../src/celestia/qt/qtselectionpopup.cpp:271
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:837
+msgid "Right Arrow"
+msgstr "Jobbra nyíl"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:621
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:548
+#: ../src/celestia/qt/qtselectionpopup.cpp:272
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:838
+msgid "Up Arrow"
+msgstr "Felfelé nyíl"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:622
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:549
+#: ../src/celestia/qt/qtselectionpopup.cpp:273
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:839
+msgid "Down Arrow"
+msgstr "Lefelé nyíl"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:624
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:551
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:841
+#, fuzzy
+msgid "Select marker symbol"
+msgstr "Kiválaszt"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:637
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:564
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:854
+#, fuzzy
+msgid "Select marker size"
+msgstr "Méret:"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:641
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:568
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:858
+#, fuzzy
+msgid "Click to select marker color"
+msgstr "Kiválaszt"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:644
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:571
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:861
+#, fuzzy
+msgid "Label"
+msgstr "Tereptárgyak címkéi"
+
+#: ../src/celestia/qt/qtcelestialbrowser.cpp:711
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:624
+#, fuzzy, qt-format
+msgid "%1 objects found"
+msgstr "Égitestek"
+
+#: ../src/celestia/qt/qtcommandline.cpp:16
+msgid "Set the data directory."
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:16
+msgid "datadir"
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:17
+#, fuzzy
+msgid "Set the configuraton file."
+msgstr "Alternatív konfigurációs fájl"
+
+#: ../src/celestia/qt/qtcommandline.cpp:17
+msgid "conf"
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:18
+msgid "Add an extras directory. This option may be specified multiple times."
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:18
+msgid "extrasdir"
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:19
+#, fuzzy
+msgid "Start in fullscreen mode."
+msgstr "Teljesképernyős mód"
+
+#: ../src/celestia/qt/qtcommandline.cpp:20
+#, fuzzy
+msgid "Skip the splash screen."
+msgstr "Nyitókép kikapcsolása"
+
+#: ../src/celestia/qt/qtcommandline.cpp:21
+msgid "Set the start cel:// URL or startup script path."
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:21
+#, fuzzy
+msgid "url"
+msgstr "Júl"
+
+#: ../src/celestia/qt/qtcommandline.cpp:22
+msgid "Set the path to the log file."
+msgstr ""
+
+#: ../src/celestia/qt/qtcommandline.cpp:22
+msgid "logpath"
+msgstr ""
+
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:521
+msgid "Mark DSOs selected in list view"
+msgstr ""
+
+#: ../src/celestia/qt/qtdeepskybrowser.cpp:526
+#, fuzzy
+msgid "Unmark DSOs selected in list view"
+msgstr "Jelöl"
+
+#: ../src/celestia/qt/qteventfinder.cpp:67
+#: ../src/celestia/win32/wineclipses.cpp:295
+msgid "Earth"
+msgstr "Föld"
+
+#: ../src/celestia/qt/qteventfinder.cpp:68
+#: ../src/celestia/win32/wineclipses.cpp:296
+msgid "Jupiter"
+msgstr "Jupiter"
+
+#: ../src/celestia/qt/qteventfinder.cpp:69
+#: ../src/celestia/win32/wineclipses.cpp:297
+msgid "Saturn"
+msgstr "Szaturnusz"
+
+#: ../src/celestia/qt/qteventfinder.cpp:70
+#: ../src/celestia/win32/wineclipses.cpp:298
+msgid "Uranus"
+msgstr "Uránusz"
+
+#: ../src/celestia/qt/qteventfinder.cpp:71
+#: ../src/celestia/win32/wineclipses.cpp:299
+msgid "Neptune"
+msgstr "Neptunusz"
+
+#: ../src/celestia/qt/qteventfinder.cpp:72
+#: ../src/celestia/win32/wineclipses.cpp:300
+msgid "Pluto"
+msgstr "Plútó"
+
+#: ../src/celestia/qt/qteventfinder.cpp:216
+#, fuzzy
+msgid "Eclipsed body"
+msgstr "fő égitest '"
+
+#: ../src/celestia/qt/qteventfinder.cpp:218
+msgid "Occulter"
+msgstr ""
+
+#: ../src/celestia/qt/qteventfinder.cpp:220
+#, fuzzy
+msgid "Start time"
+msgstr "Indítás"
+
+#: ../src/celestia/qt/qteventfinder.cpp:222
+#: ../src/celestia/win32/wineclipses.cpp:67
+msgid "Duration"
+msgstr "Időtartam"
+
+#: ../src/celestia/qt/qteventfinder.cpp:318
+#, fuzzy
+msgid "Solar eclipses"
+msgstr "Napfogyatkozások"
+
+#: ../src/celestia/qt/qteventfinder.cpp:319
+#, fuzzy
+msgid "Lunar eclipses"
+msgstr "Holdfogyatkozások"
+
+#: ../src/celestia/qt/qteventfinder.cpp:320
+#, fuzzy
+msgid "All eclipses"
+msgstr "&Megjelölések megszűntetése"
+
+#. Search the search range box
+#: ../src/celestia/qt/qteventfinder.cpp:328
+#, fuzzy
+msgid "Search range"
+msgstr "Keresés"
+
+#: ../src/celestia/qt/qteventfinder.cpp:354
+#, fuzzy
+msgid "Find eclipses"
+msgstr "Holdfogyatkozások"
+
+#: ../src/celestia/qt/qteventfinder.cpp:411
+#, fuzzy, qt-format
+msgid "%1 is not a valid object"
+msgstr "Égitest: "
+
+#: ../src/celestia/qt/qteventfinder.cpp:423
+msgid "End date is earlier than start date."
+msgstr ""
+
+#: ../src/celestia/qt/qteventfinder.cpp:437
+#, fuzzy
+msgid "Finding eclipses..."
+msgstr "Napfogyatkozások"
+
+#: ../src/celestia/qt/qteventfinder.cpp:470
+#, fuzzy
+msgid "Set time to mid-eclipse"
+msgstr "Pillanatnyi időre állítás"
+
+#: ../src/celestia/qt/qteventfinder.cpp:474
+#, fuzzy, qt-format
+msgid "Near %1"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qteventfinder.cpp:478
+#: ../src/celestia/qt/qteventfinder.cpp:482
+#, fuzzy, qt-format
+msgid "From surface of %1"
+msgstr "Mettől:"
+
+#: ../src/celestia/qt/qteventfinder.cpp:486
+#, fuzzy, qt-format
+msgid "Behind %1"
+msgstr "Időtartam: %1"
+
+#: ../src/celestia/qt/qtglwidget.cpp:105
+msgid "Celestia was unable to initialize OpenGLES 2.0."
+msgstr ""
+
+#: ../src/celestia/qt/qtglwidget.cpp:112
+msgid "Celestia was unable to initialize OpenGL 2.1."
+msgstr ""
+
+#: ../src/celestia/qt/qtinfopanel.cpp:225
+msgid "Error: no object selected!\n"
+msgstr ""
+
+#: ../src/celestia/qt/qtinfopanel.cpp:237
+#: ../src/celestia/qt/qtselectionpopup.cpp:177
+#, fuzzy
+msgid "Info"
+msgstr "&Adatok"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:257
+#, fuzzy, qt-format
+msgid "Web info: %1"
+msgstr "&Adatok"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:273
+#, fuzzy, qt-format
+msgid "<b>Equatorial radius:</b> %L1 %2"
+msgstr "Egyenlítői"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:275
+#, fuzzy, qt-format
+msgid "<b>Size:</b> %L1 %2"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:280
+msgid "<b>Oblateness: "
+msgstr ""
+
+#: ../src/celestia/qt/qtinfopanel.cpp:323
+#, fuzzy, qt-format
+msgid "<b>Sidereal rotation period:</b> %L1 %2"
+msgstr "Tengely forgási idő: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:326
+#, fuzzy
+msgid "Prograde"
+msgstr "Belgrád"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:326
+#, fuzzy
+msgid "Retrograde"
+msgstr "Belgrád"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:327
+#, fuzzy, qt-format
+msgid "<b>Rotation direction:</b> %1"
+msgstr "<b>Kiterjesztések nélküli OpenGL 1.1</b>"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:331
+#, fuzzy, qt-format
+msgid "<b>Length of day:</b> %L1 %2"
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:357
+msgid "years"
+msgstr ""
+
+#: ../src/celestia/qt/qtinfopanel.cpp:362
+msgid "<b>Has rings</b>"
+msgstr ""
+
+#: ../src/celestia/qt/qtinfopanel.cpp:364
+msgid "<b>Has atmosphere</b>"
+msgstr ""
+
+#: ../src/celestia/qt/qtinfopanel.cpp:372
+#, fuzzy, qt-format
+msgid "<b>Start:</b> %1"
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:375
+#, fuzzy, qt-format
+msgid "<b>End:</b> %1"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:377
+#, fuzzy
+msgid "Orbit information"
+msgstr "Adatok"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:378
+#, qt-format
+msgid "Osculating elements for %1"
+msgstr ""
+
+#. stream << "<i>[ Orbit reference plane info goes here ]</i><br>\n";
+#: ../src/celestia/qt/qtinfopanel.cpp:381
+#, fuzzy, qt-format
+msgid "<b>Period:</b> %L1 %2"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:386
+#, fuzzy
+msgid "AU"
+msgstr "CSE"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:394
+#, fuzzy, qt-format
+msgid "<b>Semi-major axis:</b> %L1 %2"
+msgstr "Egyenlítői"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:395
+#, fuzzy, qt-format
+msgid "<b>Eccentricity:</b> %L1"
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:396
+#, fuzzy, qt-format
+msgid "<b>Inclination:</b> %L1%2"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:398
+#, fuzzy, qt-format
+msgid "<b>Pericenter distance:</b> %L1 %2"
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:399
+#, fuzzy, qt-format
+msgid "<b>Apocenter distance:</b> %L1 %2"
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:401
+#, fuzzy, qt-format
+msgid "<b>Ascending node:</b> %L1%2"
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:403
+#, fuzzy, qt-format
+msgid "<b>Argument of periapsis:</b> %L1%2"
+msgstr "Egyenlítői"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:405
+#, fuzzy, qt-format
+msgid "<b>Mean anomaly:</b> %L1%2"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:407
+#, fuzzy, qt-format
+msgid "<b>Period (calculated):</b> %L1 %2"
+msgstr "Tengely forgási idő: "
+
+#: ../src/celestia/qt/qtinfopanel.cpp:430
+#: ../src/celestia/qt/qtinfopanel.cpp:453
+#, fuzzy, qt-format
+msgid "<b>RA:</b> %L1h %L2m %L3s"
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtinfopanel.cpp:434
+#: ../src/celestia/qt/qtinfopanel.cpp:457
+#, fuzzy, qt-format
+msgid "<b>Dec:</b> %L1%2 %L3' %L4\""
+msgstr "Méret: %1 MB"
+
+#. TRANSLATORS: Galactic longitude
+#: ../src/celestia/qt/qtinfopanel.cpp:465
+#, fuzzy, qt-format
+msgid "<b>L:</b> %L1%2 %L3' %L4\""
+msgstr "Méret: %1 MB"
+
+#. TRANSLATORS: Galactic latitude
+#: ../src/celestia/qt/qtinfopanel.cpp:469
+#, fuzzy, qt-format
+msgid "<b>B:</b> %L1%2 %L3' %L4\""
+msgstr "Méret: %1 MB"
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:209
+#, fuzzy
+msgid "OpenGL 2.1"
+msgstr "OpenGL 2.0"
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:253
+#: ../src/celestia/win32/res/resource_strings.cpp:43
+msgid "Blackbody D65"
+msgstr ""
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:254
+#: ../src/celestia/win32/res/resource_strings.cpp:44
+msgid "Blackbody (Solar Whitepoint)"
+msgstr ""
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:255
+#: ../src/celestia/win32/res/resource_strings.cpp:45
+msgid "Blackbody (Vega Whitepoint)"
+msgstr ""
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:256
+#: ../src/celestia/win32/res/resource_strings.cpp:46
+#, fuzzy
+msgid "Classic colors"
+msgstr "Csillagok megjelenítése"
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:262
+#, fuzzy
+msgid "Local format"
+msgstr "Helyi formátum"
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:264
+#, fuzzy
+msgid "Time zone name"
+msgstr "Időzóna neve: "
+
+#: ../src/celestia/qt/qtpreferencesdialog.cpp:265
+#, fuzzy
+msgid "UTC offset"
+msgstr "UTC eltérés"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:97
+#, fuzzy, qt-format
+msgid "Start: %1"
+msgstr "Indítás"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:106
+#, qt-format
+msgid "End: %1"
+msgstr ""
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:128
+msgid "{:.3f} ly"
+msgstr ""
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:130
+msgid "{:.3f} au"
+msgstr ""
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:132
+msgid "{:.3f} km"
+msgstr ""
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:134
+msgid "{:.3f} m"
+msgstr ""
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:136
+msgid "Distance: "
+msgstr "Távolság: "
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:141
+msgid "Abs (app) mag: "
+msgstr "Absz. (app) fény:"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:143
+msgid "Class: "
+msgstr "Osztály:"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:154
+msgid "&Select"
+msgstr "Kiválaszt"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:158
+#: ../src/celestia/win32/res/resource_strings.cpp:178
+#: ../src/celestia/win32/res/resource_strings.cpp:185
+msgid "&Center"
+msgstr "Középre"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:162
+#: ../src/celestia/win32/winmain.cpp:1635
+#: ../src/celestia/win32/winmain.cpp:1685
+#: ../src/celestia/win32/winmain.cpp:1708
+msgid "&Goto"
+msgstr "U&grás"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:166
+#: ../src/celestia/win32/winmain.cpp:1636
+#: ../src/celestia/win32/winmain.cpp:1709
+#, fuzzy
+msgid "&Follow"
+msgstr "Követ "
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:172
+#: ../src/celestia/win32/winmain.cpp:1637
+msgid "S&ync Orbit"
+msgstr "Pálya szinkronizálása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:183
+#, fuzzy
+msgid "Visible"
+msgstr "Aktív nézet kerete látható"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:196
+#: ../src/celestia/win32/winmain.cpp:1722
+msgid "&Unmark"
+msgstr "Jelölés törlése"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:214
+#: ../src/celestia/win32/winmain.cpp:1655
+#, fuzzy
+msgid "Select &Primary Body"
+msgstr "Képernyő üzemmód kiválasztása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:267
+msgid "Filled Square"
+msgstr "Teli négyzet"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:275
+msgid "Disk"
+msgstr "Korong"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:278
+#: ../src/celestia/win32/winmain.cpp:1724
+msgid "&Mark"
+msgstr "Jelöl"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:297
+#: ../src/celestia/win32/winmain.cpp:1640
+msgid "&Reference Marks"
+msgstr "&Referencia vektorok"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:299
+#, fuzzy
+msgid "Show &Body Axes"
+msgstr "Objektumok tengelyének mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:305
+#, fuzzy
+msgid "Show &Frame Axes"
+msgstr "Váz tegelyeinek mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:311
+#, fuzzy
+msgid "Show &Sun Direction"
+msgstr "Nap irányának mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:317
+#, fuzzy
+msgid "Show &Velocity Vector"
+msgstr "Sebességvektor mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:323
+#, fuzzy
+msgid "Show S&pin Vector"
+msgstr "Sebességvektor mutatása"
+
+#. Only show the frame center menu item if the selection orbits another
+#. a non-stellar object. If it orbits a star, this is generally identical
+#. to the sun direction entry.
+#: ../src/celestia/qt/qtselectionpopup.cpp:335
+#, fuzzy, qt-format
+msgid "Show &Direction to %1"
+msgstr "Nap irányának mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:342
+#, fuzzy
+msgid "Show Planetographic &Grid"
+msgstr "Planetáris háló mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:348
+#, fuzzy
+msgid "Show &Terminator"
+msgstr "Lezáró mutatása"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:367
+#: ../src/celestia/win32/winmain.cpp:1672
+msgid "&Alternate Surfaces"
+msgstr "&Alternatív Felületek"
+
+#. TRANSLATORS: normal texture in an alternative surface menu
+#: ../src/celestia/qt/qtselectionpopup.cpp:368
+#: ../src/celestia/win32/winmain.cpp:1609
+msgid "Normal"
+msgstr "Alap"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, dwarfPlanetsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:293
+#. i18n: ectx: property (text), widget (QCheckBox, dwarfPlanetOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:513
+#. i18n: ectx: property (text), widget (QCheckBox, dwarfPlanetLabelsCheck)
+#: ../src/celestia/qt/qtselectionpopup.cpp:415 ../src/celestia/qt/rc.cpp:78
+#: ../src/celestia/qt/rc.cpp:160 ../src/celestia/qt/rc.cpp:227
+#: ../src/celestia/win32/winmain.cpp:1541
+#, fuzzy
+msgid "Dwarf planets"
+msgstr "Törpe bolygók"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:70
+#. i18n: ectx: property (text), widget (QCheckBox, minorMoonsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:307
+#. i18n: ectx: property (text), widget (QCheckBox, minorMoonOrbitsCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:527
+#. i18n: ectx: property (text), widget (QCheckBox, minorMoonLabelsCheck)
+#: ../src/celestia/qt/qtselectionpopup.cpp:421
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:111 ../src/celestia/qt/rc.cpp:84
+#: ../src/celestia/qt/rc.cpp:166 ../src/celestia/qt/rc.cpp:233
+#: ../src/celestia/win32/winmain.cpp:1537
+#, fuzzy
+msgid "Minor moons"
+msgstr "Kis holdak"
+
+#: ../src/celestia/qt/qtselectionpopup.cpp:433
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:117
+#, fuzzy
+msgid "Other objects"
+msgstr "Égitestek"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:62
+#, fuzzy
+msgid "Set Time"
+msgstr "Idő beállítása..."
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:68
+#: ../src/celestia/win32/res/resource_strings.cpp:169
+msgid "Time Zone: "
+msgstr "Időzóna: "
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:73
+#: ../src/celestia/win32/wintime.cpp:94
+msgid "Universal Time"
+msgstr "Csillagidő"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:74
+#: ../src/celestia/win32/wintime.cpp:95
+msgid "Local Time"
+msgstr "Helyi idő"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:79
+#, fuzzy
+msgid "Select Time Zone"
+msgstr "Időzóna: "
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:83
+#, fuzzy
+msgid "Date: "
+msgstr "Dátum"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:101
+#, fuzzy
+msgid "Set Year"
+msgstr "Beállítás"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:104
+#, fuzzy
+msgid "Set Month"
+msgstr "Beállítás"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:107
+#, fuzzy
+msgid "Set Day"
+msgstr "Beállítás"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:111
+#, fuzzy
+msgid "Time: "
+msgstr "Idő "
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:130
+#, fuzzy
+msgid "Set Hours"
+msgstr "óra"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:133
+#: ../src/celestia/qt/qtsettimedialog.cpp:137
+msgid ":"
+msgstr ""
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:134
+#, fuzzy
+msgid "Set Minutes"
+msgstr "perc"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:138
+#, fuzzy
+msgid "Set Seconds"
+msgstr "másodpercek"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:142
+#: ../src/celestia/win32/res/resource_strings.cpp:171
+msgid "Julian Date: "
+msgstr "Julián dátum:"
+
+#: ../src/celestia/qt/qtsettimedialog.cpp:154
+#, fuzzy
+msgid "Set Julian Date"
+msgstr "Julián dátum:"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:59
+#, fuzzy
+msgid "Barycenter"
+msgstr "Tömegközéppont"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:61
+#, fuzzy
+msgid "Star"
+msgstr "Rossz spektráltípus a csillag adatbázisban "
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:69
+#: ../src/celestia/win32/wineclipses.cpp:63
+msgid "Planet"
+msgstr "Bolygó"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:71
+#, fuzzy
+msgid "Dwarf planet"
+msgstr "Törpe bolygó"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:73
+msgid "Moon"
+msgstr "Hold"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:75
+#, fuzzy
+msgid "Minor moon"
+msgstr "Kis holdak"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:77
+msgid "Asteroid"
+msgstr "Kisbolygó"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:79
+msgid "Comet"
+msgstr "Üstökös"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:81
+msgid "Spacecraft"
+msgstr "Űrhajók"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:83
+#, fuzzy
+msgid "Reference point"
+msgstr "&Referencia vektorok"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:85
+#, fuzzy
+msgid "Component"
+msgstr "Számítás"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:87
+#, fuzzy
+msgid "Surface feature"
+msgstr "Ugrás a felszínre"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:91
+#, fuzzy
+msgid "Unknown"
+msgstr "Ismeretlen hiba a szkript megnyitásakor"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:107
+#, fuzzy
+msgid "Asteroids & comets"
+msgstr "Kisbolygók"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:109
+#, fuzzy
+msgid "Reference points"
+msgstr "&Referencia vektorok"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:113
+msgid "Components"
+msgstr ""
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:115
+#, fuzzy
+msgid "Surface features"
+msgstr "Egyéb tereptárgyak"
+
+#. Buttons to select filtering criterion for objects
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:771
+#, fuzzy
+msgid "Planets and moons"
+msgstr "Bolygók"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:802
+#, fuzzy
+msgid "Group objects by class"
+msgstr "Égitestek"
+
+#: ../src/celestia/qt/qtsolarsystembrowser.cpp:812
+msgid "Mark bodies selected in list view"
+msgstr ""
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:34
+#, fuzzy
+msgid "Reverse time"
+msgstr "Idő visszafelé halad"
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:36
+#, fuzzy
+msgid "10x slower"
+msgstr "10x La&ssabb\tK"
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:38
+#, fuzzy
+msgid "2x slower"
+msgstr "lassabb"
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:40
+#, fuzzy
+msgid "Pause time"
+msgstr "Idő megállítása"
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:42
+#, fuzzy
+msgid "2x faster"
+msgstr "gyorsabb"
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:44
+#, fuzzy
+msgid "10x faster"
+msgstr "10x Gyorsabb\tL"
+
+#: ../src/celestia/qt/qttimetoolbar.cpp:48
+#, fuzzy
+msgid "Set to current time"
+msgstr "Helyi idő beállítása"
+
+#. i18n: file: ../src/celestia/qt/addbookmark.ui:16
+#. i18n: ectx: property (windowTitle), widget (QDialog, addBookmarkDialog)
+#: ../src/celestia/qt/rc.cpp:3
+#, fuzzy
+msgid "Bookmark Location"
+msgstr "Hibás hely"
+
+#. i18n: file: ../src/celestia/qt/addbookmark.ui:24
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ../src/celestia/qt/rc.cpp:6
+#, fuzzy
+msgid "Bookmark name:"
+msgstr "Név"
+
+#. i18n: file: ../src/celestia/qt/addbookmark.ui:37
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: ../src/celestia/qt/newbookmarkfolder.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ../src/celestia/qt/rc.cpp:9 ../src/celestia/qt/rc.cpp:45
+#, fuzzy
+msgid "Create in:"
+msgstr "Létrehoz >>"
+
+#. i18n: file: ../src/celestia/qt/addbookmark.ui:44
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ../src/celestia/qt/rc.cpp:12
+#, fuzzy
+msgid "Time source:"
+msgstr "Idő "
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, gotoObjectDialog)
+#: ../src/celestia/qt/rc.cpp:15
+msgid "Dialog"
+msgstr ""
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:56
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ../src/celestia/qt/rc.cpp:18
+#, fuzzy
+msgid "Object name:"
+msgstr "Égitest neve"
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ../src/celestia/qt/rc.cpp:21
+#, fuzzy
+msgid "Longitude:"
+msgstr "Hosszúság: "
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:88
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ../src/celestia/qt/rc.cpp:24
+#, fuzzy
+msgid "Distance:"
+msgstr "Távolság: "
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:166
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ../src/celestia/qt/rc.cpp:27
+#, fuzzy
+msgid "Latitude:"
+msgstr "Szélesség: "
+
+#. i18n: file: ../src/celestia/qt/gotoobjectdialog.ui:187
+#. i18n: ectx: property (text), widget (QRadioButton, radiiButton)
+#: ../src/celestia/qt/rc.cpp:33
+#: ../src/celestia/win32/res/resource_strings.cpp:127
+msgid "radii"
+msgstr "radii"
+
+#. i18n: file: ../src/celestia/qt/newbookmarkfolder.ui:21
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ../src/celestia/qt/rc.cpp:42
+#, fuzzy
+msgid "Name:"
+msgstr "Név"
+
+#. i18n: file: ../src/celestia/qt/newbookmarkfolder.ui:63
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ../src/celestia/qt/rc.cpp:48
+#, fuzzy
+msgid "Description:"
+msgstr "Felbontás:"
+
+#. i18n: file: ../src/celestia/qt/organizebookmarks.ui:13
+#. i18n: ectx: property (windowTitle), widget (QDialog, organizeBookmarksDialog)
+#: ../src/celestia/qt/rc.cpp:51
+#: ../src/celestia/win32/res/resource_strings.cpp:158
+msgid "Organize Bookmarks"
+msgstr "Könyvjelzők rendezése"
+
+#. i18n: file: ../src/celestia/qt/organizebookmarks.ui:31
+#. i18n: ectx: property (text), widget (QPushButton, newSeparatorButton)
+#: ../src/celestia/qt/rc.cpp:57
+#, fuzzy
+msgid "New Separator"
+msgstr "Új mappa..."
+
+#. i18n: file: ../src/celestia/qt/organizebookmarks.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, removeItemButton)
+#: ../src/celestia/qt/rc.cpp:60
+msgid "Remove Item"
+msgstr ""
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, preferencesDialog)
+#: ../src/celestia/qt/rc.cpp:63
+#, fuzzy
+msgid "Preferences"
+msgstr "Celestia beállítások"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:27
+#. i18n: ectx: attribute (title), widget (QWidget, objectsTab)
+#. i18n: file: ../src/celestia/qt/preferences.ui:33
+#. i18n: ectx: property (title), widget (QGroupBox, objectsGroupBox)
+#: ../src/celestia/qt/rc.cpp:66 ../src/celestia/qt/rc.cpp:69
+msgid "Objects"
+msgstr "Égitestek"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, globularClustersCheck)
+#. i18n: file: ../src/celestia/qt/preferences.ui:576
+#. i18n: ectx: property (text), widget (QCheckBox, globularClusterLabelsCheck)
+#: ../src/celestia/qt/rc.cpp:106 ../src/celestia/qt/rc.cpp:255
+#, fuzzy
+msgid "Globular clusters"
+msgstr "Gömbhalmazok címkéinek mutatása"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:142
+#. i18n: ectx: property (title), widget (QGroupBox, featuresGroupBox)
+#: ../src/celestia/qt/rc.cpp:109
+#, fuzzy
+msgid "Features"
+msgstr "Tereptárgyak mutatása"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:162
+#. i18n: ectx: property (text), widget (QCheckBox, cloudShadowsCheck)
+#: ../src/celestia/qt/rc.cpp:118
+#, fuzzy
+msgid "Cloud shadows"
+msgstr "Felhőárnyékok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:169
+#. i18n: ectx: property (text), widget (QCheckBox, eclipseShadowsCheck)
+#: ../src/celestia/qt/rc.cpp:121
+#, fuzzy
+msgid "Eclipse shadows"
+msgstr "Fogyatkozás-árnyékok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:176
+#. i18n: ectx: property (text), widget (QCheckBox, ringShadowsCheck)
+#: ../src/celestia/qt/rc.cpp:124
+#, fuzzy
+msgid "Ring shadows"
+msgstr "Gyűrűárnyékok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:183
+#. i18n: ectx: property (text), widget (QCheckBox, planetRingsCheck)
+#: ../src/celestia/qt/rc.cpp:127
+#, fuzzy
+msgid "Planet's rings"
+msgstr "Bolygók"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:190
+#. i18n: ectx: property (text), widget (QCheckBox, nightsideLightsCheck)
+#: ../src/celestia/qt/rc.cpp:130
+#, fuzzy
+msgid "Nightside lights"
+msgstr "Éjjeli oldal fényei"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:197
+#. i18n: ectx: property (text), widget (QCheckBox, cometTailsCheck)
+#: ../src/celestia/qt/rc.cpp:133
+#, fuzzy
+msgid "Comet tails"
+msgstr "Üstököscsóvák"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:204
+#. i18n: ectx: property (text), widget (QCheckBox, limitOfKnowledgeCheck)
+#: ../src/celestia/qt/rc.cpp:136
+#, fuzzy
+msgid "Limit of knowledge textures"
+msgstr "Ismereteink határa textúrák "
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:242
+#. i18n: ectx: property (text), widget (QCheckBox, orbitsCheck)
+#: ../src/celestia/qt/rc.cpp:145
+#, fuzzy
+msgid "Show orbits"
+msgstr "Pályák mutatása"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:249
+#. i18n: ectx: property (text), widget (QCheckBox, fadingOrbitsCheck)
+#: ../src/celestia/qt/rc.cpp:148
+#: ../src/celestia/win32/res/resource_strings.cpp:207
+#, fuzzy
+msgid "Fading orbits"
+msgstr "Leszállóhelyek"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:256
+#. i18n: ectx: property (text), widget (QCheckBox, partialTrajectoriesCheck)
+#: ../src/celestia/qt/rc.cpp:151
+#: ../src/celestia/win32/res/resource_strings.cpp:208
+#, fuzzy
+msgid "Partial trajectories"
+msgstr "Részleges pályák"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:355
+#. i18n: ectx: property (title), widget (QGroupBox, gridsGroupBox)
+#: ../src/celestia/qt/rc.cpp:179
+#: ../src/celestia/win32/res/resource_strings.cpp:211
+msgid "Grids"
+msgstr "Rácsok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:361
+#. i18n: ectx: property (text), widget (QCheckBox, equatorialGridCheck)
+#: ../src/celestia/qt/rc.cpp:182
+#: ../src/celestia/win32/res/resource_strings.cpp:212
+msgid "Equatorial"
+msgstr "Egyenlítői"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:368
+#. i18n: ectx: property (text), widget (QCheckBox, eclipticGridCheck)
+#: ../src/celestia/qt/rc.cpp:185
+#: ../src/celestia/win32/res/resource_strings.cpp:215
+msgid "Ecliptic"
+msgstr "Ekliptikus"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:375
+#. i18n: ectx: property (text), widget (QCheckBox, galacticGridCheck)
+#: ../src/celestia/qt/rc.cpp:188
+#: ../src/celestia/win32/res/resource_strings.cpp:214
+msgid "Galactic"
+msgstr "Galaktikus"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:382
+#. i18n: ectx: property (text), widget (QCheckBox, horizontalGridCheck)
+#: ../src/celestia/qt/rc.cpp:191
+#: ../src/celestia/win32/res/resource_strings.cpp:213
+msgid "Horizontal"
+msgstr "Nézet függőleges felosztása"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:411
+#. i18n: ectx: property (text), widget (QCheckBox, diagramsCheck)
+#: ../src/celestia/qt/rc.cpp:197
+#: ../src/celestia/win32/res/resource_strings.cpp:230
+msgid "Diagrams"
+msgstr "Diagrammok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:418
+#. i18n: ectx: property (text), widget (QCheckBox, boundariesCheck)
+#: ../src/celestia/qt/rc.cpp:200
+#: ../src/celestia/win32/res/resource_strings.cpp:231
+msgid "Boundaries"
+msgstr "Határok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:425
+#. i18n: ectx: property (text), widget (QCheckBox, latinNamesCheck)
+#: ../src/celestia/qt/rc.cpp:203
+#, fuzzy
+msgid "Latin names"
+msgstr "Latin nevek"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:448
+#. i18n: ectx: property (title), widget (QGroupBox, miscellaneousGroupBox)
+#: ../src/celestia/qt/rc.cpp:206
+msgid "Miscellaneous"
+msgstr ""
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:615
+#. i18n: ectx: property (text), widget (QCheckBox, locationsCheck)
+#: ../src/celestia/qt/rc.cpp:264
+#, fuzzy
+msgid "Show locations"
+msgstr "Városok helyeinek mutatása"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:638
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ../src/celestia/qt/rc.cpp:267
+#, fuzzy
+msgid "Location types:"
+msgstr "Hibás hely"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:647
+#. i18n: ectx: property (text), widget (QCheckBox, citiesCheck)
+#: ../src/celestia/qt/rc.cpp:270
+#: ../src/celestia/win32/res/resource_strings.cpp:138
+msgid "Cities"
+msgstr "Városok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:654
+#. i18n: ectx: property (text), widget (QCheckBox, landingSitesCheck)
+#: ../src/celestia/qt/rc.cpp:273
+#, fuzzy
+msgid "Landing sites"
+msgstr "Leszállóhelyek"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:661
+#. i18n: ectx: property (text), widget (QCheckBox, volcanoesCheck)
+#: ../src/celestia/qt/rc.cpp:276
+#: ../src/celestia/win32/res/resource_strings.cpp:146
+msgid "Volcanoes"
+msgstr "Vulkánok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:668
+#. i18n: ectx: property (text), widget (QCheckBox, observatoriesCheck)
+#: ../src/celestia/qt/rc.cpp:279
+#: ../src/celestia/win32/res/resource_strings.cpp:139
+msgid "Observatories"
+msgstr "Csillagvizsgálók"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:675
+#. i18n: ectx: property (text), widget (QCheckBox, cratersCheck)
+#: ../src/celestia/qt/rc.cpp:282
+#: ../src/celestia/win32/res/resource_strings.cpp:143
+msgid "Craters"
+msgstr "Kráterek"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:682
+#. i18n: ectx: property (text), widget (QCheckBox, montesCheck)
+#: ../src/celestia/qt/rc.cpp:285
+#, fuzzy
+msgid "Montes (mountains)"
+msgstr "Montes (Hegységek)"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:689
+#. i18n: ectx: property (text), widget (QCheckBox, terraeCheck)
+#: ../src/celestia/qt/rc.cpp:288
+#, fuzzy
+msgid "Terrae (land masses)"
+msgstr "Terrae (Szárazföldek)"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:696
+#. i18n: ectx: property (text), widget (QCheckBox, vallesCheck)
+#: ../src/celestia/qt/rc.cpp:291
+#, fuzzy
+msgid "Valles (valleys)"
+msgstr "Valles (Völgyek)"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:703
+#. i18n: ectx: property (text), widget (QCheckBox, mariaCheck)
+#: ../src/celestia/qt/rc.cpp:294
+#, fuzzy
+msgid "Maria (seas)"
+msgstr "Maria (Tengerek)"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:710
+#. i18n: ectx: property (text), widget (QCheckBox, otherLocationsCheck)
+#: ../src/celestia/qt/rc.cpp:297
+#: ../src/celestia/win32/res/resource_strings.cpp:147
+msgid "Other features"
+msgstr "Egyéb tereptárgyak"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:735
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ../src/celestia/qt/rc.cpp:300
+#, fuzzy
+msgid "Minimum labelled feature size:"
+msgstr "Legkisebb megjelenített tereptárgy mérete"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:772
+#. i18n: ectx: property (inputMask), widget (QLineEdit, featureSizeEdit)
+#: ../src/celestia/qt/rc.cpp:303
+msgid "000; "
+msgstr ""
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:801
+#. i18n: ectx: attribute (title), widget (QWidget, renderTab)
+#: ../src/celestia/qt/rc.cpp:306
+#, fuzzy
+msgid "Render"
+msgstr "Megjelenítés"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:809
+#. i18n: ectx: property (title), widget (QGroupBox, textureResolutionGroupBox)
+#: ../src/celestia/qt/rc.cpp:309
+#, fuzzy
+msgid "Texture resolution"
+msgstr "&Textúra felbontás"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:852
+#. i18n: ectx: property (title), widget (QGroupBox, ambientLightGroupBox)
+#: ../src/celestia/qt/rc.cpp:321
+#, fuzzy
+msgid "Ambient light"
+msgstr "Környező fények"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:874
+#. i18n: ectx: property (text), widget (QCheckBox, tintedIlluminationCheck)
+#: ../src/celestia/qt/rc.cpp:324
+#, fuzzy
+msgid "Tinted illumination"
+msgstr "Csillagképek"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:900
+#. i18n: ectx: property (title), widget (QGroupBox, renderPathGroupBox)
+#: ../src/celestia/qt/rc.cpp:327
+#, fuzzy
+msgid "Render path"
+msgstr "Megjelenítési útvonal: "
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:913
+#. i18n: ectx: property (text), widget (QCheckBox, antialiasLinesCheck)
+#: ../src/celestia/qt/rc.cpp:330
+#, fuzzy
+msgid "Antialiased lines"
+msgstr "Sima pályavonalak"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:940
+#. i18n: ectx: property (title), widget (QGroupBox, starStyleGroupBox)
+#: ../src/celestia/qt/rc.cpp:333
+#, fuzzy
+msgid "Star style"
+msgstr "Csillagok megjelenítése: pontok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:953
+#. i18n: ectx: property (text), widget (QRadioButton, fuzzyPointStarsButton)
+#: ../src/celestia/qt/rc.cpp:339
+#, fuzzy
+msgid "Fuzzy points"
+msgstr "Elmosódott pontok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:960
+#. i18n: ectx: property (text), widget (QRadioButton, scaledDiscsButton)
+#: ../src/celestia/qt/rc.cpp:342
+#, fuzzy
+msgid "Scaled discs"
+msgstr "Méretarányos korongok"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:983
+#. i18n: ectx: property (text), widget (QCheckBox, autoMagnitudeCheck)
+#: ../src/celestia/qt/rc.cpp:345
+#, fuzzy
+msgid "Auto-magnitude"
+msgstr "Fényesség automatikus beállítása\tCtrl+Y"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:1006
+#. i18n: ectx: property (title), widget (QGroupBox, starColorGroupBox)
+#: ../src/celestia/qt/rc.cpp:348
+#, fuzzy
+msgid "Star colors"
+msgstr "Csillagok megjelenítése"
+
+#. i18n: file: ../src/celestia/qt/preferences.ui:1043
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ../src/celestia/qt/rc.cpp:354
+#, fuzzy
+msgid "Date display format:"
+msgstr "Megjelenítés"
+
+#: ../src/celestia/qt/xbel.cpp:78
+msgid "Not an XBEL version 1.0 file."
+msgstr ""
+
+#: ../src/celestia/url.cpp:346
+msgid "Incorrect hex value \"{}\"\n"
+msgstr ""
+
+#: ../src/celestia/url.cpp:413
+msgid "URL must start with \"{}\"!\n"
+msgstr ""
+
+#: ../src/celestia/url.cpp:429
+msgid "URL must have at least mode and time!\n"
+msgstr ""
+
+#: ../src/celestia/url.cpp:440
+#, fuzzy
+msgid "Unsupported URL mode \"{}\"!\n"
+msgstr "Supported Extensions:"
+
+#: ../src/celestia/url.cpp:458
+msgid "URL must contain only one body\n"
+msgstr ""
+
+#: ../src/celestia/url.cpp:470
+msgid "URL must contain 2 bodies\n"
+msgstr ""
+
+#: ../src/celestia/url.cpp:511
+msgid "Invalid URL version \"{}\"!\n"
+msgstr ""
+
+#: ../src/celestia/url.cpp:518
+#, fuzzy
+msgid "Unsupported URL version: {}\n"
+msgstr "Supported Extensions:"
+
+#: ../src/celestia/url.cpp:549
+msgid "URL parameter must look like key=value\n"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:4
+msgid "Placeholder"
+msgstr "Leszállóhely"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:6
+msgid "Capture &Image...\tF10"
+msgstr "Képernyő-fényképezés...\tF10"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:7
+msgid "Capture &Movie...\tShift+F10"
+msgstr "&Mozgókép felvétele...\tShift+F10"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:10
+msgid "Select &Sol\tH"
+msgstr "Nap kijelölése \tH"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:11
+msgid "Tour G&uide..."
+msgstr "Idegenvezetés"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:12
+msgid "Select &Object..."
+msgstr "Égitest kiválasztása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:14
+msgid "&Center Selection\tC"
+msgstr "Kijelölt égitest középre\tC"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:15
+msgid "&Go to Selection\tG"
+msgstr "U&grás a kijelölt égitesthez\tG"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:16
+msgid "&Follow Selection\tF"
+msgstr "Kijelölés követése\tF"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:17
+msgid "S&ync Orbit Selection\tY"
+msgstr "Pálya szinkr.\tY"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:18
+msgid "&Track Selection\tT"
+msgstr "Ú&tvonal követése\tT"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:19
+msgid "Solar System &Browser..."
+msgstr "Naprendszer &böngésző"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:20
+msgid "Star B&rowser..."
+msgstr "Csillag &böngésző..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:21
+msgid "&Eclipse Finder"
+msgstr "Fogyatkozásk&ereső"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:23
+msgid "10x &Faster\tL"
+msgstr "10x Gyorsabb\tL"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:24
+msgid "10x &Slower\tK"
+msgstr "10x La&ssabb\tK"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:25
+msgid "Free&ze\tSpace"
+msgstr "Idő megállítása\tSzóköz"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:26
+msgid "&Real Time\t\\"
+msgstr "Valós idő\t\\"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:27
+msgid "Re&verse Time\tJ"
+msgstr "Idő &visszafordítása\tJ"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:28
+msgid "Set &Time..."
+msgstr "Idő beállí&tása..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:29
+msgid "Show Local Time"
+msgstr "Helyi idő"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:30
+msgid "&Render"
+msgstr "Megjelenítés"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:31
+msgid "Select Display Mode..."
+msgstr "Képernyőfelbontás kiválasztása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:32
+msgid "Toggle Full Screen\tAlt+Enter"
+msgstr "Teljesképernyős mód\tAlt+Enter"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:33
+msgid "View Options..."
+msgstr "Megjelenítési beállítások..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:34
+msgid "Locations..."
+msgstr "Helyek..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:35
+msgid "More Stars Visible\t]"
+msgstr "Több látható csillag\t]"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:36
+msgid "Fewer Stars Visible\t["
+msgstr "Kevesebb látható csillag\t["
+
+#: ../src/celestia/win32/res/resource_strings.cpp:37
+msgid "Auto Magnitude\tCtrl+Y"
+msgstr "Fényesség automatikus beállítása\tCtrl+Y"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:39
+msgid "&Points"
+msgstr "&Pontok"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:40
+msgid "&Fuzzy Points"
+msgstr "Elmosódott pontok"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:41
+msgid "Scaled &Discs"
+msgstr "Méretarányos korongok"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:42
+#, fuzzy
+msgid "Star &Color"
+msgstr "Csillagok megjelenítése"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:47
+#, fuzzy
+msgid "&Ambient Light"
+msgstr "Környező fények"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:48
+#, fuzzy
+msgid "&No"
+msgstr "Most"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:49
+msgid "&Weakly"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:50
+msgid "&Moderately"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:51
+msgid "&Texture Resolution"
+msgstr "&Textúra felbontás"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:52
+msgid "&Low"
+msgstr "A&lacsony"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:53
+msgid "&Medium"
+msgstr "Közepes"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:54
+msgid "&High"
+msgstr "&Nagy"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:55
+msgid "Antialiasing\tCtrl+X"
+msgstr "Élsimítás (Antialiasing)\tCtrl+X"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:57
+msgid "Split &Horizontally\tCtrl+R"
+msgstr "Nézet vízszintes felosztása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:58
+msgid "Split &Vertically\tCtrl+U"
+msgstr "Nézet függőleges felosztása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:59
+msgid "&Delete Active View\tDEL"
+msgstr "Felosztás visszavonása\tDEL"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:60
+msgid "&Single View\tCtrl+D"
+msgstr "Egyablako&s nézet"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:61
+msgid "Show &Frames"
+msgstr "Keret mutatása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:62
+#, fuzzy
+msgid "Synchronize &Time"
+msgstr "Idő szinkronizálása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:64
+msgid "&Add Bookmarks..."
+msgstr "Könyvjelzők hozzá&adása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:65
+msgid "&Organize Bookmarks..."
+msgstr "Könyvjelzők rendezése..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:68
+msgid "User &Guide"
+msgstr "Kezelési útmutató"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:69
+msgid "&Controls"
+msgstr "Gyorsbillentyűk"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:70
+#, fuzzy
+msgid "&OpenGL Info"
+msgstr "OpenGL adatok"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:71
+msgid "&License"
+msgstr "&Licensz"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:72
+msgid "&About Celestia"
+msgstr "&Celestia névjegye"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:74
+#: ../src/celestia/win32/res/resource_strings.cpp:95
+#: ../src/celestia/win32/res/resource_strings.cpp:100
+#: ../src/celestia/win32/res/resource_strings.cpp:104
+#: ../src/celestia/win32/res/resource_strings.cpp:107
+#: ../src/celestia/win32/res/resource_strings.cpp:120
+#: ../src/celestia/win32/res/resource_strings.cpp:124
+#: ../src/celestia/win32/res/resource_strings.cpp:136
+#: ../src/celestia/win32/res/resource_strings.cpp:149
+#: ../src/celestia/win32/res/resource_strings.cpp:159
+#: ../src/celestia/win32/res/resource_strings.cpp:165
+#: ../src/celestia/win32/res/resource_strings.cpp:173
+#: ../src/celestia/win32/res/resource_strings.cpp:176
+#: ../src/celestia/win32/res/resource_strings.cpp:188
+#: ../src/celestia/win32/res/resource_strings.cpp:192
+#: ../src/celestia/win32/res/resource_strings.cpp:239
+msgid "OK"
+msgstr "OK"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:75
+msgid "Celestia"
+msgstr "Celestia"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:76
+msgid "1.7.0"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:77
+#, fuzzy
+msgid "Copyright (C) 2001-2021, Celestia Development Team"
+msgstr "Copyright (C) 2001-2008, Celestia Development Team"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:78
+msgid "https://celestiaproject.space/"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:79
+msgid "Celestia is free software and comes with absolutely no warranty."
+msgstr "A Celestia egy szabadon használható szoftver, szavatosság nélkül"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:80
+msgid "Authors"
+msgstr "Szerzők"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:81
+msgid "Chris Laurel"
+msgstr "Chris Laurel"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:82
+msgid "Clint Weisbrod"
+msgstr "Clint Weisbrod"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:83
+msgid "Fridger Schrempp"
+msgstr "Fridger Schrempp"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:84
+msgid "Christophe Teyssier"
+msgstr "Christophe Teyssier"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:85
+msgid "Grant Hutchison"
+msgstr "Grant Hutchison"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:86
+msgid "Pat Suwalski"
+msgstr "Pat Suwalski"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:87
+msgid "Toti"
+msgstr "Toti"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:88
+msgid "Da Woon Jung"
+msgstr "Da Woon Jung"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:89
+msgid "Hank Ramsey"
+msgstr "Hank Ramsey"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:90
+msgid "Bob Ippolito"
+msgstr "Bob Ippolito"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:91
+msgid "Vincent Giangiulio"
+msgstr "Vincent Giangiulio"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:92
+msgid "Andrew Tribick"
+msgstr "Andrew Tribick"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:93
+msgid "Add Bookmark"
+msgstr "Könyvjelző hozzáadása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:97
+msgid "Create in >>"
+msgstr "Létrehoz >>"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:98
+#: ../src/celestia/win32/res/resource_strings.cpp:161
+msgid "New Folder..."
+msgstr "Új mappa..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:99
+msgid "Add New Bookmark Folder"
+msgstr "Új könyvjelzőmappa "
+
+#: ../src/celestia/win32/res/resource_strings.cpp:102
+msgid "Folder Name"
+msgstr "Mappa neve"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:103
+msgid "Celestia Controls"
+msgstr "Celestia gyorsbillentyűk"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:105
+msgid "Select Display Mode"
+msgstr "Képernyő üzemmód kiválasztása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:106
+msgid "Resolution"
+msgstr "Felbontás"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:109
+msgid "Eclipse Finder"
+msgstr "Fogyatkozás-kereső"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:110
+msgid "Compute"
+msgstr "Számítás"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:111
+msgid "Set Date and Go to Planet"
+msgstr "Dátum beállítása és ugrás a bolygóra"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:112
+#, fuzzy
+msgid "Close"
+msgstr "Bezár"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:113
+msgid "From:"
+msgstr "Mettől:"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:114
+msgid "To:"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:115
+msgid "On:"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:116
+msgid "Search parameters"
+msgstr "Keresési beállítások"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:117
+msgid "Solar Eclipses"
+msgstr "Napfogyatkozások"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:118
+msgid "Lunar Eclipses"
+msgstr "Holdfogyatkozások"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:119
+msgid "Select Object"
+msgstr "Égitest kiválasztása: "
+
+#: ../src/celestia/win32/res/resource_strings.cpp:122
+msgid "Object Name"
+msgstr "Égitest neve"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:123
+msgid "OpenGL Driver Info"
+msgstr "OpenGL adatok"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:125
+msgid "Go to Object"
+msgstr "Ugrás az égitesthez: "
+
+#: ../src/celestia/win32/res/resource_strings.cpp:129
+#: ../src/celestia/win32/res/resource_strings.cpp:193
+msgid "Go To"
+msgstr "Ugrás"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:131
+#, fuzzy
+msgid "Object"
+msgstr "Égitest: "
+
+#: ../src/celestia/win32/res/resource_strings.cpp:132
+msgid "Long."
+msgstr "Hossz."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:133
+msgid "Lat."
+msgstr "Szélesség"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:134
+#: ../src/celestia/win32/res/resource_strings.cpp:238
+#, fuzzy
+msgid "Distance"
+msgstr "Távolság: "
+
+#: ../src/celestia/win32/res/resource_strings.cpp:135
+msgid "License"
+msgstr "Licensz"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:140
+msgid "Landing Sites"
+msgstr "Leszállóhelyek"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:141
+msgid "Montes (Mountains)"
+msgstr "Montes (Hegységek)"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:142
+msgid "Maria (Seas)"
+msgstr "Maria (Tengerek)"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:144
+msgid "Valles (Valleys)"
+msgstr "Valles (Völgyek)"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:145
+msgid "Terrae (Land masses)"
+msgstr "Terrae (Szárazföldek)"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:148
+msgid "Label Features"
+msgstr "Tereptárgyak címkéi"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:151
+msgid "Show Features"
+msgstr "Tereptárgyak mutatása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:152
+#, fuzzy
+msgid "Show Label"
+msgstr "Tereptárgyak címkéi"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:153
+msgid "Minimum Labeled Feature Size"
+msgstr "Legkisebb megjelenített tereptárgy mérete"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:154
+msgid "Size:"
+msgstr "Méret:"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:156
+msgid "Codec:"
+msgstr ""
+
+#: ../src/celestia/win32/res/resource_strings.cpp:162
+msgid "Rename..."
+msgstr "Átnevezés..."
+
+#: ../src/celestia/win32/res/resource_strings.cpp:164
+msgid "Rename Bookmark or Folder"
+msgstr "Könyvjelző/Mappa átnevezése"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:167
+msgid "New Name"
+msgstr "Új név"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:168
+msgid "Set Simulation Time"
+msgstr "Szimuláció idő beállítása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:170
+msgid "Format: "
+msgstr "Formátum:"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:172
+msgid "Set To Current Time"
+msgstr "Helyi idő beállítása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:175
+msgid "Solar System Browser"
+msgstr "Naprendszer böngésző"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:179
+#: ../src/celestia/win32/res/resource_strings.cpp:186
+msgid "&Go To"
+msgstr "&Ugrás"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:180
+msgid "Solar System Objects"
+msgstr "Égitestek a Naprendszerben"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:181
+msgid "Star Browser"
+msgstr "Csillag böngésző"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:182
+msgid "Nearest"
+msgstr "Legközelebbi"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:183
+msgid "Brightest"
+msgstr "Legfényesebb"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:184
+#, fuzzy
+msgid "With planets"
+msgstr "Bolygókkal"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:187
+msgid "&Refresh"
+msgstr "F&rissítés"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:189
+msgid "Star Search Criteria"
+msgstr "Csillag keresése"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:190
+msgid "Maximum Stars Displayed in List"
+msgstr "A listázandó csillagok maximális száma"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:191
+msgid "Tour Guide"
+msgstr "Idegenvezetés"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:194
+msgid "Select your destination:"
+msgstr "Úticél kiválasztása"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:195
+msgid "View Options"
+msgstr "Megjelenítési beállítások"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:196
+#, fuzzy
+msgid "Show:"
+msgstr "Mutat"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:204
+#, fuzzy
+msgid "Rings"
+msgstr "Kingston"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:205
+#, fuzzy
+msgid "Display:"
+msgstr "Megjelenítés"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:210
+msgid "Ecliptic Line"
+msgstr "Ekliptikus vonal"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:216
+#, fuzzy
+msgid "Body / Orbit / Label display"
+msgstr "Pályák / Címkék"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:233
+msgid "Latin Names"
+msgstr "Latin nevek"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:234
+msgid "Information Text"
+msgstr "Adatok"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:236
+msgid "Terse"
+msgstr "Tömör"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:237
+msgid "Verbose"
+msgstr "Bőséges"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:241
+#: ../src/celestia/win32/winmain.cpp:3365
+msgid "WinLangID"
+msgstr "40e"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:242
+msgid "Apr"
+msgstr "Ápr"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:242
+msgid "Feb"
+msgstr "Febr"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:242
+msgid "Jan"
+msgstr "Jan"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:242
+msgid "Jun"
+msgstr "Jún"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:242
+msgid "Mar"
+msgstr "Márc"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:242
+msgid "May"
+msgstr "Máj"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:243
+msgid "Aug"
+msgstr "Aug"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:243
+msgid "Dec"
+msgstr "Dec"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:243
+msgid "Jul"
+msgstr "Júl"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:243
+msgid "Nov"
+msgstr "Nov"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:243
+msgid "Oct"
+msgstr "Okt"
+
+#: ../src/celestia/win32/res/resource_strings.cpp:243
+msgid "Sep"
+msgstr "Szept"
+
+#: ../src/celestia/win32/wineclipses.cpp:64
+msgid "Satellite"
+msgstr "Égitest"
+
+#: ../src/celestia/win32/wineclipses.cpp:65
+msgid "Date"
+msgstr "Dátum"
+
+#: ../src/celestia/win32/wineclipses.cpp:66
+msgid "Start"
+msgstr "Indítás"
+
+#: ../src/celestia/win32/winmain.cpp:539
+msgid ""
+"License file missing!\n"
+"See http://www.gnu.org/copyleft/gpl.html"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:705
+#, c-format
+msgid "%d x %d"
+msgstr ""
+
+#. Add windowed mode as the first item on the menu
+#: ../src/celestia/win32/winmain.cpp:1398
+msgid "Windowed Mode"
+msgstr "Ablakos mód"
+
+#: ../src/celestia/win32/winmain.cpp:1533
+msgid "Invisibles"
+msgstr "Láthatatlan objektumok"
+
+#: ../src/celestia/win32/winmain.cpp:1638
+#: ../src/celestia/win32/winmain.cpp:1686
+#: ../src/celestia/win32/winmain.cpp:1710
+msgid "&Info"
+msgstr "&Adatok"
+
+#: ../src/celestia/win32/winmain.cpp:1641
+msgid "Show Body Axes"
+msgstr "Objektumok tengelyének mutatása"
+
+#: ../src/celestia/win32/winmain.cpp:1642
+msgid "Show Frame Axes"
+msgstr "Váz tegelyeinek mutatása"
+
+#: ../src/celestia/win32/winmain.cpp:1643
+msgid "Show Sun Direction"
+msgstr "Nap irányának mutatása"
+
+#: ../src/celestia/win32/winmain.cpp:1644
+msgid "Show Velocity Vector"
+msgstr "Sebességvektor mutatása"
+
+#: ../src/celestia/win32/winmain.cpp:1645
+msgid "Show Planetographic Grid"
+msgstr "Planetáris háló mutatása"
+
+#: ../src/celestia/win32/winmain.cpp:1646
+msgid "Show Terminator"
+msgstr "Lezáró mutatása"
+
+#: ../src/celestia/win32/winmain.cpp:1662
+msgid "&Satellites"
+msgstr "Mellékbolygók"
+
+#: ../src/celestia/win32/winmain.cpp:1695
+msgid "Orbiting Bodies"
+msgstr "Keringő Égitestek"
+
+#: ../src/celestia/win32/winmain.cpp:1814
+#, fuzzy
+msgid "Unable to switch to full screen mode; running in window mode"
+msgstr "Hiba a font betöltésekor, a szöveg nem jeleníthető meg.\n"
+
+#: ../src/celestia/win32/winmain.cpp:1815
+#: ../src/celestia/win32/winmain.cpp:2087
+#: ../src/celestia/win32/winmain.cpp:2730
+#: ../src/celestia/win32/winmain.cpp:2741
+#: ../src/celestia/win32/winmain.cpp:2758
+#: ../src/celestia/win32/winmain.cpp:2839
+#: ../src/celestia/win32/winmain.cpp:2862
+#, fuzzy
+msgid "Error"
+msgstr "Hiba: "
+
+#: ../src/celestia/win32/winmain.cpp:1979
+msgid "Failed to register the window class."
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:1980
+#: ../src/celestia/win32/winmain.cpp:2031
+#: ../src/celestia/win32/winmain.cpp:2055
+#: ../src/celestia/win32/winmain.cpp:2374
+#: ../src/celestia/win32/winmain.cpp:3412
+#: ../src/celestia/win32/winmain.cpp:3483
+msgid "Fatal Error"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2030
+msgid "Could not get appropriate pixel format for OpenGL rendering."
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2054
+msgid "Your system doesn't support OpenGL 2.1!"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2086
+msgid "Releasing device context failed."
+msgstr ""
+
+#. Comment this out if you just want the standard "Save As" caption.
+#: ../src/celestia/win32/winmain.cpp:2696
+msgid "Save As - Specify File to Capture Image"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2740
+msgid "Could not save image file."
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2757
+msgid "Stop current movie capture before starting another one."
+msgstr ""
+
+#. Comment this out if you just want the standard "Save As" caption.
+#: ../src/celestia/win32/winmain.cpp:2783
+msgid "Save As - Specify Output File for Capture Movie"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2838
+msgid "Unknown file extension specified for movie capture."
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2858
+msgid "Specified file extension is not recognized."
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:2860
+#, fuzzy
+msgid "Could not capture movie."
+msgstr "Video felvétele"
+
+#: ../src/celestia/win32/winmain.cpp:3106
+msgid "Directory expected after --dir"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3107
+#: ../src/celestia/win32/winmain.cpp:3120
+#: ../src/celestia/win32/winmain.cpp:3134
+#: ../src/celestia/win32/winmain.cpp:3147
+#: ../src/celestia/win32/winmain.cpp:3163
+#, fuzzy
+msgid "Celestia Command Line Error"
+msgstr "Celestia gyorsbillentyűk"
+
+#: ../src/celestia/win32/winmain.cpp:3119
+msgid "Configuration file name expected after --conf"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3133
+msgid "Directory expected after --extrasdir"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3146
+msgid "URL expected after --url"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3161
+#, c-format
+msgid "Invalid command line option '%s'"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3184
+msgid "Loading: "
+msgstr "Betöltés: "
+
+#: ../src/celestia/win32/winmain.cpp:3249
+#, fuzzy
+msgid "Loading data files..."
+msgstr "Betöltés"
+
+#: ../src/celestia/win32/winmain.cpp:3411
+#, fuzzy
+msgid "Configuration file missing!"
+msgstr "Hiba a konfigurációs fájl olvasásakor."
+
+#: ../src/celestia/win32/winmain.cpp:3447
+msgid ""
+"Old favorites file detected.\n"
+"Copy to the new location?"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3448
+msgid "Copy favorites?"
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:3482
+msgid "Failed to create the application window."
+msgstr ""
+
+#: ../src/celestia/win32/winmain.cpp:4017
+msgid "Loading URL"
+msgstr "URL betöltése:"
+
+#. string s;
+#. s += UTF8ToCurrentCP(_("Version: "));
+#: ../src/celestia/win32/winsplash.cpp:141
+msgid "Version: "
+msgstr "Verzió:"
+
+#: ../src/celestia/win32/wintime.cpp:96
+msgid "Time Zone Name"
+msgstr "Időzóna neve: "
+
+#: ../src/celestia/win32/wintime.cpp:97
+msgid "UTC Offset"
+msgstr "UTC eltérés"
+
+#: ../src/celimage/image.cpp:363
+#, fuzzy
+msgid "Loading image from file {}\n"
+msgstr "Kép betöltése fájlból"
+
+#: ../src/celimage/png.cpp:53
+#, fuzzy
+msgid "Error opening image file {}.\n"
+msgstr "Hiba a képfájl megnyitásakor"
+
+#: ../src/celimage/png.cpp:61
+#, fuzzy
+msgid "Error: {} is not a PNG file.\n"
+msgstr "nem PNG fájl.\n"
+
+#: ../src/celimage/png.cpp:87
+#, fuzzy
+msgid "Error reading PNG image file {}\n"
+msgstr "Hiba a PNG képfájlban"
+
+#: ../src/celimage/png.cpp:177
+msgid "Can't open screen capture file '{}'\n"
+msgstr ""
+
+#: ../src/celimage/png.cpp:226
+#, fuzzy
+msgid "Error writing PNG file '{}'\n"
+msgstr "Hiba a PNG képfájlban"
+
+#: ../src/celscript/legacy/legacyscript.cpp:101
+msgid "Error opening script file."
+msgstr "Hiba a szkript fájl megnyitásakor."
+
+#: ../src/celscript/legacy/legacyscript.cpp:110
+#: ../src/celscript/lua/luascript.cpp:99
+#, fuzzy
+msgid "Unknown error loading script"
+msgstr "Ismeretlen hiba a szkript megnyitásakor"
+
+#. TRANSLATORS: Y is first letter of Yes
+#: ../src/celscript/lua/celx.cpp:430
+msgid "Y"
+msgstr ""
+
+#: ../src/celscript/lua/celx.cpp:731
+msgid "In line {}: {}"
+msgstr ""
+
+#: ../src/celscript/lua/celx.cpp:776
+msgid ""
+"WARNING:\n"
+"\n"
+"This script requests permission to read/write files\n"
+"and execute external programs. Allowing this can be\n"
+"dangerous.\n"
+"Do you trust the script and want to allow this?\n"
+"\n"
+"y = yes, ESC = cancel script, any other key = no"
+msgstr ""
+
+#: ../src/celscript/lua/celx.cpp:787
+msgid ""
+"WARNING:\n"
+"\n"
+"This script requests permission to read/write files\n"
+"and execute external programs. Allowing this can be\n"
+"dangerous.\n"
+"Do you trust the script and want to allow this?"
+msgstr ""
+
+#: ../src/celscript/lua/luascript.cpp:90
+#, fuzzy
+msgid "Error opening script {}"
+msgstr "Hiba a szkript betöltésekor"
+
+#: ../src/celscript/lua/luascript.cpp:107
+#: ../src/celscript/lua/luascript.cpp:242
+msgid "Script coroutine initialization failed"
+msgstr "Hiba a co-routin szkript inicializálásánál"
+
+#: ../src/celscript/lua/luascript.cpp:214
+#, fuzzy
+msgid "Error opening LuaHook {}"
+msgstr "Hiba a szkript megnyitásakor '%s'"
+
+#: ../src/celscript/lua/luascript.cpp:231
+#, fuzzy
+msgid "Unknown error loading hook script"
+msgstr "Ismeretlen hiba a szkript megnyitásakor"
+
+#: ../src/celutil/tzutil.cpp:48
+msgid "Unknown value returned by GetTimeZoneInformation()\n"
+msgstr ""
+
+#: ../src/tools/xyzv2bin/bin2xyzv.cpp:27
+#, fuzzy
+msgid "Error opening {} or {}.\n"
+msgstr "Hiba a megnyitáskor"
+
+#, fuzzy
+#~ msgid "Lighting"
+#~ msgstr "Megvilágítás javulása"
+
+#, fuzzy
+#~ msgid "Error opening config file '{}'.\n"
+#~ msgstr "Hiba a képfájl megnyitásakor"
+
+#, fuzzy
+#~ msgid "{}:{} 'Configuration' expected.\n"
+#~ msgstr "Hiba a konfigurációs fájl olvasásakor."
+
+#, fuzzy
+#~ msgid "{}: Bad configuration file.\n"
+#~ msgstr "Hiba a konfigurációs fájl olvasásakor."
+
+#, fuzzy
+#~ msgid "Star color: Enhanced"
+#~ msgstr "Csillag &böngésző..."
+
+#, fuzzy
+#~ msgid "Shift+F11"
+#~ msgstr "&Mozgókép felvétele...\tShift+F10"
+
+#, fuzzy
+#~ msgid "Celestia Manual"
+#~ msgstr "Celestia"
+
+#~ msgid "S&ynch Orbit"
+#~ msgstr "Pálya szinkr."
+
+#, fuzzy
+#~ msgid "Set time"
+#~ msgstr "Idő beállítása..."
+
+#, fuzzy
+#~ msgid "&Disabled"
+#~ msgstr "Bloom hatás kikapcsolva"
+
+#, fuzzy
+#~ msgid "&Enabled"
+#~ msgstr "Alt-Aizmuth mód be"
+
+#, fuzzy
+#~ msgid "Render path: OpenGL 2.1"
+#~ msgstr "Megjelenítési mód: OpenGL 2.0"
+
+#~ msgid "Bloom enabled"
+#~ msgstr "Bloom hatás bekapcsolva"
+
+#~ msgid "Bloom disabled"
+#~ msgstr "Bloom hatás kikapcsolva"
+
+#~ msgid "Exposure"
+#~ msgstr "Megvilágítottság"
+
+#, fuzzy
+#~ msgid "Video (*.avi)"
+#~ msgstr "Video felvétele"
+
+#~ msgid "Error opening script '%s'"
+#~ msgstr "Hiba a szkript megnyitásakor '%s'"
+
+#, fuzzy
+#~ msgid "Error opening %s.\n"
+#~ msgstr "Hiba a megnyitáskor"
+
+#, fuzzy
+#~ msgid "Error reading header of %s.\n"
+#~ msgstr "Hiba a PNG képfájlban"
+
+#~ msgid "Mercury"
+#~ msgstr "Merkúr"
+
+#~ msgid "Venus"
+#~ msgstr "Vénusz"
+
+#~ msgid "Mars"
+#~ msgstr "Mars"
+
+#~ msgid "Phobos"
+#~ msgstr "Phobos"
+
+#~ msgid "Deimos"
+#~ msgstr "Deimos"
+
+#~ msgid "Io"
+#~ msgstr "Io"
+
+#~ msgid "Europa"
+#~ msgstr "Európa"
+
+#~ msgid "Ganymede"
+#~ msgstr "Ganümédész"
+
+#~ msgid "Callisto"
+#~ msgstr "Kallisztó"
+
+#~ msgid "Mimas"
+#~ msgstr "Mimas"
+
+#~ msgid "Enceladus"
+#~ msgstr "Enceladus"
+
+#~ msgid "Tethys"
+#~ msgstr "Tethys"
+
+#~ msgid "Dione"
+#~ msgstr "Dione"
+
+#~ msgid "Rhea"
+#~ msgstr "Rhea"
+
+#~ msgid "Titan"
+#~ msgstr "Titán"
+
+#~ msgid "Hyperion"
+#~ msgstr "Hyperion"
+
+#~ msgid "Iapetus"
+#~ msgstr "Iapetus"
+
+#~ msgid "Phoebe"
+#~ msgstr "Phoebe"
+
+#~ msgid "Miranda"
+#~ msgstr "Miranda"
+
+#~ msgid "Ariel"
+#~ msgstr "Ariel"
+
+#~ msgid "Umbriel"
+#~ msgstr "Umbriel"
+
+#~ msgid "Titania"
+#~ msgstr "Titania"
+
+#~ msgid "Oberon"
+#~ msgstr "Oberon"
+
+#~ msgid "Proteus"
+#~ msgstr "Proteus"
+
+#~ msgid "Triton"
+#~ msgstr "Triton"
+
+#~ msgid "Nereid"
+#~ msgstr "Nereida"
+
+#~ msgid "Pluto-Charon"
+#~ msgstr "Plútó-Charon"
+
+#~ msgid "Charon"
+#~ msgstr "Charon"
+
+#, fuzzy
+#~ msgid "Haumea"
+#~ msgstr "Noumea"
+
+#, fuzzy
+#~ msgid "Namaka"
+#~ msgstr "Bamakó"
+
+#~ msgid "Amalthea"
+#~ msgstr "Amalthea"
+
+#, fuzzy
+#~ msgid "Pandia"
+#~ msgstr "Pandora"
+
+#, fuzzy
+#~ msgid "Dia"
+#~ msgstr "Diphda"
+
+#, fuzzy
+#~ msgid "Jupiter LV"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXVIII"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LII"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXIV"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Thyone"
+#~ msgstr "Alcyone"
+
+#, fuzzy
+#~ msgid "Jupiter LIV"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LVI"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Kallichore"
+#~ msgstr "Kallisztó"
+
+#, fuzzy
+#~ msgid "Jupiter LXIX"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXXII"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXI"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXX"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LI"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXVII"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Callirrhoe"
+#~ msgstr "Kallisztó"
+
+#, fuzzy
+#~ msgid "Herse"
+#~ msgstr "Tömör"
+
+#, fuzzy
+#~ msgid "Jupiter LXIII"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LXVI"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Jupiter LIX"
+#~ msgstr "Jupiter"
+
+#, fuzzy
+#~ msgid "Pan"
+#~ msgstr "Jan"
+
+#~ msgid "Prometheus"
+#~ msgstr "Prométheusz"
+
+#~ msgid "Pandora"
+#~ msgstr "Pandora"
+
+#~ msgid "Epimetheus"
+#~ msgstr "Epimetheus"
+
+#~ msgid "Janus"
+#~ msgstr "Janus"
+
+#, fuzzy
+#~ msgid "Telesto"
+#~ msgstr "Celestia"
+
+#, fuzzy
+#~ msgid "Skathi"
+#~ msgstr "Skat"
+
+#, fuzzy
+#~ msgid "Albiorix"
+#~ msgstr "Albireo"
+
+#, fuzzy
+#~ msgid "Saturn LX"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LIV"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LIX"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LXI"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LVII"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LV"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LXII"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LXV"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LVI"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LXVI"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LXIV"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LXIII"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Saturn LVIII"
+#~ msgstr "Szaturnusz"
+
+#, fuzzy
+#~ msgid "Portia"
+#~ msgstr "Port-Vila"
+
+#, fuzzy
+#~ msgid "Mab"
+#~ msgstr "Márc"
+
+#, fuzzy
+#~ msgid "Galatea"
+#~ msgstr "Galaxisok"
+
+#~ msgid "Larissa"
+#~ msgstr "Larissa"
+
+#, fuzzy
+#~ msgid "Halimede"
+#~ msgstr "Ganümédész"
+
+#, fuzzy
+#~ msgid "Sao"
+#~ msgstr "Nap"
+
+#~ msgid "NORTH AMERICA"
+#~ msgstr "ÉSZAK AMERIKA"
+
+#~ msgid "SOUTH AMERICA"
+#~ msgstr "DÉL AMERIKA"
+
+#~ msgid "EURASIA"
+#~ msgstr "EURÁZSIA"
+
+#~ msgid "AFRICA"
+#~ msgstr "AFRIKA"
+
+#~ msgid "AUSTRALIA"
+#~ msgstr "AUSZTRÁLIA"
+
+#~ msgid "ANTARCTICA"
+#~ msgstr "ANTARKTISZ"
+
+#~ msgid "NORTH ATLANTIC OCEAN"
+#~ msgstr "ÉSZAK-ATLANTI ÓCEÁN"
+
+#~ msgid "SOUTH ATLANTIC OCEAN"
+#~ msgstr "DÉL ATLANTI ÓCEÁN"
+
+#~ msgid "NORTH PACIFIC OCEAN"
+#~ msgstr "ÉSZAKI CSENDES ÓCEÁN"
+
+#~ msgid "SOUTH PACIFIC OCEAN"
+#~ msgstr "DÉLI CSENDES ÓCEÁN"
+
+#~ msgid "INDIAN OCEAN"
+#~ msgstr "INDIAI ÓCEÁN"
+
+#~ msgid "ARCTIC OCEAN"
+#~ msgstr "ÉSZAKI ÓCEÁN"
+
+#~ msgid "Abu Dhabi"
+#~ msgstr "Abu-Dabi"
+
+#~ msgid "Abuja"
+#~ msgstr "Abuja"
+
+#~ msgid "Accra"
+#~ msgstr "Accra"
+
+#~ msgid "Adamstown"
+#~ msgstr "Adamstown"
+
+#~ msgid "Addis Ababa"
+#~ msgstr "Addisz-Abeba"
+
+#~ msgid "Algiers"
+#~ msgstr "Algír"
+
+#~ msgid "Alofi"
+#~ msgstr "Alofi"
+
+#~ msgid "Amman"
+#~ msgstr "Amman"
+
+#~ msgid "Amsterdam"
+#~ msgstr "Amsterdam"
+
+#~ msgid "Andorra la Vella"
+#~ msgstr "Andorra la Vella"
+
+#~ msgid "Ankara"
+#~ msgstr "Ankara"
+
+#~ msgid "Antananarivo"
+#~ msgstr "Antananarivo"
+
+#~ msgid "Apia"
+#~ msgstr "Apia"
+
+#~ msgid "Ashgabat"
+#~ msgstr "Asgabat"
+
+#~ msgid "Asmara"
+#~ msgstr "Aszmara"
+
+#~ msgid "Asuncion"
+#~ msgstr "Asunción "
+
+#~ msgid "Athens"
+#~ msgstr "Athén"
+
+#~ msgid "Avarua"
+#~ msgstr "Avarua"
+
+#~ msgid "Baghdad"
+#~ msgstr "Bagdad"
+
+#~ msgid "Baku"
+#~ msgstr "Baku"
+
+#~ msgid "Bamako"
+#~ msgstr "Bamakó"
+
+#~ msgid "Bandar Seri Begawan"
+#~ msgstr "Bender Seri Begawan"
+
+#~ msgid "Bangkok"
+#~ msgstr "Bangkok"
+
+#~ msgid "Bangui"
+#~ msgstr "Bangui"
+
+#~ msgid "Banjul"
+#~ msgstr "Banjul"
+
+#~ msgid "Basse-Terre"
+#~ msgstr "Basse-Terre"
+
+#~ msgid "Basseterre"
+#~ msgstr "Basseterre"
+
+#~ msgid "Beijing"
+#~ msgstr "Peking"
+
+#~ msgid "Beirut"
+#~ msgstr "Bejrut"
+
+#~ msgid "Belgrade"
+#~ msgstr "Belgrád"
+
+#~ msgid "Belmopan"
+#~ msgstr "Belmopan"
+
+#~ msgid "Berlin"
+#~ msgstr "Berlin"
+
+#~ msgid "Bern"
+#~ msgstr "Bern"
+
+#~ msgid "Bishkek"
+#~ msgstr "Bishkek"
+
+#~ msgid "Bissau"
+#~ msgstr "Bissau"
+
+#~ msgid "Bloemfontein"
+#~ msgstr "Bloemfontein"
+
+#~ msgid "Bogota"
+#~ msgstr "Bogota"
+
+#~ msgid "Brasilia"
+#~ msgstr "Brazília"
+
+#~ msgid "Bratislava"
+#~ msgstr "Pozsony"
+
+#~ msgid "Brazzaville"
+#~ msgstr "Brazzaville"
+
+#~ msgid "Bridgetown"
+#~ msgstr "Bridgetown"
+
+#~ msgid "Brussels"
+#~ msgstr "Brüsszel"
+
+#~ msgid "Bucharest"
+#~ msgstr "Bukarest"
+
+#~ msgid "Budapest"
+#~ msgstr "Budapest"
+
+#~ msgid "Buenos Aires"
+#~ msgstr "Buenos Aires"
+
+#~ msgid "Bujumbura"
+#~ msgstr "Bujumburai"
+
+#~ msgid "Cairo"
+#~ msgstr "Kairó"
+
+#~ msgid "Canberra"
+#~ msgstr "Canberra"
+
+#~ msgid "Cape Town"
+#~ msgstr "Fokváros"
+
+#~ msgid "Caracas"
+#~ msgstr "Caracas"
+
+#~ msgid "Castries"
+#~ msgstr "Castriest"
+
+#~ msgid "Cayenne"
+#~ msgstr "Cayenne"
+
+#~ msgid "Charlotte Amalie"
+#~ msgstr "Charlotte Amalie"
+
+#~ msgid "Chisinau"
+#~ msgstr "Kisinyov"
+
+#~ msgid "Colombo"
+#~ msgstr "Colombó"
+
+#~ msgid "Conakry"
+#~ msgstr "Conakry"
+
+#~ msgid "Copenhagen"
+#~ msgstr "Koppenhága"
+
+#~ msgid "Cotonou"
+#~ msgstr "Cotonou"
+
+#~ msgid "Dakar"
+#~ msgstr "Dakar"
+
+#~ msgid "Damascus"
+#~ msgstr "Damaszkusz"
+
+#~ msgid "Dar es Salaam"
+#~ msgstr "Dar es Salaam"
+
+#~ msgid "Dhaka"
+#~ msgstr "Dhaka"
+
+#~ msgid "Dili"
+#~ msgstr "Dili"
+
+#~ msgid "Djibouti"
+#~ msgstr "Dzsibuti"
+
+#~ msgid "Doha"
+#~ msgstr "Doha"
+
+#~ msgid "Douglas"
+#~ msgstr "Douglas"
+
+#~ msgid "Dublin"
+#~ msgstr "Dublin"
+
+#~ msgid "Dushanbe"
+#~ msgstr "Dushanbe"
+
+#~ msgid "Fongafale"
+#~ msgstr "Fongafale"
+
+#~ msgid "Fort-de-France"
+#~ msgstr "Fort-de-France"
+
+#~ msgid "Freetown"
+#~ msgstr "Freetown"
+
+#~ msgid "Gaborone"
+#~ msgstr "Gaborone"
+
+#~ msgid "George Town"
+#~ msgstr "George Town"
+
+#~ msgid "Georgetown"
+#~ msgstr "A Georgetown"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltár"
+
+#~ msgid "Grand Turk"
+#~ msgstr "Grand Turk"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Hagatna"
+#~ msgstr "Hagatna"
+
+#~ msgid "The Hague"
+#~ msgstr "Hága"
+
+#~ msgid "Hamilton"
+#~ msgstr "Hamilton"
+
+#~ msgid "Hanoi"
+#~ msgstr "Hanoi"
+
+#~ msgid "Harare"
+#~ msgstr "Harare"
+
+#~ msgid "Havana"
+#~ msgstr "Havanna"
+
+#~ msgid "Helsinki"
+#~ msgstr "Helsinki"
+
+#~ msgid "Honiara"
+#~ msgstr "Honiara"
+
+#~ msgid "Islamabad"
+#~ msgstr "Iszlamabad"
+
+#~ msgid "Jakarta"
+#~ msgstr "Dzsakarta"
+
+#~ msgid "Jamestown"
+#~ msgstr "Jamestown"
+
+#~ msgid "Jerusalem"
+#~ msgstr "Jeruzsálem"
+
+#~ msgid "Kabul"
+#~ msgstr "Kabul"
+
+#~ msgid "Kampala"
+#~ msgstr "Kampala"
+
+#~ msgid "Kathmandu"
+#~ msgstr "Katmandu"
+
+#~ msgid "Khartoum"
+#~ msgstr "Kartúm"
+
+#~ msgid "Kiev"
+#~ msgstr "Kijev"
+
+#~ msgid "Kigali"
+#~ msgstr "Kigali"
+
+#~ msgid "Kingston"
+#~ msgstr "Kingston"
+
+#~ msgid "Kingstown"
+#~ msgstr "Kingstown"
+
+#~ msgid "Kinshasa"
+#~ msgstr "Kinshasa"
+
+#~ msgid "Koror"
+#~ msgstr "Koror"
+
+#~ msgid "Kuala Lumpur"
+#~ msgstr "Kuala Lumpur"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuvait"
+
+#~ msgid "La'youn"
+#~ msgstr "El Aaiun"
+
+#~ msgid "La Paz"
+#~ msgstr "La Paz"
+
+#~ msgid "Libreville"
+#~ msgstr "Libreville"
+
+#~ msgid "Lilongwe"
+#~ msgstr "Lilongwe"
+
+#~ msgid "Lima"
+#~ msgstr "Lima"
+
+#~ msgid "Lisbon"
+#~ msgstr "Lisszabon"
+
+#~ msgid "Ljubljana"
+#~ msgstr "Ljubljana"
+
+#~ msgid "Lobamba"
+#~ msgstr "Lobamba"
+
+#~ msgid "Lome"
+#~ msgstr "Lome"
+
+#~ msgid "London"
+#~ msgstr "London"
+
+#~ msgid "Longyearbyen"
+#~ msgstr "Longyearbyen"
+
+#~ msgid "Luanda"
+#~ msgstr "Luanda"
+
+#~ msgid "Lusaka"
+#~ msgstr "Lusaka"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxemburg"
+
+#~ msgid "Madrid"
+#~ msgstr "Madrid"
+
+#~ msgid "Majuro"
+#~ msgstr "Majuro"
+
+#~ msgid "Malabo"
+#~ msgstr "Malabo"
+
+#~ msgid "Male"
+#~ msgstr "Male"
+
+#~ msgid "Mamoutzou"
+#~ msgstr "Mamoutzou"
+
+#~ msgid "Managua"
+#~ msgstr "Managua"
+
+#~ msgid "Manama"
+#~ msgstr "Manama"
+
+#~ msgid "Manila"
+#~ msgstr "Manila"
+
+#~ msgid "Maputo"
+#~ msgstr "Maputó"
+
+#~ msgid "Maseru"
+#~ msgstr "Maseru"
+
+#~ msgid "Mata-Utu"
+#~ msgstr "Mata-Utu"
+
+#~ msgid "Mbabane"
+#~ msgstr "Mbabane"
+
+#~ msgid "Mexico City"
+#~ msgstr "Mexikóváros"
+
+#~ msgid "Minsk"
+#~ msgstr "Minszk"
+
+#~ msgid "Mogadishu"
+#~ msgstr "Mogadishu"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Monrovia"
+#~ msgstr "Monrovia"
+
+#~ msgid "Montevideo"
+#~ msgstr "Montevideo"
+
+#~ msgid "Moroni"
+#~ msgstr "Moróni"
+
+#~ msgid "Moscow"
+#~ msgstr "Moszkva"
+
+#~ msgid "Muscat"
+#~ msgstr "Maszkat"
+
+#~ msgid "Nairobi"
+#~ msgstr "Nairobi"
+
+#~ msgid "Nassau"
+#~ msgstr "Nassau"
+
+#~ msgid "N'Djamena"
+#~ msgstr "N'Djamena"
+
+#~ msgid "New Delhi"
+#~ msgstr "Újdelhi"
+
+#~ msgid "Niamey"
+#~ msgstr "Niamey"
+
+#~ msgid "Nicosia"
+#~ msgstr "Nicosia"
+
+#~ msgid "Nouakchott"
+#~ msgstr "Nouakchott"
+
+#~ msgid "Noumea"
+#~ msgstr "Noumea"
+
+#~ msgid "Nuku'alofa"
+#~ msgstr "Nuku'alofa"
+
+#~ msgid "Nuuk"
+#~ msgstr "Nuuk"
+
+#~ msgid "Oranjestad"
+#~ msgstr "Oranjestad"
+
+#~ msgid "Oslo"
+#~ msgstr "Oslo"
+
+#~ msgid "Ottawa"
+#~ msgstr "Ottawa"
+
+#~ msgid "Ouagadougou"
+#~ msgstr "Ouagadougou"
+
+#~ msgid "Pago Pago"
+#~ msgstr "Pago Pago"
+
+#~ msgid "Palikir"
+#~ msgstr "Palikir"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Papeete"
+#~ msgstr "Papeete"
+
+#~ msgid "Paramaribo"
+#~ msgstr "Paramaribo"
+
+#~ msgid "Paris"
+#~ msgstr "Párizs"
+
+#~ msgid "Phnom Penh"
+#~ msgstr "Phnom Pénh"
+
+#~ msgid "Plymouth"
+#~ msgstr "Plymouth"
+
+#~ msgid "Port Louis"
+#~ msgstr "Port Louis"
+
+#~ msgid "Port Moresby"
+#~ msgstr "Port Moresby"
+
+#~ msgid "Port-au-Prince"
+#~ msgstr "Port-au-Prince"
+
+#~ msgid "Port-of-Spain"
+#~ msgstr "Port-of-Spain"
+
+#~ msgid "Porto-Novo"
+#~ msgstr "Porto-Novo"
+
+#~ msgid "Port-Vila"
+#~ msgstr "Port-Vila"
+
+#~ msgid "Prague"
+#~ msgstr "Prága"
+
+#~ msgid "Praia"
+#~ msgstr "Praia"
+
+#~ msgid "Pretoria"
+#~ msgstr "Pretoria"
+
+#~ msgid "P'yongyang"
+#~ msgstr "P'yongyang"
+
+#~ msgid "Quito"
+#~ msgstr "Quitó"
+
+#~ msgid "Rabat"
+#~ msgstr "Rabat"
+
+#~ msgid "Rangoon"
+#~ msgstr "Rangoon"
+
+#~ msgid "Reykjavik"
+#~ msgstr "Reykjavik"
+
+#~ msgid "Riga"
+#~ msgstr "Riga"
+
+#~ msgid "Riyadh"
+#~ msgstr "Riyadh"
+
+#~ msgid "Road Town"
+#~ msgstr "Road Town"
+
+#~ msgid "Rome"
+#~ msgstr "Róma"
+
+#~ msgid "Roseau"
+#~ msgstr "Roseau"
+
+#~ msgid "Saint George's"
+#~ msgstr "Saint George's"
+
+#~ msgid "Saint Helier"
+#~ msgstr "Saint Helier"
+
+#~ msgid "Saint John's"
+#~ msgstr "Saint John's"
+
+#~ msgid "Saint Peter Port"
+#~ msgstr "Saint Peter Port"
+
+#~ msgid "Saint-Denis"
+#~ msgstr "Saint-Denis"
+
+#~ msgid "Saint-Pierre"
+#~ msgstr "Saint-Pierre"
+
+#~ msgid "Saipan"
+#~ msgstr "Saipan"
+
+#~ msgid "San Jose"
+#~ msgstr "San Jose"
+
+#~ msgid "San Juan"
+#~ msgstr "San Juan"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "San Salvador"
+#~ msgstr "San Salvador"
+
+#~ msgid "Sanaa"
+#~ msgstr "Szanaa"
+
+#~ msgid "Santiago"
+#~ msgstr "Santiago"
+
+#~ msgid "Santo Domingo"
+#~ msgstr "Santo Domingo"
+
+#~ msgid "Sao Tome"
+#~ msgstr "Sao Tome"
+
+#~ msgid "Sarajevo"
+#~ msgstr "Szarajevó"
+
+#~ msgid "Seoul"
+#~ msgstr "Szöul"
+
+#~ msgid "The Settlement"
+#~ msgstr "The Settlement"
+
+#~ msgid "Singapore"
+#~ msgstr "Szingapúr"
+
+#~ msgid "Skopje"
+#~ msgstr "Szkopje"
+
+#~ msgid "Sofia"
+#~ msgstr "Szófia"
+
+#~ msgid "Sri Jayewardenepura Kotte"
+#~ msgstr "Sri Jayewardenepura Kotte"
+
+#~ msgid "Stanley"
+#~ msgstr "Stanley"
+
+#~ msgid "Stockholm"
+#~ msgstr "Stockholm"
+
+#~ msgid "Sucre"
+#~ msgstr "Sucre"
+
+#~ msgid "Suva"
+#~ msgstr "Suva"
+
+#~ msgid "Taipei"
+#~ msgstr "Tajvan"
+
+#~ msgid "Tallinn"
+#~ msgstr "Tallinn"
+
+#~ msgid "Tarawa"
+#~ msgstr "Tarawa"
+
+#~ msgid "Tashkent"
+#~ msgstr "Taskent"
+
+#~ msgid "T'bilisi"
+#~ msgstr "Tbiliszi"
+
+#~ msgid "Tegucigalpa"
+#~ msgstr "Tegucigalpa"
+
+#~ msgid "Tehran"
+#~ msgstr "Teherán"
+
+#~ msgid "Tel Aviv"
+#~ msgstr "Tel Aviv"
+
+#~ msgid "Thimphu"
+#~ msgstr "Timpu"
+
+#~ msgid "Tirana"
+#~ msgstr "Tirana"
+
+#~ msgid "Tokyo"
+#~ msgstr "Tokió"
+
+#~ msgid "Torshavn"
+#~ msgstr "Tórshavn"
+
+#~ msgid "Tripoli"
+#~ msgstr "Tripoli"
+
+#~ msgid "Tunis"
+#~ msgstr "Tunisz"
+
+#~ msgid "Ulaanbaatar"
+#~ msgstr "Ulán Bátor"
+
+#~ msgid "Vaduz"
+#~ msgstr "Vaduz"
+
+#~ msgid "Valletta"
+#~ msgstr "Valletta"
+
+#~ msgid "The Valley"
+#~ msgstr "The Valley"
+
+#~ msgid "Vatican City"
+#~ msgstr "Vatikánváros"
+
+#~ msgid "Victoria"
+#~ msgstr "Viktória"
+
+#~ msgid "Vienna"
+#~ msgstr "Bécs"
+
+#~ msgid "Vientiane"
+#~ msgstr "Vientián"
+
+#~ msgid "Vilnius"
+#~ msgstr "Vilnius"
+
+#~ msgid "Warsaw"
+#~ msgstr "Varsó"
+
+#~ msgid "Washington D.C."
+#~ msgstr "Washington D. C."
+
+#~ msgid "Wellington"
+#~ msgstr "Wellington"
+
+#~ msgid "West Island"
+#~ msgstr "West Island"
+
+#~ msgid "Willemstad"
+#~ msgstr "Willemstad"
+
+#~ msgid "Windhoek"
+#~ msgstr "Windhoek"
+
+#~ msgid "Yamoussoukro"
+#~ msgstr "Yamoussoukro"
+
+#~ msgid "Yaounde"
+#~ msgstr "Yaoundé"
+
+#~ msgid "Yaren District"
+#~ msgstr "Yaren kerület"
+
+#~ msgid "Yerevan"
+#~ msgstr "Jereván"
+
+#~ msgid "Zagreb"
+#~ msgstr "Zágráb"
+
+#~ msgid "Sol"
+#~ msgstr "Nap"
+
+#~ msgid "Solar System Barycenter"
+#~ msgstr "Csillagrendszer tömegközéppontja"
+
+#~ msgid "Alpheratz"
+#~ msgstr "Alpheratz"
+
+#~ msgid "Sirrah"
+#~ msgstr "Sirrah"
+
+#~ msgid "Caph"
+#~ msgstr "Caph"
+
+#~ msgid "Algenib"
+#~ msgstr "Algenib"
+
+#~ msgid "Schemali"
+#~ msgstr "Schemali"
+
+#~ msgid "Ankaa"
+#~ msgstr "Ankaa"
+
+#~ msgid "Schedar"
+#~ msgstr "Schedar"
+
+#~ msgid "Shedir"
+#~ msgstr "Shedir"
+
+#~ msgid "Diphda"
+#~ msgstr "Diphda"
+
+#~ msgid "Deneb Kaitos"
+#~ msgstr "Deneb Kaitos"
+
+#~ msgid "Achird"
+#~ msgstr "Achird"
+
+#~ msgid "Van Maanen 2"
+#~ msgstr "Van Maanen 2"
+
+#, fuzzy
+#~ msgid "Castula"
+#~ msgstr "Castor"
+
+#~ msgid "Navi"
+#~ msgstr "Navi"
+
+#, fuzzy
+#~ msgid "Wurren"
+#~ msgstr "Jelenlegi"
+
+#~ msgid "Mirach"
+#~ msgstr "Mirach"
+
+#~ msgid "Adhil"
+#~ msgstr "Adhil"
+
+#~ msgid "Ruchbah"
+#~ msgstr "Ruchbah"
+
+#, fuzzy
+#~ msgid "Alpherg"
+#~ msgstr "Alpheratz"
+
+#, fuzzy
+#~ msgid "Titawin"
+#~ msgstr "Titán"
+
+#~ msgid "Achernar"
+#~ msgstr "Achernar"
+
+#~ msgid "Baten Kaitos"
+#~ msgstr "Baten Kaitos"
+
+#~ msgid "Caput Trianguli"
+#~ msgstr "Caput Trianguli"
+
+#~ msgid "Mesarthim"
+#~ msgstr "Mesarthim"
+
+#~ msgid "Segin"
+#~ msgstr "Segin"
+
+#~ msgid "Sheratan"
+#~ msgstr "Sheratan"
+
+#, fuzzy
+#~ msgid "Alrescha"
+#~ msgstr "Al Rescha"
+
+#~ msgid "Al Rescha"
+#~ msgstr "Al Rescha"
+
+#~ msgid "Almach"
+#~ msgstr "Almach"
+
+#~ msgid "Almaak"
+#~ msgstr "Almaak"
+
+#~ msgid "Alamak"
+#~ msgstr "Alamak"
+
+#~ msgid "Hamal"
+#~ msgstr "Hamal"
+
+#~ msgid "Mira"
+#~ msgstr "Mira"
+
+#~ msgid "Polaris"
+#~ msgstr "Sarkcsillag"
+
+#, fuzzy
+#~ msgid "Bharani"
+#~ msgstr "Chara"
+
+#, fuzzy
+#~ msgid "Miram"
+#~ msgstr "Mira"
+
+#~ msgid "Angetenar"
+#~ msgstr "Angetenar"
+
+#~ msgid "Azha"
+#~ msgstr "Azha"
+
+#~ msgid "Acamar"
+#~ msgstr "Acamar"
+
+#~ msgid "Menkar"
+#~ msgstr "Menkar"
+
+#~ msgid "Menkab"
+#~ msgstr "Menkab"
+
+#~ msgid "Algol"
+#~ msgstr "Algol"
+
+#~ msgid "Botein"
+#~ msgstr "Botein"
+
+#~ msgid "Mirfak"
+#~ msgstr "Mirfak"
+
+#~ msgid "Mirphak"
+#~ msgstr "Mirphak"
+
+#~ msgid "Marfak"
+#~ msgstr "Marfak"
+
+#, fuzzy
+#~ msgid "Ran"
+#~ msgstr "Rana"
+
+#~ msgid "Rana"
+#~ msgstr "Rana"
+
+#~ msgid "Atik"
+#~ msgstr "Atik"
+
+#~ msgid "Celaeno"
+#~ msgstr "Celaeno"
+
+#~ msgid "Electra"
+#~ msgstr "Electra"
+
+#~ msgid "Taygeta"
+#~ msgstr "Taygeta"
+
+#~ msgid "Maia"
+#~ msgstr "Maia"
+
+#~ msgid "Asterope"
+#~ msgstr "Asterope"
+
+#~ msgid "Merope"
+#~ msgstr "Merope"
+
+#~ msgid "Alcyone"
+#~ msgstr "Alcyone"
+
+#~ msgid "Pleione"
+#~ msgstr "Pleione"
+
+#~ msgid "Zaurak"
+#~ msgstr "Zaurak"
+
+#~ msgid "Menkib"
+#~ msgstr "Menkib"
+
+#~ msgid "Beid"
+#~ msgstr "Beid"
+
+#~ msgid "Keid"
+#~ msgstr "Keid"
+
+#~ msgid "Ain"
+#~ msgstr "Ain"
+
+#~ msgid "Aldebaran"
+#~ msgstr "Aldebaran"
+
+#, fuzzy
+#~ msgid "Tabit"
+#~ msgstr "Thabit"
+
+#~ msgid "Hind's Crimson Star"
+#~ msgstr "Hind Karmazsin Csillaga"
+
+#, fuzzy
+#~ msgid "Almaaz"
+#~ msgstr "Almaak"
+
+#, fuzzy
+#~ msgid "Saclateni"
+#~ msgstr "Galaxisok"
+
+#~ msgid "Sadatoni"
+#~ msgstr "Sadatoni"
+
+#~ msgid "Cursa"
+#~ msgstr "Cursa"
+
+#~ msgid "Kapteyn's Star"
+#~ msgstr "Kapteyn-csillag"
+
+#~ msgid "Rigel"
+#~ msgstr "Rigel"
+
+#~ msgid "Capella"
+#~ msgstr "Capella"
+
+#~ msgid "Bellatrix"
+#~ msgstr "Bellatrix"
+
+#~ msgid "Elnath"
+#~ msgstr "Elnath"
+
+#~ msgid "Alnath"
+#~ msgstr "Alnath"
+
+#~ msgid "Nihal"
+#~ msgstr "Nihal"
+
+#~ msgid "Thabit"
+#~ msgstr "Thabit"
+
+#~ msgid "Mintaka"
+#~ msgstr "Mintaka"
+
+#~ msgid "Arneb"
+#~ msgstr "Arneb"
+
+#~ msgid "Meissa"
+#~ msgstr "Meissa"
+
+#~ msgid "Heka"
+#~ msgstr "Heka"
+
+#~ msgid "Alnilam"
+#~ msgstr "Alnilam"
+
+#, fuzzy
+#~ msgid "Tianguan"
+#~ msgstr "Háromszög"
+
+#~ msgid "Phact"
+#~ msgstr "Phact"
+
+#~ msgid "Alnitak"
+#~ msgstr "Alnitak"
+
+#~ msgid "Saiph"
+#~ msgstr "Saiph"
+
+#~ msgid "Wazn"
+#~ msgstr "Wazn"
+
+#~ msgid "Betelgeuse"
+#~ msgstr "Betelgeuse"
+
+#~ msgid "Prijipati"
+#~ msgstr "Prijipati"
+
+#~ msgid "Menkalinan"
+#~ msgstr "Menkalinan"
+
+#, fuzzy
+#~ msgid "Elkurud"
+#~ msgstr "Furud"
+
+#, fuzzy
+#~ msgid "Propus"
+#~ msgstr "Canopus"
+
+#~ msgid "Red Rectangle"
+#~ msgstr "Vörös háromszög"
+
+#~ msgid "Furud"
+#~ msgstr "Furud"
+
+#~ msgid "Mirzam"
+#~ msgstr "Mirzam"
+
+#~ msgid "Murzim"
+#~ msgstr "Murzim"
+
+#~ msgid "Tejat"
+#~ msgstr "Tejat"
+
+#~ msgid "Canopus"
+#~ msgstr "Canopus"
+
+#~ msgid "Suhel"
+#~ msgstr "Suhel"
+
+#, fuzzy
+#~ msgid "Plaskett's Star"
+#~ msgstr "Csillagok"
+
+#~ msgid "Alhena"
+#~ msgstr "Alhena"
+
+#~ msgid "Almeisan"
+#~ msgstr "Almeisan"
+
+#~ msgid "Mebsuta"
+#~ msgstr "Mebsuta"
+
+#~ msgid "Sirius"
+#~ msgstr "Szíriusz"
+
+#~ msgid "Adhara"
+#~ msgstr "Adara"
+
+#~ msgid "Adara"
+#~ msgstr "Adara"
+
+#~ msgid "Muliphein"
+#~ msgstr "Muliphein"
+
+#~ msgid "Mekbuda"
+#~ msgstr "Mekbuda"
+
+#~ msgid "Wezen"
+#~ msgstr "Wezen"
+
+#~ msgid "Bernes 135"
+#~ msgstr "Bernes 135"
+
+#~ msgid "Wasat"
+#~ msgstr "Wasat"
+
+#~ msgid "Aludra"
+#~ msgstr "Aludra"
+
+#~ msgid "Gomeisa"
+#~ msgstr "Gomeisa"
+
+#~ msgid "Luyten's Star"
+#~ msgstr "Luyten-csillag"
+
+#~ msgid "Castor"
+#~ msgstr "Castor"
+
+#~ msgid "Procyon"
+#~ msgstr "Procyon"
+
+#~ msgid "Elgomaisa"
+#~ msgstr "Elgomaisa"
+
+#~ msgid "Pollux"
+#~ msgstr "Pollux"
+
+#, fuzzy
+#~ msgid "Azmidi"
+#~ msgstr "Asmidiske"
+
+#~ msgid "Asmidiske"
+#~ msgstr "Asmidiske"
+
+#~ msgid "Naos"
+#~ msgstr "Naos"
+
+#~ msgid "Regor"
+#~ msgstr "Regor"
+
+#~ msgid "Tegmine"
+#~ msgstr "Tegmine"
+
+#, fuzzy
+#~ msgid "Tarf"
+#~ msgstr "Al Tarf"
+
+#~ msgid "Al Tarf"
+#~ msgstr "Al Tarf"
+
+#~ msgid "Avior"
+#~ msgstr "Avior"
+
+#~ msgid "Muscida"
+#~ msgstr "Muscida"
+
+#, fuzzy
+#~ msgid "Minchir"
+#~ msgstr "Achird"
+
+#~ msgid "Asellus Borealis"
+#~ msgstr "Asellus Borealis"
+
+#~ msgid "Asellus Australis"
+#~ msgstr "Asellus Australis"
+
+#~ msgid "Acubens"
+#~ msgstr "Acubens"
+
+#~ msgid "Dnoces"
+#~ msgstr "Dnoces"
+
+#~ msgid "Talitha Australis"
+#~ msgstr "Talitha Australis"
+
+#~ msgid "Suhail"
+#~ msgstr "Suhail"
+
+#~ msgid "Miaplacidus"
+#~ msgstr "Miaplacidus"
+
+#~ msgid "Aspidiske"
+#~ msgstr "Aspidiske"
+
+#, fuzzy
+#~ msgid "Markeb"
+#~ msgstr "Markab"
+
+#~ msgid "Alphard"
+#~ msgstr "Alphard"
+
+#~ msgid "Cor Hydrae"
+#~ msgstr "Cor Hydrae"
+
+#~ msgid "Alterf"
+#~ msgstr "Alterf"
+
+#~ msgid "Ukdah"
+#~ msgstr "Ukdah"
+
+#~ msgid "Subra"
+#~ msgstr "Subra"
+
+#~ msgid "Ras Elased Australis"
+#~ msgstr "Ras Elased Australis"
+
+#~ msgid "Rasalas"
+#~ msgstr "Rasalas"
+
+#~ msgid "Ras Elased Borealis"
+#~ msgstr "Ras Elased Borealis"
+
+#~ msgid "Regulus"
+#~ msgstr "Regulus"
+
+#~ msgid "Kabeleced"
+#~ msgstr "Kabeleced"
+
+#~ msgid "Cor Leonis"
+#~ msgstr "Cor Leonis"
+
+#~ msgid "Adhafera"
+#~ msgstr "Adhafera"
+
+#~ msgid "Aldhafera"
+#~ msgstr "Aldhafera"
+
+#~ msgid "Tania Borealis"
+#~ msgstr "Tania Borealis"
+
+#~ msgid "Algieba"
+#~ msgstr "Algieba"
+
+#~ msgid "Tania Australis"
+#~ msgstr "Tania Australis"
+
+#, fuzzy
+#~ msgid "Macondo"
+#~ msgstr "London"
+
+#~ msgid "Alkes"
+#~ msgstr "Alkes"
+
+#~ msgid "Merak"
+#~ msgstr "Merak"
+
+#~ msgid "Lalande 21185"
+#~ msgstr "Lalande 21185"
+
+#~ msgid "Dubhe"
+#~ msgstr "Dubhe"
+
+#~ msgid "Dubb"
+#~ msgstr "Dubb"
+
+#~ msgid "Zosma"
+#~ msgstr "Zosma"
+
+#~ msgid "Duhr"
+#~ msgstr "Duhr"
+
+#~ msgid "Chertan"
+#~ msgstr "Chertan"
+
+#~ msgid "Coxa"
+#~ msgstr "Coxa"
+
+#~ msgid "Chort"
+#~ msgstr "Chort"
+
+#~ msgid "Alula Australis"
+#~ msgstr "Alula Australis"
+
+#~ msgid "Alula Borealis"
+#~ msgstr "Alula Borealis"
+
+#~ msgid "Tsze Tseang"
+#~ msgstr "Tsze Tseang"
+
+#, fuzzy
+#~ msgid "Shama"
+#~ msgstr "Sham"
+
+#~ msgid "Giausar"
+#~ msgstr "Giausar"
+
+#, fuzzy
+#~ msgid "Formosa"
+#~ msgstr "Formátum:"
+
+#, fuzzy
+#~ msgid "Flegetonte"
+#~ msgstr "A Georgetown"
+
+#~ msgid "Denebola"
+#~ msgstr "Denebola"
+
+#~ msgid "Zavijava"
+#~ msgstr "Zavijava"
+
+#~ msgid "Alaraph"
+#~ msgstr "Alaraph"
+
+#, fuzzy
+#~ msgid "Aniara"
+#~ msgstr "Honiara"
+
+#~ msgid "Groombridge 1830"
+#~ msgstr "Groombridge 1830"
+
+#~ msgid "Phecda"
+#~ msgstr "Phecda"
+
+#~ msgid "Phad"
+#~ msgstr "Phad"
+
+#~ msgid "Alchiba"
+#~ msgstr "Alchiba"
+
+#~ msgid "Megrez"
+#~ msgstr "Megrez"
+
+#~ msgid "Gienah"
+#~ msgstr "Gienah"
+
+#~ msgid "Zaniah"
+#~ msgstr "Zaniah"
+
+#~ msgid "Acrux"
+#~ msgstr "Acrux"
+
+#~ msgid "Algorab"
+#~ msgstr "Algorab"
+
+#~ msgid "Gacrux"
+#~ msgstr "Gacrux"
+
+#~ msgid "Chara"
+#~ msgstr "Chara"
+
+#~ msgid "Kraz"
+#~ msgstr "Kraz"
+
+#~ msgid "Muhlifain"
+#~ msgstr "Muhlifain"
+
+#~ msgid "Porrima"
+#~ msgstr "Porrima"
+
+#~ msgid "Mimosa"
+#~ msgstr "Mimosa"
+
+#~ msgid "Alioth"
+#~ msgstr "Alioth"
+
+#~ msgid "Minelauva"
+#~ msgstr "Minelauva"
+
+#~ msgid "Auva"
+#~ msgstr "Auva"
+
+#~ msgid "Cor Caroli"
+#~ msgstr "Cor Caroli"
+
+#~ msgid "Vindemiatrix"
+#~ msgstr "Vindemiatrix"
+
+#~ msgid "Almuredin"
+#~ msgstr "Almuredin"
+
+#~ msgid "Mizar"
+#~ msgstr "Mizar"
+
+#~ msgid "Spica"
+#~ msgstr "Spica"
+
+#~ msgid "Azimech"
+#~ msgstr "Azimech"
+
+#~ msgid "Alcor"
+#~ msgstr "Alcor"
+
+#~ msgid "Heze"
+#~ msgstr "Heze"
+
+#~ msgid "Alkaid"
+#~ msgstr "Alkaid"
+
+#~ msgid "Benetnasch"
+#~ msgstr "Benetnasch"
+
+#~ msgid "Muphrid"
+#~ msgstr "Muphrid"
+
+#~ msgid "Hadar"
+#~ msgstr "Hadar"
+
+#~ msgid "Agena"
+#~ msgstr "Agena"
+
+#~ msgid "Thuban"
+#~ msgstr "Thuban"
+
+#~ msgid "Menkent"
+#~ msgstr "Menkent"
+
+#~ msgid "Arcturus"
+#~ msgstr "Arcturus"
+
+#~ msgid "Syrma"
+#~ msgstr "Syrma"
+
+#~ msgid "Proxima"
+#~ msgstr "Proxima"
+
+#~ msgid "Seginus"
+#~ msgstr "Seginus"
+
+#~ msgid "Ceginus"
+#~ msgstr "Ceginus"
+
+#~ msgid "Izar"
+#~ msgstr "Izar"
+
+#~ msgid "Mirak"
+#~ msgstr "Mirak"
+
+#~ msgid "Pulcherrima"
+#~ msgstr "Pulcherrima"
+
+#~ msgid "Kochab"
+#~ msgstr "Kochab"
+
+#~ msgid "Kocab"
+#~ msgstr "Kocab"
+
+#~ msgid "Zubenelgenubi"
+#~ msgstr "Zubenelgenubi"
+
+#~ msgid "Zuben Elakribi"
+#~ msgstr "Zuben Elakribi"
+
+#~ msgid "Nekkar"
+#~ msgstr "Nekkar"
+
+#~ msgid "Zubeneschamali"
+#~ msgstr "Zubeneshamali"
+
+#, fuzzy
+#~ msgid "Pherkad Minor"
+#~ msgstr "Pherkad"
+
+#~ msgid "Pherkad"
+#~ msgstr "Pherkad"
+
+#~ msgid "Alkalurops"
+#~ msgstr "Alkalurops"
+
+#~ msgid "Edasich"
+#~ msgstr "Edasich"
+
+#~ msgid "Nusakan"
+#~ msgstr "Nusakan"
+
+#~ msgid "Alphecca"
+#~ msgstr "Alphecca"
+
+#~ msgid "Gemma"
+#~ msgstr "Gemma"
+
+#, fuzzy
+#~ msgid "Zubenelhakrabi"
+#~ msgstr "Zuben Elakrab"
+
+#~ msgid "Zuben Elakrab"
+#~ msgstr "Zuben Elakrab"
+
+#~ msgid "Unukalhai"
+#~ msgstr "Unukalhai"
+
+#~ msgid "Chow"
+#~ msgstr "Chow"
+
+#~ msgid "Dschubba"
+#~ msgstr "Dschubba"
+
+#~ msgid "Graffias"
+#~ msgstr "Graffias"
+
+#~ msgid "Akrab"
+#~ msgstr "Akrab"
+
+#, fuzzy
+#~ msgid "Marsic"
+#~ msgstr "Mars"
+
+#~ msgid "Jabbah"
+#~ msgstr "Jabbah"
+
+#, fuzzy
+#~ msgid "Alniyat"
+#~ msgstr "Al Niyat"
+
+#~ msgid "Al Niyat"
+#~ msgstr "Al Niyat"
+
+#, fuzzy
+#~ msgid "Athebyne"
+#~ msgstr "Athén"
+
+#~ msgid "Cujam"
+#~ msgstr "Cujam"
+
+#~ msgid "Antares"
+#~ msgstr "Antares"
+
+#~ msgid "Kornephoros"
+#~ msgstr "Kornephoros"
+
+#~ msgid "Marfik"
+#~ msgstr "Marfik"
+
+#~ msgid "Atria"
+#~ msgstr "Atria"
+
+#, fuzzy
+#~ msgid "Larawag"
+#~ msgstr "Tarawa"
+
+#, fuzzy
+#~ msgid "Pipirima"
+#~ msgstr "Porrima"
+
+#, fuzzy
+#~ msgid "Rapeto"
+#~ msgstr "Iapetus"
+
+#, fuzzy
+#~ msgid "Alrakis"
+#~ msgstr "Arrakis"
+
+#~ msgid "Arrakis"
+#~ msgstr "Arrakis"
+
+#, fuzzy
+#~ msgid "Aldhibah"
+#~ msgstr "Alchiba"
+
+#~ msgid "Sabik"
+#~ msgstr "Sabik"
+
+#~ msgid "Rasalgethi"
+#~ msgstr "Rasalgethy"
+
+#~ msgid "Ras Algethi"
+#~ msgstr "Ras Algethi"
+
+#~ msgid "Sarin"
+#~ msgstr "Sarin"
+
+#~ msgid "Rastaban"
+#~ msgstr "Rastaban"
+
+#~ msgid "Maasym"
+#~ msgstr "Maasym"
+
+#~ msgid "Lesath"
+#~ msgstr "Lesath"
+
+#~ msgid "Lesuth"
+#~ msgstr "Lesuth"
+
+#~ msgid "Kuma"
+#~ msgstr "Kuma"
+
+#~ msgid "Yildun"
+#~ msgstr "Yildun"
+
+#~ msgid "Shaula"
+#~ msgstr "Shaula"
+
+#~ msgid "Rasalhague"
+#~ msgstr "Rasalhague"
+
+#~ msgid "Ras Alhague"
+#~ msgstr "Ras Alhague"
+
+#~ msgid "Sargas"
+#~ msgstr "Sargas"
+
+#~ msgid "Dziban"
+#~ msgstr "Dziban"
+
+#~ msgid "Cebalrai"
+#~ msgstr "Cebalrai"
+
+#, fuzzy
+#~ msgid "Cervantes"
+#~ msgstr "Csillagvizsgálók"
+
+#~ msgid "Grumium"
+#~ msgstr "Grumium"
+
+#~ msgid "Eltanin"
+#~ msgstr "Eltanin"
+
+#~ msgid "Etamin"
+#~ msgstr "Etamin"
+
+#~ msgid "Barnard's Star"
+#~ msgstr "Barnard csillaga"
+
+#~ msgid "Alnasl"
+#~ msgstr "Alnasl"
+
+#~ msgid "Kaus Media"
+#~ msgstr "Kaus Media"
+
+#~ msgid "Kaus Australis"
+#~ msgstr "Kaus Australis"
+
+#~ msgid "Al Athfar"
+#~ msgstr "Al Athfar"
+
+#~ msgid "Kaus Borealis"
+#~ msgstr "Kaus Borealis"
+
+#~ msgid "Vega"
+#~ msgstr "Vega"
+
+#~ msgid "Sheliak"
+#~ msgstr "Sheliak"
+
+#, fuzzy
+#~ msgid "Ainalrami"
+#~ msgstr "Alderamin"
+
+#~ msgid "Nunki"
+#~ msgstr "Nunki"
+
+#~ msgid "Alya"
+#~ msgstr "Alya"
+
+#~ msgid "Sulafat"
+#~ msgstr "Sulafat"
+
+#~ msgid "Ascella"
+#~ msgstr "Ascella"
+
+#~ msgid "Deneb el Okab"
+#~ msgstr "Deneb el Okab"
+
+#, fuzzy
+#~ msgid "Albaldah"
+#~ msgstr "Albali"
+
+#~ msgid "Altais"
+#~ msgstr "Altais"
+
+#~ msgid "Al Tais"
+#~ msgstr "Al Tais"
+
+#~ msgid "Nodus Secundus"
+#~ msgstr "Nodus Secundus"
+
+#~ msgid "Aladfar"
+#~ msgstr "Aladfar"
+
+#, fuzzy
+#~ msgid "Gumala"
+#~ msgstr "Guatemala"
+
+#, fuzzy
+#~ msgid "Arkab Prior"
+#~ msgstr "Arkab"
+
+#~ msgid "Arkab"
+#~ msgstr "Arkab"
+
+#~ msgid "Rukbat"
+#~ msgstr "Rukbat"
+
+#~ msgid "Albireo"
+#~ msgstr "Albireo"
+
+#~ msgid "Alsafi"
+#~ msgstr "Alsafi"
+
+#~ msgid "Campbell's Star"
+#~ msgstr "Campbell csillaga"
+
+#~ msgid "Sham"
+#~ msgstr "Sham"
+
+#, fuzzy
+#~ msgid "Fawaris"
+#~ msgstr "Párizs"
+
+#~ msgid "Tarazed"
+#~ msgstr "Tarazed"
+
+#~ msgid "Tyl"
+#~ msgstr "Tyl"
+
+#~ msgid "Altair"
+#~ msgstr "Altair"
+
+#~ msgid "Atair"
+#~ msgstr "Atair"
+
+#~ msgid "Alshain"
+#~ msgstr "Alshain"
+
+#~ msgid "Algedi"
+#~ msgstr "Algedi"
+
+#, fuzzy
+#~ msgid "Alshat"
+#~ msgstr "Alshain"
+
+#~ msgid "Dabih"
+#~ msgstr "Dabih"
+
+#~ msgid "Sadr"
+#~ msgstr "Sadr"
+
+#~ msgid "Peacock"
+#~ msgstr "Páva"
+
+#~ msgid "Rotanev"
+#~ msgstr "Rotanev"
+
+#~ msgid "Sualocin"
+#~ msgstr "Sualocin"
+
+#~ msgid "Deneb"
+#~ msgstr "Deneb"
+
+#, fuzzy
+#~ msgid "Aljanah"
+#~ msgstr "Ljubljana"
+
+#~ msgid "Albali"
+#~ msgstr "Albali"
+
+#, fuzzy
+#~ msgid "Polaris Australis"
+#~ msgstr "Kaus Australis"
+
+#, fuzzy
+#~ msgid "Solaris"
+#~ msgstr "Sarkcsillag"
+
+#~ msgid "Kitalpha"
+#~ msgstr "Kitalpha"
+
+#~ msgid "Lacaille 8760"
+#~ msgstr "Lacaille 8760"
+
+#~ msgid "Alderamin"
+#~ msgstr "Alderamin"
+
+#~ msgid "Alfirk"
+#~ msgstr "Alfirk"
+
+#~ msgid "Sadalsuud"
+#~ msgstr "Sadalsuud"
+
+#, fuzzy
+#~ msgid "Bunda"
+#~ msgstr "Határok"
+
+#~ msgid "Nashira"
+#~ msgstr "Nashira"
+
+#~ msgid "Azelfafage"
+#~ msgstr "Azelfafage"
+
+#~ msgid "Herschel's Garnet Star"
+#~ msgstr "Herschel's Garnet Star"
+
+#, fuzzy
+#~ msgid "Erakis"
+#~ msgstr "Arrakis"
+
+#~ msgid "Enif"
+#~ msgstr "Enif"
+
+#~ msgid "Deneb Algedi"
+#~ msgstr "Deneb Algedi"
+
+#, fuzzy
+#~ msgid "Aldhanab"
+#~ msgstr "Al Dhanab"
+
+#~ msgid "Al Dhanab"
+#~ msgstr "Al Dhanab"
+
+#~ msgid "Kurhah"
+#~ msgstr "Kurhah"
+
+#~ msgid "Sadalmelik"
+#~ msgstr "Sadalmelik"
+
+#~ msgid "Alnair"
+#~ msgstr "Alnair"
+
+#~ msgid "Al Nair"
+#~ msgstr "Al Nair"
+
+#~ msgid "Biham"
+#~ msgstr "Biham"
+
+#~ msgid "Ancha"
+#~ msgstr "Ancha"
+
+#~ msgid "Sadachbia"
+#~ msgstr "Sadachbia"
+
+#~ msgid "Seat"
+#~ msgstr "Seat"
+
+#~ msgid "Kruger 60"
+#~ msgstr "Kruger 60"
+
+#~ msgid "Situla"
+#~ msgstr "Situla"
+
+#~ msgid "Homam"
+#~ msgstr "Homam"
+
+#~ msgid "Matar"
+#~ msgstr "Matar"
+
+#~ msgid "Babcock's Star"
+#~ msgstr "Babcock csillaga"
+
+#~ msgid "Sadalbari"
+#~ msgstr "Sadalbari"
+
+#~ msgid "Skat"
+#~ msgstr "Skat"
+
+#~ msgid "Fomalhaut"
+#~ msgstr "Fomalhaut"
+
+#~ msgid "Scheat"
+#~ msgstr "Scheat"
+
+#, fuzzy
+#~ msgid "Fumalsamakah"
+#~ msgstr "Fum al Samakah"
+
+#~ msgid "Fum al Samakah"
+#~ msgstr "Fum al Samakah"
+
+#~ msgid "Markab"
+#~ msgstr "Markab"
+
+#~ msgid "Marchab"
+#~ msgstr "Marchab"
+
+#~ msgid "Bradley 3077"
+#~ msgstr "Bradley 3077"
+
+#, fuzzy
+#~ msgid "Alkarab"
+#~ msgstr "Ankara"
+
+#~ msgid "Errai"
+#~ msgstr "Errai"
+
+#~ msgid "Milky Way"
+#~ msgstr "Tejút"
+
+#~ msgid "LMC"
+#~ msgstr "Nagy Magellán Felhő"
+
+#~ msgid "SMC"
+#~ msgstr "Kis Magellán Felhő"
+
+#~ msgid "Pleiades"
+#~ msgstr "Plejádok"
+
+#~ msgid "Hyades"
+#~ msgstr "Hiádok"
+
+#~ msgid "Praesepe"
+#~ msgstr "Praesepe"
+
+#~ msgid "Beehive Cluster"
+#~ msgstr "Méhkas csoport"
+
+#~ msgid "Maffei 1"
+#~ msgstr "Maffei 1"
+
+#~ msgid "Maffei 2"
+#~ msgstr "Maffei 2"
+
+#~ msgid "Leo A"
+#~ msgstr "Leo A"
+
+#~ msgid "Sextans B"
+#~ msgstr "Sextans B"
+
+#~ msgid "Leo I"
+#~ msgstr "Leo I"
+
+#~ msgid "Sextans A"
+#~ msgstr "Sextans A"
+
+#~ msgid "Circinus"
+#~ msgstr "Körző"
+
+#~ msgid "Holmberg VI"
+#~ msgstr "Holmberg VI"
+
+#~ msgid "Fath 703"
+#~ msgstr "Fath 703"
+
+#~ msgid "47 Tuc"
+#~ msgstr "47 Tuc"
+
+#~ msgid "Eridanus"
+#~ msgstr "Eridánusz"
+
+#~ msgid "Pyxis"
+#~ msgstr "Hajókompasz"
+
+#~ msgid "Tonantzintla 2"
+#~ msgstr "Tonantzintla 2"
+
+#~ msgid "Error in creating ogg file %s for capture.\n"
+#~ msgstr "Error in creating ogg file %s for capture.\n"
+
+#, fuzzy
+#~ msgid "Internal Ogg library error.\n"
+#~ msgstr "Internal Ogg library error."
+
+#~ msgid ""
+#~ "OggTheoraCapture::start() - Theora video: %s %.2f(%d/%d) fps quality %d "
+#~ "%dx%d offset (%dx%d)\n"
+#~ msgstr ""
+#~ "OggTheoraCapture::start() - Theora video: %s %.2f(%d/%d) fps quality %d "
+#~ "%dx%d offset (%dx%d)\n"
+
+#~ msgid "OggTheoraCapture::cleanup() - wrote %d frames\n"
+#~ msgstr "OggTheoraCapture::cleanup() - wrote %d frames\n"
+
+#~ msgid "Astana"
+#~ msgstr "Asztana"
+
+#, fuzzy
+#~ msgid "Radius: %s km\n"
+#~ msgstr "Sugár: "
+
+#~ msgid "Sun"
+#~ msgstr "Nap"
+
+#, fuzzy
+#~ msgid "Video (*.ogv)"
+#~ msgstr "Video felvétele"
+
+#~ msgid "Settings"
+#~ msgstr "Beállítások"
+
+#~ msgid "OpenGL 2.0"
+#~ msgstr "OpenGL 2.0"
+
+#~ msgid "Loading NV fragment program: "
+#~ msgstr "NV fragment program betöltése: "
+
+#~ msgid "Error loading NV fragment program: "
+#~ msgstr "Hiba az NV fragment program betöltésekor: "
+
+#~ msgid "Error in fragment program "
+#~ msgstr "Hiba a fragment programban "
+
+#~ msgid "Initializing NV fragment programs . . .\n"
+#~ msgstr "NV fragment programok inicializációja...\n"
+
+#~ msgid "All NV fragment programs loaded successfully.\n"
+#~ msgstr "Minden NV fragment program sikeresen betöltődött.\n"
+
+#~ msgid "Initializing ARB fragment programs . . .\n"
+#~ msgstr "ARB fragment programok inicializálása . . .\n"
+
+#, fuzzy
+#~ msgid "%s: unrecognized or unsupported image file type.\n"
+#~ msgstr ": ismeretlen, vagy nem támogatott képfájl típus.\n"
+
+#~ msgid "Loading NV vertex program: "
+#~ msgstr "NV vertex program betöltése:"
+
+#~ msgid "Error loading NV vertex program: "
+#~ msgstr "Hiba az NV vertex program betöltésekor:"
+
+#~ msgid "Error in vertex program "
+#~ msgstr "Hiba a vertex programban: "
+
+#~ msgid "Loading ARB vertex program: "
+#~ msgstr "ARB vertex program betöltése"
+
+#~ msgid "Error loading ARB vertex program: "
+#~ msgstr "Hiba az ARB vertex program betöltésekor:"
+
+#~ msgid ", line "
+#~ msgstr ", sor"
+
+#~ msgid "Initializing NV vertex programs . . .\n"
+#~ msgstr "NV vertex programok inicializálása...\n"
+
+#~ msgid "All NV vertex programs loaded successfully.\n"
+#~ msgstr "Az összes NV vertex program sikeresen betöltődött.\n"
+
+#~ msgid "Initializing ARB vertex programs . . .\n"
+#~ msgstr "ARB vertex programik inicializálása...\n"
+
+#~ msgid "All ARB vertex programs loaded successfully.\n"
+#~ msgstr "Minden ARB vertex program sikeresen betöltődött.\n"
+
+#~ msgid "Unknown error opening script"
+#~ msgstr "Ismeretlen hiba a szkript megnyitásakor"
+
+#, fuzzy
+#~ msgid "Max simultaneous textures"
+#~ msgstr "Max simultaneous textures: "
+
+#, fuzzy
+#~ msgid "Max texture size"
+#~ msgstr "Max texture size: "
+
+#, fuzzy
+#~ msgid "Extensions:"
+#~ msgstr "Supported Extensions:"
+
+#, fuzzy
+#~ msgid "Error loading data files. Celestia will now quit."
+#~ msgstr "Hiba a font betöltésekor, a szöveg nem jeleníthető meg.\n"
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "Most"
+
+#, fuzzy
+#~ msgid "Quit Celestia?"
+#~ msgstr "Celestia névjegye"
+
+#, fuzzy
+#~ msgid "Quit"
+#~ msgstr "Quitó"
+
+#, fuzzy
+#~ msgid "No Movie Capture"
+#~ msgstr "Video felvétele"
+
+#, fuzzy
+#~ msgid "No Object Name Entered"
+#~ msgstr "Égitest neve"
+
+#, fuzzy
+#~ msgid "Object Not Found"
+#~ msgstr "Égitestek"
+
+#, fuzzy
+#~ msgid "Show Alternate Surface"
+#~ msgstr "&Alternatív Felületek"
+
+#, fuzzy
+#~ msgid "No Date or Time Entered"
+#~ msgstr "Égitest neve"
+
+#, fuzzy
+#~ msgid "Copy &URL"
+#~ msgstr "URL másolása"
+
+#, fuzzy
+#~ msgid "&Paste URL"
+#~ msgstr "URL másolása"
+
+#~ msgid "Spacecrafts"
+#~ msgstr "Űrhajók"
+
+#, fuzzy
+#~ msgid "Enable Vsync"
+#~ msgstr "Alt-Aizmuth mód be"
+
+#~ msgid "Vendor: "
+#~ msgstr "Forgalmazó:"
+
+#~ msgid "GLSL version: "
+#~ msgstr "GLSL verzió:"
+
+#~ msgid "Error loading script"
+#~ msgstr "Hiba a szkript betöltésekor"
+
+#~ msgid "Running script"
+#~ msgstr "Szkript futtatása"
+
+#~ msgid "Invisible"
+#~ msgstr "Láthatatlan"
+
+#~ msgid "Small Body"
+#~ msgstr "Kis égitest"
+
+#~ msgid "Dwarf Planet"
+#~ msgstr "Törpe bolygó"
+
+#~ msgid "&Add Bookmark"
+#~ msgstr "Könyvjelzők hozzáadása"
+
+#~ msgid "Add a bookmark for the current document"
+#~ msgstr "A jelenlegi dokumentumra mutató könyvjelző hozzáadása"
+
+#~ msgid "Add &Relative Bookmark"
+#~ msgstr "&Viszonylagos könyvjelző hozzáadása"
+
+#~ msgid "Add a relative bookmark for the current document"
+#~ msgstr "A jelenlegi dokumentumra mutató viszonylagos könyvjelző hozzáadása"
+
+#~ msgid "Add &Settings Bookmark"
+#~ msgstr "&Beállítás könyvjelző hozzáadása"
+
+#~ msgid "Add a settings bookmark for the current document"
+#~ msgstr "A jelenlegi dokumentumra mutató beállítás könyvjelző hozzáadása"
+
+#~ msgid "Edit your bookmark collection in a separate window"
+#~ msgstr "Könyvjelzők szerkesztése külön ablakban"
+
+#~ msgid "&New Folder..."
+#~ msgstr "&Új mappa..."
+
+#~ msgid "Create a new bookmark folder in this menu"
+#~ msgstr "Új könyvjelzőmappa létrehozása ebben a menüben"
+
+#~ msgid "Can't add bookmark with empty URL"
+#~ msgstr "Nem lehet üres URL-lel könyvjelzőt létrehozni"
+
+#~ msgid ""
+#~ "Something seems to be wrong with your installation of Celestia. The "
+#~ "splash screen directory couldn't be found. \n"
+#~ "Start-up will continue, but Celestia will probably be missing some data "
+#~ "files and may not work correctly, please check your installation."
+#~ msgstr ""
+#~ "Hiba történt a Celestia telepítésekor. A nyitókép könyvtár nem "
+#~ "található.\n"
+#~ "Az indítás folytatódik, de a Celestia valószínűleg nem fog tökéletesen "
+#~ "működni a hiányzó adatfájlok miatt. Ellenőrizd a telepített mappákat."
+
+#~ msgid "Go to &URL..."
+#~ msgstr "Ugrás az &URL-re..."
+
+#~ msgid "Go to &Long/Lat..."
+#~ msgstr "Ugrás a Hossz/Szé&l..."
+
+#~ msgid "&Back"
+#~ msgstr "Vissza"
+
+#~ msgid "&Forward"
+#~ msgstr "Előre"
+
+#~ msgid "Home"
+#~ msgstr "Otthon"
+
+#~ msgid "Full Screen"
+#~ msgstr "Tejles képernyő"
+
+#~ msgid "Copy URL"
+#~ msgstr "URL másolása"
+
+#~ msgid "Set Time..."
+#~ msgstr "Idő beállítása..."
+
+#~ msgid "Set Time to Now"
+#~ msgstr "Pillanatnyi időre állítás"
+
+#~ msgid "Accelerate Time"
+#~ msgstr "Idő gyorsítása"
+
+#~ msgid "Decelerate Time"
+#~ msgstr "Idő lassítása"
+
+#~ msgid "Accelerate Time (x2)"
+#~ msgstr "Idő gyorsítása (x2)"
+
+#~ msgid "Decelerate Time (/2)"
+#~ msgstr "Idő lassítása (/2)"
+
+#~ msgid "Pause Time"
+#~ msgstr "Idő megállítása"
+
+#~ msgid "Reverse Time"
+#~ msgstr "Idő visszafelé halad"
+
+#~ msgid "Split View Vertically"
+#~ msgstr "Nézet vízszintes felosztása"
+
+#~ msgid "Split View Horizontally"
+#~ msgstr "Nézet függőleges felosztása"
+
+#~ msgid "Cycle View"
+#~ msgstr "Következő nézet"
+
+#~ msgid "Single View"
+#~ msgstr "Egyablakos nézet"
+
+#~ msgid "Delete View"
+#~ msgstr "Nézet törlése"
+
+#~ msgid "Frames Visible"
+#~ msgstr "Keret mutatása"
+
+#~ msgid "Active Frame Visible"
+#~ msgstr "Aktív nézet kerete látható"
+
+#~ msgid "Synchronize Time"
+#~ msgstr "Idő szinkronizálása"
+
+#~ msgid "Alt-Azimuth Mode"
+#~ msgstr "Alt-Aizmuth mód"
+
+#~ msgid "Go To Surface"
+#~ msgstr "Ugrás a felszínre"
+
+#~ msgid "Show Stars"
+#~ msgstr "Csillagok mutatása"
+
+#~ msgid "Show Planets"
+#~ msgstr "Bolygók mutatása"
+
+#~ msgid "Show Galaxies"
+#~ msgstr "Galaxisok mutatása"
+
+#~ msgid "Show Globulars"
+#~ msgstr "Gömbhalmazok mutatása"
+
+#~ msgid "Show Partial Trajectories"
+#~ msgstr "Részleges bolygópályák mutatása"
+
+#~ msgid "Show Nebulae"
+#~ msgstr "Nebulák mutatása"
+
+#~ msgid "Show Open Clusters"
+#~ msgstr "Nyitott csillag"
+
+#~ msgid "Show Constellations"
+#~ msgstr "Csillagképek mutatása"
+
+#~ msgid "Show CloudMaps"
+#~ msgstr "Felhőréteg mutatása"
+
+#~ msgid "Show Cloud Shadows"
+#~ msgstr "Felhőárnyékok mutatása"
+
+#~ msgid "Show Orbits"
+#~ msgstr "Pályák mutatása"
+
+#~ msgid "Show Asteroid Orbits"
+#~ msgstr "Kisbolygópályák mutatása"
+
+#~ msgid "Show Comet Orbits"
+#~ msgstr "Üstököspályák mutatása"
+
+#~ msgid "Show Moon Orbits"
+#~ msgstr "Holdpályák mutatása"
+
+#~ msgid "Show Star Orbits"
+#~ msgstr "Csillagpályák mutatása"
+
+#~ msgid "Show Planet Orbits"
+#~ msgstr "Bolygópályák mutatása"
+
+#~ msgid "Show Spacecraft Orbits"
+#~ msgstr "Űrhajók pályáinak mutatása"
+
+#~ msgid "Show Equatorial Grid"
+#~ msgstr "Égi háló mutatása"
+
+#~ msgid "Show Night Side Lights"
+#~ msgstr "Éjszakai oldal fényeinek mutatása"
+
+#~ msgid "Show Markers"
+#~ msgstr "Jelölők mutatása"
+
+#~ msgid "Show Atmospheres"
+#~ msgstr "Légkör mutatása"
+
+#~ msgid "Show Smooth Orbit Lines"
+#~ msgstr "Sima pályavonalak mutatása"
+
+#~ msgid "Show Eclipse Shadows"
+#~ msgstr "Fogyatkozás árnyékainak mutatása"
+
+#~ msgid "Cycle Star Mode"
+#~ msgstr "Csillagkörüli mód"
+
+#~ msgid "Show Ring Shadows"
+#~ msgstr "Gyűrűárnyékok mutatása"
+
+#~ msgid "Show Boundaries"
+#~ msgstr "Határok mutatása"
+
+#~ msgid "Auto Magnitudes"
+#~ msgstr "Önműködő fényesség"
+
+#~ msgid "Show Comet Tails"
+#~ msgstr "Üstököscsóvák mutatása"
+
+#~ msgid "Show Star Labels"
+#~ msgstr "Csillagok címkéinek mutatása"
+
+#~ msgid "Show Planet Labels"
+#~ msgstr "Bolygók címkéinek mutatása"
+
+#~ msgid "Show Moon Labels"
+#~ msgstr "Holdak címkéinek mutatása"
+
+#~ msgid "Show Comet Labels"
+#~ msgstr "Üstökösök címkéinek mutatása"
+
+#~ msgid "Show Constellation Labels"
+#~ msgstr "Csillagképek címkéinek mutatása"
+
+#~ msgid "Constellation Labels in Latin"
+#~ msgstr "Csillagképek latin nevekkel"
+
+#~ msgid "Show Galaxy Labels"
+#~ msgstr "Galaxisok címkéinek mutatása"
+
+#~ msgid "Show Globular Labels"
+#~ msgstr "Gömbhalmazok címkéinek mutatása"
+
+#~ msgid "Show Nebula Labels"
+#~ msgstr "Nebulák címkéinek mutatása"
+
+#~ msgid "Show Open Cluster Labels"
+#~ msgstr "Nyitott galaxishalmazok címkéinek mutatása"
+
+#~ msgid "Show Asteroid Labels"
+#~ msgstr "Kisbolygók címkéinek mutatása"
+
+#~ msgid "Show Spacecraft Labels"
+#~ msgstr "Űrhajók címkéinek mutatása"
+
+#~ msgid "Show Location Labels"
+#~ msgstr "Helyek címkéinek mutatása"
+
+#~ msgid "Display Local Time"
+#~ msgstr "Helyi idő megjelenítése"
+
+#~ msgid "Show City Locations"
+#~ msgstr "Városok helyeinek mutatása"
+
+#~ msgid "Show Observatory Locations"
+#~ msgstr "Csillagvizsgálók mutatása"
+
+#~ msgid "Show Landing Sites Locations"
+#~ msgstr "Leszállóhelyek mutatása"
+
+#~ msgid "Show Crater Locations"
+#~ msgstr "Kráterek mutatása"
+
+#~ msgid "Show Mons Locations"
+#~ msgstr "Hegyek mutatása"
+
+#~ msgid "Show Terra Locations"
+#~ msgstr "Földterületek mutatása"
+
+#~ msgid "Show Vallis Locations"
+#~ msgstr "Völgyek mutatása"
+
+#~ msgid "Show Mare Locations"
+#~ msgstr "Tengerek mutatása"
+
+#~ msgid "Show Other Locations"
+#~ msgstr "Egyebek mutatása"
+
+#~ msgid "Wireframe Mode"
+#~ msgstr "Drótvázas mód"
+
+#~ msgid "Center on Orbit"
+#~ msgstr "Középre a pályán"
+
+#~ msgid "Basic"
+#~ msgstr "Alap"
+
+#~ msgid "Multitexture"
+#~ msgstr "Multitextúra"
+
+#~ msgid "NvCombiners"
+#~ msgstr "NvCombiners"
+
+#~ msgid "DOT3 ARBVP"
+#~ msgstr "DOT3 ARBVP"
+
+#~ msgid "NvCombiner NvVP"
+#~ msgstr "NvCombiner NvVP"
+
+#~ msgid "NvCombiner ARBVP"
+#~ msgstr "NvCombiner ARBVP"
+
+#~ msgid "ARBFP ARBVP"
+#~ msgstr "ARBFP ARBVP"
+
+#~ msgid "NV30"
+#~ msgstr "NV30"
+
+#~ msgid "Cycle OpenGL Render Path"
+#~ msgstr "Kör OpenGL megjelenítés"
+
+#~ msgid "Sync framerate to video refresh rate"
+#~ msgstr "Framerate szinkornizálása a képernyő frissítési gyakoriságához"
+
+#~ msgid "Grab Image"
+#~ msgstr "Kép elmentése"
+
+#~ msgid "OpenGL info"
+#~ msgstr "OpenGL adatok"
+
+#~ msgid "Show Bookmark Toolbar"
+#~ msgstr "Könyvjelző eszköztár mutatása"
+
+#~ msgid "UTC"
+#~ msgstr "UTC"
+
+#~ msgid ""
+#~ "This version of Celestia was not built with support for movie recording."
+#~ msgstr "Ez a Celestia verzió nincs a mozgókép felvételére felkészítve."
+
+#~ msgid "Enter URL"
+#~ msgstr "URL megadása"
+
+#, fuzzy
+#~ msgid "Go to URL"
+#~ msgstr "Ugrás az &URL-re..."
+
+#~ msgid "Object: "
+#~ msgstr "Égitest: "
+
+#~ msgid "Longitude: "
+#~ msgstr "Hosszúság: "
+
+#~ msgid "East"
+#~ msgstr "Kelet"
+
+#~ msgid "West"
+#~ msgstr "Nyugat"
+
+#~ msgid "Latitude: "
+#~ msgstr "Szélesség: "
+
+#~ msgid "North"
+#~ msgstr "Észak"
+
+#~ msgid "South"
+#~ msgstr "Dél"
+
+#~ msgid "Altitude: "
+#~ msgstr "Magasság: "
+
+#~ msgid "Celestia encountered an error while processing your script"
+#~ msgstr "A Celestia hibát észlelt a parancsfájl feldolgozása közben"
+
+#~ msgid "Celestia Preferences"
+#~ msgstr "Celestia beállítások"
+
+#~ msgid "Rendering"
+#~ msgstr "Megjelenítés"
+
+#~ msgid "Show"
+#~ msgstr "Mutat"
+
+#~ msgid "Partial Trajectories"
+#~ msgstr "Részleges pályák"
+
+#~ msgid "Smooth Orbit Lines"
+#~ msgstr "Sima pályavonalak"
+
+#~ msgid "Equatorial Grid"
+#~ msgstr "Égi háló"
+
+#~ msgid "Constellation Boundaries"
+#~ msgstr "Csillagképek határai"
+
+#~ msgid "Orbits / Labels"
+#~ msgstr "Pályák / Címkék"
+
+#~ msgid "Constellations in Latin"
+#~ msgstr "Csillagképek neve latinul"
+
+#~ msgid "Ambient Light"
+#~ msgstr "Környező fények"
+
+#~ msgid "Limiting Magnitude"
+#~ msgstr "Fényesség korlátozása"
+
+#~ msgid "Info Text"
+#~ msgstr "Adatok"
+
+#~ msgid "Level: "
+#~ msgstr "Mennyisége: "
+
+#~ msgid "Textures"
+#~ msgstr "Textúrák"
+
+#~ msgid "Resolution: "
+#~ msgstr "Felbontás:"
+
+#~ msgid "Automatic FOV"
+#~ msgstr "Önműködő látómező"
+
+#~ msgid "Screen DPI: "
+#~ msgstr "Képernyő felbontása (DPI): "
+
+#~ msgid "Viewing Distance (cm): "
+#~ msgstr "Látótávolság (cm): "
+
+#~ msgid "Mons"
+#~ msgstr "Hegyek"
+
+#~ msgid "Terra"
+#~ msgstr "Föld"
+
+#~ msgid "Vallis"
+#~ msgstr "Völgy"
+
+#~ msgid "Mare"
+#~ msgstr "Tenger"
+
+#~ msgid "Other"
+#~ msgstr "Egyebek"
+
+#~ msgid "Minimum Feature Size"
+#~ msgstr "Legkisebb tereptárgy mérete"
+
+#~ msgid "Date/Time"
+#~ msgstr "Dátum/Idő"
+
+#~ msgid "Display"
+#~ msgstr "Megjelenítés"
+
+#~ msgid "Timezone: "
+#~ msgstr "Időzóna: "
+
+#~ msgid "Local Format"
+#~ msgstr "Helyi formátum"
+
+#~ msgid "Set"
+#~ msgstr "Beállítás"
+
+#~ msgid "Local Time is only supported for dates between 1902 and 2037.\n"
+#~ msgstr "A helyi idő 1902 és 2037 között lehetséges.\n"
+
+#~ msgid "Now"
+#~ msgstr "Most"
+
+#~ msgid ""
+#~ "\n"
+#~ "Selection: "
+#~ msgstr ""
+#~ "\n"
+#~ "Kijelölés: "
+
+#~ msgid "Include Light Travel Time"
+#~ msgstr "Fény utazási idejével"
+
+#~ msgid "Ignore Light Travel Time "
+#~ msgstr "Fény utazási sebessége nélkül"
+
+#~ msgid "OpenGL"
+#~ msgstr "OpenGL"
+
+#~ msgid "Key Bindings"
+#~ msgstr "Gyorsbillentyűk"
+
+#~ msgid "<b>Unextended OpenGL 1.1</b>"
+#~ msgstr "<b>Kiterjesztések nélküli OpenGL 1.1</b>"
+
+#~ msgid "<b>Multiple textures and the ARB_texenv_combine extension</b>"
+#~ msgstr "<b>Többféle textúra és az ARB_texenv_combine kiterjesztés</b>"
+
+#~ msgid "<b>NVIDIA combiners, no vertex programs</b>"
+#~ msgstr "<b>NVIDIA combiners, vertex program nélkül</b>"
+
+#~ msgid "<b>ARB_texenv_DOT3 extension, ARB_vertex_program extension</b>"
+#~ msgstr ""
+#~ "<b>ARB_texenv_DOT3 kiterjesztés, ARB_vertex_program kiterjesztés</b>"
+
+#~ msgid ""
+#~ "<b>NVIDIA Combiners, NV_vertex_program extension</b><br> provide bump "
+#~ "mapping, ring shadows, and specular highlights on any Geforce or ATI "
+#~ "Radeon graphics card, though NvCombiner ARBVP is a slightly better option "
+#~ "for Geforce users"
+#~ msgstr ""
+#~ "<b>NVIDIA Combiners, NV_vertex_program extension</b><br>bump mapping-gel, "
+#~ "gyűrű árnyékok és tükröződő körvonalak bármilyen Geforce vagy ATI Radeon "
+#~ "videokártyán, bár az NvCombiner ARBVP sokkal jobb választás a Geforce "
+#~ "felhasználóknak."
+
+#~ msgid "<b>NVIDIA Combiners, ARB_vertex_program extension</b>"
+#~ msgstr "<b>NVIDIA Combiners, ARB_vertex_program kiegészítés</b>"
+
+#~ msgid ""
+#~ "<b>ARB_fragment_program and ARB_vertex_program extensions</b><br>provide "
+#~ "advanced effects on Geforce FX and Radeon 9700 cards"
+#~ msgstr ""
+#~ "<b>ARB_fragment_program és ARB_vertex_program kiterjesztések</"
+#~ "b><br>összetett hatásokat nyújtanak Geforce FX és Radeon 9700 "
+#~ "videokártyákon"
+
+#~ msgid "<b>NV_fragment_program and ARB_vertex_program extensions</b>"
+#~ msgstr "<b>NV_fragment_program és ARB_vertex_program kiterjesztések</b>"
+
+#~ msgid "<b>OpenGL 2.0 Shading Language</b>"
+#~ msgstr "<b>OpenGL 2.0 Shading Language</b>"
+
+#~ msgid ""
+#~ "File %1 does not exist, using default configuration file %2/celestia.cfg"
+#~ msgstr ""
+#~ "Fájl %1 nem létezik, alapértelmezett konfigurációs fájl %2/celestia.cfg"
+
+#~ msgid "Directory %1 does not exist, using default %2"
+#~ msgstr "Mappa %1 nem létezik, alapértelmezett használata %2"
+
+#~ msgid "Extras directory %1 does not exist"
+#~ msgstr "\"Extras\" mappa %1 nem létezik"
+
+#~ msgid "Surface Temp: "
+#~ msgstr "Felszíni hőm.:"
+
+#~ msgid "Rsun"
+#~ msgstr "RNap"
+
+#~ msgid "Marked objects"
+#~ msgstr "Megjelölt objektumok"
+
+#~ msgid "Unmark &All"
+#~ msgstr "&Megjelölések megszűntetése"
+
+#, fuzzy
+#~ msgid "&Reference Vectors"
+#~ msgstr "&Referencia vektorok"
+
+#~ msgid "Small Bodies"
+#~ msgstr "Kis égitestek"
+
+#~ msgid "Duration: %1"
+#~ msgstr "Időtartam: %1"
+
+#~ msgid "Size: %1 MB"
+#~ msgstr "Méret: %1 MB"
+
+#~ msgid "  Paused"
+#~ msgstr " Szünet"
+
+#~ msgid "Current size: %1 x %2"
+#~ msgstr "Jelenlegi méret: %1 x %2"
+
+#~ msgid "Current width: %1 x %2"
+#~ msgstr "Jelenlegi szélesség: %1 x %2"
+
+#~ msgid "Current height: %1 x %2"
+#~ msgstr "Jelenlegi magasság: %1 x %2"
+
+#~ msgid "You must specify a file name."
+#~ msgstr "Meg kell adni egy fájlnevet."
+
+#~ msgid "Error initializing movie capture."
+#~ msgstr "Hiba a mozgókép-felvétel inicializálásánál."
+
+#~ msgid "  Recording"
+#~ msgstr "Felvétel"
+
+#~ msgid "License file 'License.txt' is missing!"
+#~ msgstr "Hiányzó fájl: License.txt"
+
+#, fuzzy
+#~ msgid "render path: %i\n"
+#~ msgstr "Megjelenítési útvonal: "
+
+#~ msgid "DSO Labels"
+#~ msgstr "DSO címkék"
+
+#~ msgid "Filter Stars"
+#~ msgstr "Csillagok szűrése"
+
+#, fuzzy
+#~ msgid "Coordinate grids"
+#~ msgstr "Rácsok"
+
+#~ msgid "Loaded "
+#~ msgstr "Betöltve"
+
+#~ msgid "   Model statistics: "
+#~ msgstr "   Modell statisztika:  "
+
+#~ msgid " vertices, "
+#~ msgstr " vertexek, "
+
+#~ msgid " primitives, "
+#~ msgstr "primitívek, "
+
+#~ msgid " materials "
+#~ msgstr "materiálok"
+
+#~ msgid " unique)\n"
+#~ msgstr " egyedüli)\n"
+
+#~ msgid "' not found."
+#~ msgstr "' nem található."
+
+#~ msgid "parent body '"
+#~ msgstr "fő égitest '"
+
+#~ msgid "' not found.\n"
+#~ msgstr "' nem található.\n"
+
+#~ msgid "Barycenter "
+#~ msgstr "Tömegközéppont"
+
+#~ msgid ", max="
+#~ msgstr ", max="
+
+#~ msgid "Orientation: "
+#~ msgstr "Irány: "
+
+#~ msgid "Render path: Basic"
+#~ msgstr "Megjelenítési mód: Alap"
+
+#~ msgid "Render path: Multitexture"
+#~ msgstr "Multitextúra"
+
+#~ msgid "Render path: NVIDIA combiners"
+#~ msgstr "Megjelenítési mód: NVIDIA combiners"
+
+#~ msgid "Render path: OpenGL vertex program"
+#~ msgstr "NVIDIA vertex program and combiners"
+
+#~ msgid "Render path: NVIDIA vertex program and combiners"
+#~ msgstr "Megjelenítés: NVIDIA vertex program and combiners"
+
+#~ msgid "Render path: OpenGL vertex program/NVIDIA combiners"
+#~ msgstr "Megjelenítési mód: OpenGL vertex program/NVIDIA combiners"
+
+#~ msgid "Render path: OpenGL 1.5 vertex/fragment program"
+#~ msgstr "Megjelenítési mód: OpenGL 1.5 vertex/fragment program"
+
+#~ msgid "Render path: NVIDIA GeForce FX"
+#~ msgstr "Megjelenítési mód: NVIDIA GeForce FX"
+
+#~ msgid " days"
+#~ msgstr "nap"
+
+#~ msgid " hours"
+#~ msgstr "óra"
+
+#~ msgid "RA: "
+#~ msgstr "RA:"
+
+#~ msgid "Dec: "
+#~ msgstr "Dec:"
+
+#~ msgid "x Sun"
+#~ msgstr "x Nap"
+
+#~ msgid " faster"
+#~ msgstr "gyorsabb"
+
+#~ msgid " slower"
+#~ msgstr "lassabb"
+
+#~ msgid "Lock "
+#~ msgstr "Csatol"
+
+#~ msgid "FOV: "
+#~ msgstr "FOV:"
+
+#~ msgid " fps"
+#~ msgstr "fps"
+
+#~ msgid "Loading "
+#~ msgstr "Betöltés"
+
+#, fuzzy
+#~ msgid "Bookmarks file %1 does not exist."
+#~ msgstr "\"Extras\" mappa %1 nem létezik"
+
+#, fuzzy
+#~ msgid "No Bookmarks File"
+#~ msgstr "Könyvjelzők"
+
+#, fuzzy
+#~ msgid "Toggle star style"
+#~ msgstr "Csillagok megjelenítése: pontok"
+
+#, fuzzy
+#~ msgid "Size: "
+#~ msgstr "Méret:"
+
+#, fuzzy
+#~ msgid "Period: "
+#~ msgstr "Tengely forgási idő: "
+
+#, fuzzy
+#~ msgid "days<br>\n"
+#~ msgstr "nap"
+
+#, fuzzy
+#~ msgid "NVIDIA combiners"
+#~ msgstr "Megjelenítési mód: NVIDIA combiners"
+
+#, fuzzy
+#~ msgid "OpenGL vertex program"
+#~ msgstr "Megjelenítési mód: OpenGL vertex program/NVIDIA combiners"
+
+#, fuzzy
+#~ msgid "NVIDIA vertex program and combiners"
+#~ msgstr "Megjelenítés: NVIDIA vertex program and combiners"
+
+#, fuzzy
+#~ msgid "OpenGL vertex program/NVIDIA combiners"
+#~ msgstr "Megjelenítési mód: OpenGL vertex program/NVIDIA combiners"
+
+#, fuzzy
+#~ msgid "OpenGL 1.5 vertex/fragment program"
+#~ msgstr "Megjelenítési mód: OpenGL 1.5 vertex/fragment program"
+
+#, fuzzy
+#~ msgid "NVIDIA GeForce FX"
+#~ msgstr "Megjelenítési mód: NVIDIA GeForce FX"
+
+#~ msgid "Save As:"
+#~ msgstr "Mentés másként:"
+
+#~ msgid "*.ogg"
+#~ msgstr "*.ogg"
+
+#~ msgid "Aspect Ratio:"
+#~ msgstr "Képernyő arány:"
+
+#~ msgid "11:9"
+#~ msgstr "11:9"
+
+#~ msgid "4:3"
+#~ msgstr "4:3"
+
+#~ msgid "16:9"
+#~ msgstr "16:9"
+
+#~ msgid "Image Size:"
+#~ msgstr "Kép mérete: "
+
+#~ msgid "Frame Rate:"
+#~ msgstr "Képkocka/másodperc:"
+
+#~ msgid "Video Quality:"
+#~ msgstr "Video minősége:"
+
+#~ msgid "Play Video when capture is done"
+#~ msgstr "Video lejátszása a felvétel után"
+
+#~ msgid "Usage"
+#~ msgstr "Használat"
+
+#~ msgid ""
+#~ "<p>Press <b>F11</b> to start/pause recording<br>\n"
+#~ "Press <b>F12</b> to stop</p>\n"
+#~ "\n"
+#~ "<p>Note that resizing the main window will not be possible until the end "
+#~ "of the capture</p>"
+#~ msgstr ""
+#~ "<p>Press <b>F11</b> to start/pause recording<br>\n"
+#~ "Press <b>F12</b> to stop</p>\n"
+#~ "\n"
+#~ "<p>Az ablakot nem lehet átméretezni a felvétel végéig</p>"
+
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Töröl"
+
+#~ msgid "Options"
+#~ msgstr "Opciók"
+
+#~ msgid "OpenGL Render Path"
+#~ msgstr "OpenGL megjelenítési útvonal"
+
+#~ msgid "MultiView"
+#~ msgstr "Több Nézet"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Fő eszköztár"
+
+#~ msgid "Dist."
+#~ msgstr "Táv."
+
+#~ msgid "App. Mag."
+#~ msgstr "Látható Fény."
+
+#~ msgid "Abs. Mag."
+#~ msgstr "Absz. Fény."
+
+#~ msgid "Brightest (Abs.)"
+#~ msgstr "Legfényesebb (absz.)"
+
+#~ msgid "Brightest (App.)"
+#~ msgstr "Legfényesebb (láth.)"
+
+#~ msgid "&Close"
+#~ msgstr "Bezár"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "End"
+#~ msgstr "Vége"
+
+#~ msgid "Moon Eclipses"
+#~ msgstr "Holdfogyatkozások"
+
+#~ msgid "Search"
+#~ msgstr "Keresés"
+
+#, fuzzy
+#~ msgid "Star color: enhanced"
+#~ msgstr "Csillag &böngésző..."
+
+#, fuzzy
+#~ msgid "Star color: normal"
+#~ msgstr "Alap"
+
+#~ msgid "Apparent mag: %.2f\n"
+#~ msgstr "Látszólagos magn.: %.2f\n"
+
+#~ msgid "Use alternate installation directory"
+#~ msgstr "Alternatív telepítési mappa használata"
+
+#~ msgid "Use as additional \"extras\" directory"
+#~ msgstr "Kiegészítő \"extras\" könyvtár"
+
+#~ msgid "Start and go to url"
+#~ msgstr "Indít és URL-re lép"
+
+#~ msgid "_: EMAIL OF TRANSLATORS\\nYour emails"
+#~ msgstr "aaron@szentimre.hu, zoltanszekely@hotmail.com"
+
+#~ msgid "_: NAME OF TRANSLATORS\\nYour names"
+#~ msgstr "Novák Áron, Székely Zoltán"
+
+#, fuzzy
+#~ msgid "Manual Celestia"
+#~ msgstr "Celestia"
+
+#, fuzzy
+#~ msgid "&None"
+#~ msgstr "Semmi"
+
+#~ msgid "The Garnet Star"
+#~ msgstr "Gránátcsillag"
