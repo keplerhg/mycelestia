@@ -1,0 +1,30 @@
+set(CELRENDER_SOURCES
+  asterismrenderer.cpp
+  asterismrenderer.h
+  atmosphererenderer.cpp
+  atmosphererenderer.h
+  boundariesrenderer.cpp
+  boundariesrenderer.h
+  cometrenderer.cpp
+  cometrenderer.h
+  eclipticlinerenderer.cpp
+  eclipticlinerenderer.h
+  galaxyrenderer.cpp
+  galaxyrenderer.h
+  globularrenderer.cpp
+  globularrenderer.h
+  largestarrenderer.cpp
+  largestarrenderer.h
+  linerenderer.cpp
+  linerenderer.h
+  nebularenderer.cpp
+  nebularenderer.h
+  openclusterrenderer.cpp
+  openclusterrenderer.h
+  gl/buffer.cpp
+  gl/buffer.h
+  gl/vertexobject.cpp
+  gl/vertexobject.h
+)
+
+add_library(celrender OBJECT ${CELRENDER_SOURCES})
